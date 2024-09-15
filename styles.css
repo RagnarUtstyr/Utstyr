@@ -154,7 +154,7 @@ header {
 .navbar {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #444;
     margin: 0;
     padding: 0;
