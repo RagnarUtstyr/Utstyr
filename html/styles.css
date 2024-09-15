@@ -1,0 +1,195 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack title and dropdown menu vertically */
+    align-items: center; /* Center elements horizontally */
+    position: relative;
+}
+
+/* Logo positioning (if you have a logo in the top-left corner) */
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.logo img {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+/* Title Styling */
+h1 {
+    margin: 10px 0; /* Adjust space around the title */
+}
+
+/* Navbar Styling (dropdown menu) */
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the dropdown menu */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #666;
+}
+
+/* Main content grid for equipment categories */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Spacing between grid items */
+    padding: 20px;
+    justify-content: center; /* Center the grid */
+    max-width: 1200px; /* Restrict the grid to 1200px width */
+    margin: 0 auto; /* Center the grid container */
+}
+
+/* Individual navigation card styling */
+.nav-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.nav-card:hover {
+    transform: scale(1.05);
+}
+
+.nav-card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-card a:hover {
+    color: #007BFF;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+/* Basket Panel (if you have a basket panel on the right side) */
+.basket-panel {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.basket-panel h2 {
+    margin-bottom: 15px;
+}
+
+.basket-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.basket-item span {
+    flex-grow: 1;
+}
+
+.remove-item {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#clear-basket {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#clear-basket:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .content-grid {
+        grid-template-columns: 1fr; /* 1 column for very small screens */
+    }
+}
