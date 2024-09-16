@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center; /* Center all content by default */
 }
 
 /* Header styling */
@@ -139,52 +140,32 @@ footer {
     width: 100%;
 }
 
-/* Basket Panel (if you have a basket panel on the right side) */
-.basket-panel {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 300px;
-    height: 100%;
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-left: 1px solid #ccc;
-    overflow-y: auto;
-    z-index: 100;
+/* Equipment details centering */
+.equipment-detail {
+    text-align: center; /* Center all text within the equipment details section */
+    max-width: 800px; /* Set a maximum width for readability */
+    margin: 0 auto; /* Center the content horizontally */
 }
 
-.basket-panel h2 {
-    margin-bottom: 15px;
+/* Image centering */
+.equipment-detail img {
+    display: block;
+    margin: 20px auto; /* Center the image horizontally and add spacing */
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto;
 }
 
-.basket-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+/* Styling for unordered lists under Specifications and Key Features */
+.equipment-detail ul {
+    list-style-type: none; /* Remove the default bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin: 10px 0;
 }
 
-.basket-item span {
-    flex-grow: 1;
-}
-
-.remove-item {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-}
-
-#clear-basket {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-#clear-basket:hover {
-    background-color: #c82333;
+.equipment-detail li {
+    text-align: left; /* Align the text to the left within each list item */
+    padding-left: 20px; /* Add some indentation for readability */
+    position: relative;
 }
 
 /* Responsive Design for Small Screens */
