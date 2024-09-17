@@ -8,7 +8,7 @@ body {
     text-align: center; /* Center all content by default */
     
     /* Add the background image */
-    background-image: url('images/bckgrnd.webp'); /* Add your image path here */
+    background-image: url('../images/bckgrnd.webp'); /* Add your image path here */
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
