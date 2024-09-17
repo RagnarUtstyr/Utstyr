@@ -21,7 +21,7 @@ header {
 
 /* Logo styling */
 .logo {
-    margin-right: 20px; /* Adjust space between logo and edge */
+    margin-right: 200px; /* Adjust space between logo and edge */
 }
 
 .logo img {
@@ -134,29 +134,27 @@ header {
     margin: 0 auto; /* Ensure image is centered */
 }
 
-/* Contact and download box styling */
-.contact-box, .download-box {
-    background-color: #333; /* Dark background for the boxes */
-    border: 2px solid #ffcc00; /* Bright border to make it stand out */
+/* Styling for email and download boxes */
+.link-box {
+    background-color: #333; /* Dark background for the box */
+    color: #fff; /* White text */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space between boxes */
     border-radius: 10px; /* Rounded corners */
-    padding: 15px 20px; /* Padding inside the boxes */
-    max-width: 300px; /* Limit the width */
-    margin: 0 auto; /* Center the boxes */
-    text-align: center; /* Center the content inside the boxes */
+    text-align: center; /* Center the text inside the box */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Slight shadow for effect */
 }
 
-.contact-box a, .download-box a {
-    color: #fff; /* White text */
-    text-decoration: none; /* Remove underline */
+.link-box a {
+    color: #ffcc00; /* Bright link color */
+    text-decoration: none; /* No underline */
     font-weight: bold; /* Bold text */
 }
 
-.contact-box a:hover, .download-box a:hover {
-    color: #ffcc00; /* Hover effect - bright color */
+.link-box a:hover {
+    color: #fff; /* Change to white on hover */
+    text-decoration: underline; /* Underline on hover */
 }
-
-.contact-box {
-    margin-bottom: 20px; /* Spacing between email and download boxes */
 
 /* Footer Styling */
 footer {
@@ -206,4 +204,12 @@ footer {
     .content-grid {
         grid-template-columns: 1fr; /* Single column for smaller screens */
     }
+}
+
+/* Centering the image */
+img {
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Keeps the image's aspect ratio */
 }
