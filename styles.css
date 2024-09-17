@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* General styling */
 body {
     font-family: Arial, sans-serif;
