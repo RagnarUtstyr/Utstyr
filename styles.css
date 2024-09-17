@@ -52,11 +52,11 @@ header {
 
 /* Navbar styling */
 .navbar {
+    list-style: none; /* Remove bullets from the main navbar */
     display: flex;
-    list-style: none;
-    margin: 0;
+    justify-content: center; /* Center the dropdown menu */
     padding: 0;
-    right: 10%;
+    margin: 0;
 }
 
 .navbar li {
