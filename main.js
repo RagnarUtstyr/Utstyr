@@ -1,30 +1,42 @@
-// Wait for the DOM content to fully load
-document.addEventListener("DOMContentLoaded", function () {
-    // Get the hamburger icon element and the navbar element
-    const hamburger = document.getElementById('hamburger');
-    const navbar = document.querySelector('ul.navbar');
+// Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.getElementById('hamburger'); // Hamburger icon
+    const navbar = document.getElementById('navbar'); // Navbar (menu)
 
-    // When the hamburger is clicked, toggle the mobile menu
-    hamburger.addEventListener('click', function () {
-        // Toggle the 'active' class to change the hamburger icon appearance
-        hamburger.classList.toggle('active');
-
-        // Toggle the 'mobile-active' class to show or hide the navbar
-        navbar.classList.toggle('mobile-active');
+    // Function to toggle the mobile menu when the hamburger icon is clicked
+    hamburger.addEventListener('click', function() {
+        navbar.classList.toggle('mobile-active'); // Toggle the "mobile-active" class
     });
-});
 
-// Optional: Close the mobile navbar when clicking outside of it (for better UX)
-document.addEventListener('click', function (event) {
-    const hamburger = document.getElementById('hamburger');
-    const navbar = document.querySelector('ul.navbar');
+    // Add event listeners to dropdowns for mobile behavior
+    const dropdowns = document.querySelectorAll('.dropdown'); // Select all dropdown elements
+    dropdowns.forEach(dropdown => {
+        // On click, toggle the dropdown content visibility
+        dropdown.addEventListener('click', function(event) {
+            // Prevent the default link click behavior to only show dropdown
+            event.preventDefault();
+            
+            // Close all other open dropdowns except for the one clicked
+            dropdowns.forEach(dd => {
+                if (dd !== dropdown) {
+                    dd.querySelector('.dropdown-content').style.display = 'none';
+                }
+            });
 
-    // Check if the click is outside the hamburger and navbar
-    if (!hamburger.contains(event.target) && !navbar.contains(event.target)) {
-        // If the menu is open, close it by removing the active classes
-        if (navbar.classList.contains('mobile-active')) {
-            navbar.classList.remove('mobile-active');
-            hamburger.classList.remove('active');
+            // Toggle the dropdown content
+            const dropdownContent = this.querySelector('.dropdown-content');
+            dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+        });
+    });
+
+    // Close the dropdown if the user clicks outside of it
+    document.addEventListener('click', function(event) {
+        // Check if the clicked element is not part of the dropdown or the hamburger menu
+        if (!event.target.closest('.dropdown') && !event.target.closest('#hamburger')) {
+            // Hide all dropdowns
+            dropdowns.forEach(dropdown => {
+                dropdown.querySelector('.dropdown-content').style.display = 'none';
+            });
         }
-    }
+    });
 });
