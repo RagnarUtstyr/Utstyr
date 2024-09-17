@@ -17,6 +17,17 @@ img {
     max-width: 100%;
 }
 
+/* navbar */
+.navbar {
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    
+}
+
 /* Utility Classes */
 .container {
     max-width: 1100px;
