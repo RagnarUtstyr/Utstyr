@@ -124,7 +124,12 @@ h1 {
     width: 100%;
     padding: 10px 0;
 }
-
+/* Responsive images */
+img {
+    max-width: 100%;  /* Ensure images never exceed the width of their container */
+    height: auto;     /* Maintain the aspect ratio of the image */
+    display: block;   /* Ensure no extra space below the image */
+}
 /* Main content grid for equipment categories */
 .content-grid {
     display: grid;
@@ -222,12 +227,34 @@ footer {
 /* Responsive Design for Small Screens */
 @media (max-width: 768px) {
     .content-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar.mobile-active {
+        display: flex;
+    }
+
+    img {
+        max-width: 100%;  /* Adjust image to the width of smaller screens */
+        height: auto;
     }
 }
 
 @media (max-width: 480px) {
     .content-grid {
-        grid-template-columns: 1fr; /* 1 column for very small screens */
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        max-width: 100%;  /* Ensure images never exceed the width of their container */
+        height: auto;
     }
 }
