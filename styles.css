@@ -5,6 +5,7 @@ body {
     padding: 0 20px; /* 20px padding on the left and right */
     background-color: #1e1e1e; /* Dark background */
     color: #fff; /* Light text for contrast */
+    text-align: center; /* Center all content by default */
 }
 
 /* Header styling */
@@ -165,6 +166,7 @@ footer {
     position: relative;
     bottom: 0;
     font-family: 'Poppins', sans-serif; /* Ensure Poppins is applied */
+    width: 100%;
 }
 
 /* Equipment details */
