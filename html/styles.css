@@ -146,6 +146,13 @@ footer {
     margin: 0 auto; /* Center the content horizontally */
 }
 
+/* Align text within the block to the left */
+.equipment-detail p,
+.equipment-detail h2,
+.equipment-detail ul {
+    text-align: left; /* Align the text inside this block to the left */
+}
+
 /* Image centering */
 .equipment-detail img {
     display: block;
