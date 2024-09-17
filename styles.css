@@ -141,9 +141,10 @@ footer {
 
 /* Equipment details centering */
 .equipment-detail {
-    text-align: center; /* Center all text within the equipment details section */
-    max-width: 800px; /* Set a maximum width for readability */
+    text-align: left; /* Center all text within the equipment details section */
+    max-width: 600px; /* Set a maximum width for readability */
     margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
 }
 
 /* Align text within the block to the left */
