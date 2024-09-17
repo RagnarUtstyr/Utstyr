@@ -1,3 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* navbar */
+.navbar {
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* General styling */
 body {
     font-family: Arial, sans-serif;
