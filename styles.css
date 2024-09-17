@@ -134,6 +134,30 @@ header {
     margin: 0 auto; /* Ensure image is centered */
 }
 
+/* Contact and download box styling */
+.contact-box, .download-box {
+    background-color: #333; /* Dark background for the boxes */
+    border: 2px solid #ffcc00; /* Bright border to make it stand out */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px 20px; /* Padding inside the boxes */
+    max-width: 300px; /* Limit the width */
+    margin: 0 auto; /* Center the boxes */
+    text-align: center; /* Center the content inside the boxes */
+}
+
+.contact-box a, .download-box a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+.contact-box a:hover, .download-box a:hover {
+    color: #ffcc00; /* Hover effect - bright color */
+}
+
+.contact-box {
+    margin-bottom: 20px; /* Spacing between email and download boxes */
+
 /* Footer Styling */
 footer {
     text-align: center;
