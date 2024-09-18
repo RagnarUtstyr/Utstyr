@@ -31,19 +31,19 @@ body::before {
 
 /* Header styling */
 header {
-    background-color: #000;
+    background-color: transparent; /* Make the header transparent */
     color: white;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 2000px;
-    margin: 0 auto;
+    max-width: 800px; /* Adjusted to a narrower width */
+    margin: 0 auto; /* Center the header content */
 }
 
 /* Logo styling */
 .logo {
-    margin-left: 10%;
+    margin-left: 0px; /* Adjust distance from the left side */
 }
 
 .logo img {
@@ -58,6 +58,7 @@ header {
     justify-content: center; /* Center the dropdown menu */
     padding: 0;
     margin: 0;
+    margin-right: 0px; /* Adjust distance from the right side */
 }
 
 .navbar li {
@@ -174,7 +175,7 @@ footer {
     position: relative;
     bottom: 0;
     font-family: 'Poppins', sans-serif;
-    max-width: 2000px;
+    max-width: 1600px; /* Adjust to match the max width of the header */
     margin: 0 auto;
 }
 
