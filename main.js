@@ -40,36 +40,58 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Slideshow functionality
-    let slideIndex = 0;
-    const slides = document.querySelectorAll('.carousel .slide'); // Get all slides
-    const dots = document.querySelectorAll('.dot'); // Get all dots
+    // Initialize the slide index to the first slide (index 0)
+let slideIndex = 0;
 
-    function showSlides() {
-        // Hide all slides
-        slides.forEach((slide, index) => {
-            slide.style.display = "none";
-        });
+// Select all slides and dots
+let slides = document.querySelectorAll(".slide");
+let dots = document.querySelectorAll(".dot");
 
-        // Remove "active" class from all dots
-        dots.forEach(dot => {
-            dot.classList.remove('active');
-        });
+// Get the total number of slides
+let totalSlides = slides.length;
 
-        // Increment slideIndex, reset if it goes beyond the number of slides
-        slideIndex++;
-        if (slideIndex > slides.length) { 
-            slideIndex = 1; 
-        }
-
-        // Display the current slide and add "active" class to the corresponding dot
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].classList.add('active');
-
-        // Automatically change slides every 3 seconds
-        setTimeout(showSlides, 3000); // Change image every 3 seconds
+// Function to show the current slide based on the slide index
+function showSlides() {
+    // Calculate the new position to translate the carousel
+    let carousel = document.querySelector('.carousel');
+    
+    // Increment the slide index
+    slideIndex++;
+    
+    // If the slide index exceeds the total slides, reset it to the first slide
+    if (slideIndex >= totalSlides) {
+        slideIndex = 0;
     }
 
-    // Start the slideshow
-    showSlides();
+    // Apply the transform property to slide the images to the left
+    carousel.style.transform = `translateX(${-slideIndex * 100}%)`;
+
+    // Update the active class for the dots (pagination indicator)
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[slideIndex].classList.add("active");
+}
+
+// Start the slideshow, change the slide every 3 seconds (3000 ms)
+setInterval(showSlides, 5000);
+
+// Function to show the selected slide when clicking on dots (pagination)
+function currentSlide(n) {
+    let carousel = document.querySelector('.carousel');
+    
+    // Update the slide index based on the dot clicked
+    slideIndex = n - 1;
+
+    // Slide to the selected image
+    carousel.style.transform = `translateX(${-slideIndex * 100}%)`;
+
+    // Update the active class for the dots
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[slideIndex].classList.add("active");
+}
+
+// Add event listeners to the dots to manually select a slide when clicked
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        currentSlide(index + 1);
+    });
 });
