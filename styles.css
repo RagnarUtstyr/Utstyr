@@ -227,7 +227,7 @@ footer {
     margin: 40px auto; /* Center the slideshow */
     position: relative;
     overflow: hidden; /* Hide overflow to prevent images from going outside of the container */
-    border: 2px solid #fff; /* White border */
+    border: 2px solid transparent; /* White border */
     border-radius: 10px; /* Rounded corners */
 }
 
