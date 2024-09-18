@@ -221,7 +221,7 @@ header {
 footer {
     text-align: center;
     padding: 40px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     position: relative;
     bottom: 0;
