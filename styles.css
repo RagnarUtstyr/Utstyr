@@ -221,6 +221,53 @@ footer {
     margin-bottom: 20px;
 }
 
+/* Slideshow Styles */
+.slideshow-container {
+    width: 457px;
+    margin: 40px auto; /* Center the slideshow */
+    position: relative;
+    overflow: hidden; /* Hide overflow to prevent images from going outside of the container */
+    border: 2px solid #fff; /* White border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 1.5s ease;
+    will-change: transform;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 1.5s ease;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Dot indicators for slideshow */
+.dot-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: #ffcc00;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
