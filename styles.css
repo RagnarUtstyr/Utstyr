@@ -111,38 +111,51 @@ header {
 /* EQ-content grid settings */
 .eq-content-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Maintain grid layout */
-    gap: 20px;
-    padding: 40px 0;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px; 
+    padding: 45px 30px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
-.eq-content-grid a.nav-card {
-    background-color: #444; /* Grey background for the buttons */
+.eq-nav-card {
+    background-color: #333; 
     border: none;
     border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none; /* Remove underline from the links */
-    color: white; /* Text color set to white */
-    font-size: 18px;
+    justify-content: center; 
+    text-align: center; 
+    width: 100%; 
+    height: auto; 
+    max-width: 250px; 
+    cursor: pointer; 
+}
+
+/* Hover effect for .eq-nav-card  */
+.eq-nav-card:hover {
+    background-color: #555; 
+    transform: scale(1.08); 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7); 
+}
+
+
+.eq-nav-card a {
+    color: white;
+    font-size: 22px;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin-top: 0; 
+	
 }
 
-.eq-content-grid a.nav-card div {
-    color: white; /* Ensure the text inside the card is white */
-}
-
-.eq-content-grid a.nav-card:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+.eq-nav-card a:hover {
+    color: #ffcc00; 
+	border-color: transparent;
 }
 
 
