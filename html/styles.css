@@ -249,3 +249,30 @@ img {
     max-width: 100%;
     height: auto;
 }
+.rtn-back-button-container {
+    max-width: 800px;
+    margin: 10px auto 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Styling for the return button */
+.rtn-back-button {
+    background-color: #3D4D56;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rtn-back-button:hover {
+    background-color: #555;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #ffcc00;
+}
