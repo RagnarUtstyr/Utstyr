@@ -175,7 +175,7 @@ footer {
     position: relative;
     bottom: 0;
     font-family: 'Poppins', sans-serif;
-    max-width: 1600px; /* Adjust to match the max width of the header */
+    max-width: 1200px; /* Adjust to match the max width of the header */
     margin: 0 auto;
 }
 
