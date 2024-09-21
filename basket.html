@@ -62,21 +62,28 @@
         </nav>
     </header>
 
-<main>
-    <h1>Your Basket</h1>
-
-    <!-- Basket Items List -->
-    <div class="basket-items-container">
-        <ul id="basket-items">
-            <!-- Basket items will be dynamically inserted here by JavaScript -->
-        </ul>
-    </div>
-
-    <p>Total items: <span id="basket-total">0</span></p>
-
-    <!-- Submit Inquiry Button -->
-    <button id="submit-inquiry" class="rtn-submit-button">Download Inquiry as PDF</button>
-</main>
+    <main>
+        <h1>Your Basket</h1>
+    
+        <!-- Basket Items List -->
+        <div class="basket-items-container">
+            <ul id="basket-items">
+                <!-- Basket items will be dynamically inserted here by JavaScript -->
+            </ul>
+        </div>
+    
+        <p>Total items: <span id="basket-total">0</span></p>
+    
+        <!-- Submit Inquiry Button -->
+        <button id="submit-inquiry" class="rtn-submit-button">Download Inquiry</button>
+    
+      <div class="basket-buttons-container">
+        <button id="empty-cart" class="rtn-empty-button">
+            Empty Cart 
+            <img src="images/bin.png" alt="Remove" style="width: 20px; height: 20px; margin-left: 10px;">
+        </button>
+	</div>
+    </main>
 
 <footer>
     <p>&copy; 2024 Your Company Name. All rights reserved.</p>
@@ -84,6 +91,8 @@
 
 <script src="main.js"></script>
 <script src="basket.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
 
 </body>
 </html>
