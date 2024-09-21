@@ -17,6 +17,12 @@
         </a>
     </div>
 
+<div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
         
         <nav>
             <ul class="navbar">
@@ -70,6 +76,7 @@
                 <img src="images-small/red-epic-dragon-small.jpg" alt="RED Epic Dragon 6K" />
                 <h2>RED Epic Dragon 6K</h2>
             </a>
+			<button class="rtn-add-to-basket" onclick="addToBasket('RED Epic Dragon 6K', 1)">Add to Basket</button>
         </div>
 
         <!-- Camera 2 -->
@@ -78,6 +85,7 @@
                 <img src="images-small/5dmk2-small.jpg" alt="Canon 5D MK2" />
                 <h2>Canon 5D MK2</h2>
             </a>
+			<button class="rtn-add-to-basket" onclick="addToBasket('Canon 5D MK2', 1)">Add to Basket</button>
         </div>
 	    
         <!-- Add more camera items similarly -->
@@ -93,5 +101,6 @@
     </footer>
 
     <script src="main.js"></script>
+	<script src="basket.js"></script>
 </body>
 </html>

@@ -17,6 +17,12 @@
         </a>
     </div>
 
+<div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
     
     <nav>
         <ul class="navbar">
@@ -68,6 +74,7 @@
             <img src="images-small/shittycarts-soundcart.jpg" alt="ShittyCarts Soundcart" />
             <h2>ShittyCarts Soundcart</h2>
         </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('ShittyCarts Soundcart', 1)">Add to Basket</button>
     </div>
 
     <!-- Magliner Sr -->
@@ -76,6 +83,7 @@
             <img src="images-small/magliner-sr.jpg" alt="Magliner Sr" />
             <h2>Magliner Sr</h2>
         </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Magliner Sr', 1)">Add to Basket</button>
     </div>
 
     </div>
@@ -91,5 +99,6 @@
 </footer>
 
 <script src="main.js"></script>
+<script src="basket.js"></script>
 </body>
 </html>

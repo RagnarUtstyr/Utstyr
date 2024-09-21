@@ -18,6 +18,13 @@
         </a>
     </div>
     
+	<div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+	
     <nav>
         <ul class="navbar">
             <li><a href="index.html">Home</a></li>
@@ -68,6 +75,7 @@
             <img src="images-small/tilta-nucleus-m.jpg" alt="Tilta Nucleus-m Wireless Follow-focus" />
             <h2>Tilta Nucleus-m Wireless Follow-focus</h2>
         </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Tilta Nucleus-m', 1)">Add to Basket</button>
     </div>
 
     <!-- Arri FF-4 -->
@@ -76,6 +84,7 @@
             <img src="images-small/arri-ff-4.jpg" alt="Arri FF-4" />
             <h2>Arri FF-4</h2>
         </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Arri FF-4', 1)">Add to Basket</button>
     </div>
 
     </div>
@@ -91,5 +100,6 @@
 </footer>
 
 <script src="main.js"></script>
+<script src="basket.js"></script>
 </body>
 </html>

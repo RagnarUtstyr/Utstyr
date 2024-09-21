@@ -17,7 +17,13 @@
         </a>
     </div>
 
-        
+        <div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+		
         <nav>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
@@ -70,6 +76,7 @@
                 <img src="images-small/fsb10.jpg" alt="Sachtler FSB 10" />
                 <h2>Sachtler FSB 10</h2>
             </a>
+			<button class="rtn-add-to-basket" onclick="addToBasket('Sachtler FSB 10', 1)">Add to Basket</button>
         </div>
 
  <!-- 100mm High hat -->
@@ -78,6 +85,7 @@
         <img src="images-small/cat.jpg" alt="100mm High hat" />
         <h2>100mm High hat</h2>
     </a>
+	<button class="rtn-add-to-basket" onclick="addToBasket('100mm High hat', 1)">Add to Basket</button>
 </div>
 
  <!-- Easyrig MinMax -->
@@ -86,6 +94,7 @@
                 <img src="images-small/minmax.jpg" alt="Easyrig MinMax" />
                 <h2>Easyrig MinMax</h2>
             </a>
+			<button class="rtn-add-to-basket" onclick="addToBasket('Easyrig MinMax', 1)">Add to Basket</button>
         </div>
 
  <!-- Tilta MB T-12 -->
@@ -94,6 +103,7 @@
                 <img src="images-small/t12.jpg" alt="Tilta MB T-12" />
                 <h2>Tilta MB T-12</h2>
             </a>
+			<button class="rtn-add-to-basket" onclick="addToBasket('Tilta MB T-12', 1)">Add to Basket</button>
         </div>
 	    
         <!-- Add more camera items similarly -->
@@ -109,5 +119,6 @@
     </footer>
 
     <script src="main.js"></script>
+	<script src="basket.js"></script>
 </body>
 </html>
