@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT 770</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                
+                <!-- Dropdown for Camera -->
+                <li class="dropdown">
+                    <a href="../equipment.html" class="dropbtn">Equipment</a>
+                    <ul class="dropdown-content">
+						<li><a href="../camera.html">Camera</a></li>
+                        <li><a href="../camacc.html">Camera Accesories</a></li>
+                        <li><a href="../optikk.html">Optikk</a></li>
+                        <li><a href="../monitor.html">Monitor</a></li>
+                        <li><a href="../fokus.html">Fokus</a></li>
+						<li><a href="../video.html">Wireless</a></li>
+						<li><a href="../batteri.html">Battery</a></li>
+						<li><a href="../lys.html">Light</a></li>
+						<li><a href="../grip.html">Grip</a></li>
+						<li><a href="../lyd.html">Sound</a></li>
+						<li><a href="../filter.html">Filter</a></li>
+						<li><a href="../tralle.html">Carts</a></li>
+                        <li><a href="../power.html">Power and EL</a></li>
+                    </ul>
+                </li>
+                
+                <!-- Dropdown for Contact -->
+                <li class="dropdown">
+                    <a href="../Contact.html" class="dropbtn">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../About.html">About</a></li>
+                        <li><a href="../Contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+	<div class="rtn-back-button-container">
+		<a href="../lyd.html" class="rtn-back-button">Go Back</a>
+    </div>
+
+    <div> 
+        <button class="rtn-add-to-basket" onclick="addToBasket('Boom Holder', 1)">Add to Basket</button>
+        </div>
+
+    <main>
+        <!-- Title of the equipment -->
+        <h1>Beyerdynamic DT 770 Pro</h1>
+    
+        <!-- Equipment details -->
+        <div class="equipment-detail">
+            <!-- Add space between the title and the next section -->
+            <br><br>
+    
+            <!-- Inventory section -->
+            <h2>Inventory</h2>
+            <p>1 Available</p>
+            <br><br>
+
+            <!-- Description -->
+            <p>
+                The Beyerdynamic DT 770 Pro is a professional-grade, closed-back headphone designed for critical listening in studio and professional environments. 
+                Known for its exceptional sound isolation, it ensures precise audio reproduction across all frequencies, making it ideal for monitoring, mixing, and casual listening. 
+                With a comfortable, over-ear design, these headphones allow long periods of use without causing fatigue.
+            </p>
+    
+            <br><br>
+    
+            <!-- Specifications -->
+            <h2>Specifications</h2>
+            <ul>
+                <li><strong>Design:</strong> Closed-back, over-ear design</li>
+                <li><strong>Impedance:</strong> 80 Ohms / 250 Ohms versions available</li>
+                <li><strong>Frequency Response:</strong> 5 Hz to 35 kHz</li>
+                <li><strong>Cable Length:</strong> 3-meter coiled cable</li>
+                <li><strong>Use Cases:</strong> Ideal for studio monitoring, mixing, and professional audio applications</li>
+                <li><strong>Comfort:</strong> Soft, replaceable ear pads for extended sessions</li>
+            </ul>
+
+        </div>
+ 
+    
+        <img src="../images/dt770.jpg" alt="cat" />
+    </div>
+</main>
+    <nav>
+        <a href="../lyd.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+</body>
+</html>
