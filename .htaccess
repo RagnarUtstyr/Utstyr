@@ -1,0 +1,1 @@
+plaintext<br>RewriteRule ^(.*)$ https://www.bergenutstyr.no/$1 [R,L]<br>
