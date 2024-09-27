@@ -1,1 +1,1 @@
-plaintext<br>RewriteRule ^(.*)$ https://www.bergenutstyr.no/$1 [R,L]<br>
+plaintext<br>RewriteRule ^(.*)$ https://bergenutstyr.no/$1 [R,L]<br>
