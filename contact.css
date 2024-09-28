@@ -1,7 +1,7 @@
 /* General Contact Page Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1e1e1e; /* Match general background */
+    background-color: #1e1e1e;
     color: white;
     background-image: url('images/bckgrnd.webp');
     background-size: cover;
@@ -18,7 +18,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(30, 30, 30, 0.9); /* Semi-opaque overlay */
+    background-color: rgba(30, 30, 30, 0.9);
     z-index: -1;
 }
 
@@ -31,26 +31,27 @@ main {
 h1 {
     text-align: center;
     color: #ffcc00;
+    font-size: 2rem;
 }
 
 /* Contact Form Container */
 form {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    background-color: rgba(34, 33, 33, 0.9); /* Slightly transparent form background that fills entire area */
-    padding: 30px; /* Padding inside the form to add space around inputs */
+    background-color: rgba(34, 33, 33, 0.9);
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
-    width: 100%; /* Ensure the form fills its container */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* Form Labels */
 label {
-    margin-top: 15px;
-    font-size: 16px;
-    color: #ffcc00; /* Consistent highlight color */
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffcc00;
 }
 
 /* Input and Textarea Styling */
@@ -58,25 +59,26 @@ input[type="text"],
 input[type="email"],
 input[type="date"],
 textarea {
-    width: 90%;
-    padding: 15px;
-    margin-top: 10px; /* Space between label and input */
-    margin-bottom: 20px; /* Consistent spacing between fields */
-    border: 1px solid #555; /* Slight contrast to background */
-    border-radius: 5px; /* Softer, rounded corners */
-    font-size: 16px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
-    color: #fff; /* White text for contrast */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+	max-width: 600px;
 }
 
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="date"]::placeholder,
 textarea::placeholder {
-    color: #ccc; /* Light grey for placeholders */
-    font-style: italic; /* Differentiates placeholders */
+    color: #ccc;
+    font-style: italic;
 }
 
 /* Focus Effects for Inputs */
@@ -84,16 +86,16 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="date"]:focus,
 textarea:focus {
-    outline: none; /* Remove default focus outline */
-    border-color: #ffcc00; /* Highlight border color on focus */
-    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Soft glow effect */
-    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on focus */
+    outline: none;
+    border-color: #ffcc00;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Enhanced Textarea Styling */
 textarea {
-    resize: vertical; /* Allow vertical resizing only */
-    min-height: 150px; /* Make textarea larger for comfort */
+    resize: vertical;
+    min-height: 200px;
 }
 
 /* Contact Form Button Styling */
@@ -102,18 +104,19 @@ textarea {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 15px 20px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	max-width: 600px;
 }
 
 .contact-submit-button:hover {
-    background-color: #ffcc00; /* Bright hover color */
-    color: #333; /* Darker text for contrast on hover */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    background-color: #ffcc00;
+    color: #333;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Return Back Button Styling */
@@ -148,8 +151,47 @@ textarea {
 input[type="text"],
 input[type="email"],
 input[type="date"] {
-    background-image: url('images/input-icon.png'); /* Example icon */
+    background-image: url('images/input-icon.png');
     background-repeat: no-repeat;
-    background-position: 10px center; /* Adjust position to fit */
-    padding-left: 40px; /* Adjust padding to fit icon */
+    background-position: 20px center;
+    padding-left: 50px;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    form {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Scale down for mobile */
+    }
+
+    label {
+        font-size: 16px; /* Reduce label size for smaller screens */
+        margin-top: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea {
+        padding: 15px; /* Slightly smaller padding for mobile */
+        font-size: 16px; /* Adjust font size for readability */
+    }
+
+    .contact-submit-button {
+        padding: 15px;
+        font-size: 16px; /* Reduce button font size for mobile */
+    }
+
+    .rtn-back-button {
+        font-size: 14px;
+        padding: 8px 16px; /* Make back button smaller */
+    }
 }
