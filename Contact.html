@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RaggsMatags Equipment</title>
+    <title>Contact</title>
     <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64x64.png">
     <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <!-- Title at the top -->
-    <!-- Logo on the left -->
+
     <div class="logo">
         <a href="index.html">
             <img src="images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
@@ -21,16 +21,15 @@
 <div class="basket-icon-container">
         <a href="basket.html">
             <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
-            <span id="basket-icon-count">0</span> <!-- Item count -->
+            <span id="basket-icon-count">0</span> 
         </a>
     </div>
     
-    <!-- Dropdown menu below the title -->
+    
     <nav>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
-                
-                <!-- Dropdown for Camera -->
+
                 <li class="dropdown">
                     <a href="equipment.html" class="dropbtn">Equipment</a>
                     <ul class="dropdown-content">
@@ -50,7 +49,6 @@
                     </ul>
                 </li>
                 
-                <!-- Dropdown for Contact -->
                 <li class="dropdown">
                     <a href="Contact.html" class="dropbtn">Contact</a>
                     <ul class="dropdown-content">
@@ -67,24 +65,45 @@
     </div>
 
     <main>
-        <div class="equipment-detail">
-        <h1>Contact me</h1>
-        <br><br>
-       <div class="contact-box">
-        <a href="mailto:ragnarboe88@gmail.com">Email</a>
-        </div>
-        <br><br>
-        <div class="equipment-detail">
-        <p><strong>For inquiries, please fill out the basket, download the PDF, and email me at the mail address above. Please include in the email From and to dates, and relevant information about the project. I will come back to you as soon as I can. (contact form will hopefully be up and active soon) In the meanwhile, enjoy this image of a lion I took while on travels in South Africa</strong></p>
-    </div>
-        <img src="images/leon.jpg" alt="Leon the lion" />
-    </div>
-
-    <footer>
+        <h1>Contact Us</h1>
+		
+		<a><strong>Please fill up your basket with the equipment you wish to rent, then fill out the contact form</strong></a>
+		<br><br>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="from_name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="from_email" required>
+    
+            <label for="from_date">From Date:</label>
+            <input type="date" id="from_date" name="from_date" required>
+    
+            <label for="to_date">To Date:</label>
+            <input type="date" id="to_date" name="to_date" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit" id="send-button" class="contact-submit-button">Send Inquiry</button>
+        </form>
+    </main>
+    
+   <footer>
         <p>© 2024 Ragnar Bøe Utstyrsleie</p>
     </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-    <script src="main.js"></script>
-	<script src="basket.js"></script>
-</body>
-</html>
+  
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("jEPsmc03XiqQMqiy5");
+        })();
+    </script>
+    
+    
+    <script src="contact.js"></script>
+    <script src="basket.js"></script>
+    </body>
+    </html>
