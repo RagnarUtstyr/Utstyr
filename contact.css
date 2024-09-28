@@ -23,7 +23,7 @@ body::before {
 }
 
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -36,20 +36,20 @@ h1 {
 
 /* Contact Form Container */
 form {
-    max-width: 700px;
-    width: 100%;
+    max-width: 600px;
+    width: 90%; /* Adjust to take most of the width on smaller screens */
     margin: 20px auto;
     display: flex;
     flex-direction: column;
     background-color: rgba(34, 33, 33, 0.9);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* Form Labels */
 label {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 18px;
     color: #ffcc00;
 }
@@ -60,12 +60,13 @@ input[type="email"],
 input[type="date"],
 textarea {
     width: 100%;
-    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+    padding: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid #555;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
@@ -95,7 +96,7 @@ textarea:focus {
 /* Enhanced Textarea Styling */
 textarea {
     resize: vertical;
-    min-height: 200px;
+    min-height: 150px; /* Reduce height for better fit on mobile */
 }
 
 /* Contact Form Button Styling */
@@ -104,13 +105,12 @@ textarea {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 20px;
-    font-size: 18px;
+    padding: 15px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 20px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-	max-width: 600px;
 }
 
 .contact-submit-button:hover {
@@ -164,8 +164,9 @@ input[type="date"] {
     }
 
     form {
-        max-width: 100%;
-        padding: 20px;
+        max-width: 100%; /* Ensure the form takes full width of smaller screens */
+        padding: 20px; /* Reduce padding for better fit */
+        width: 95%; /* Increase the width to occupy more screen space on mobile */
     }
 
     h1 {
@@ -173,25 +174,25 @@ input[type="date"] {
     }
 
     label {
-        font-size: 16px; /* Reduce label size for smaller screens */
-        margin-top: 15px;
+        font-size: 16px;
+        margin-top: 10px;
     }
 
     input[type="text"],
     input[type="email"],
     input[type="date"],
     textarea {
-        padding: 15px; /* Slightly smaller padding for mobile */
-        font-size: 16px; /* Adjust font size for readability */
+        padding: 12px; /* Reduce padding for better fit on small screens */
+        font-size: 15px; /* Smaller font size to fit */
     }
 
     .contact-submit-button {
         padding: 15px;
-        font-size: 16px; /* Reduce button font size for mobile */
+        font-size: 16px;
     }
 
     .rtn-back-button {
         font-size: 14px;
-        padding: 8px 16px; /* Make back button smaller */
+        padding: 8px 16px;
     }
 }
