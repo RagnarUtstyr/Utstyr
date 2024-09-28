@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schuko Drum</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                
+                <!-- Dropdown for Camera -->
+                <li class="dropdown">
+                    <a href="../equipment.html" class="dropbtn">Equipment</a>
+                    <ul class="dropdown-content">
+						<li><a href="../camera.html">Camera</a></li>
+                        <li><a href="../camacc.html">Camera Accesories</a></li>
+                        <li><a href="../optikk.html">Optikk</a></li>
+                        <li><a href="../monitor.html">Monitor</a></li>
+                        <li><a href="../fokus.html">Fokus</a></li>
+						<li><a href="../video.html">Wireless</a></li>
+						<li><a href="../batteri.html">Battery</a></li>
+						<li><a href="../lys.html">Light</a></li>
+						<li><a href="../grip.html">Grip</a></li>
+						<li><a href="../lyd.html">Sound</a></li>
+						<li><a href="../filter.html">Filter</a></li>
+						<li><a href="../tralle.html">Carts</a></li>
+                        <li><a href="../power.html">Power and EL</a></li>
+                    </ul>
+                </li>
+                
+                <!-- Dropdown for Contact -->
+                <li class="dropdown">
+                    <a href="../Contact.html" class="dropbtn">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../About.html">About</a></li>
+                        <li><a href="../Contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+	<div class="rtn-back-button-container">
+		<a href="../power.html" class="rtn-back-button">Go Back</a>
+	</div>
+
+    <div> 
+        <button class="rtn-add-to-basket" onclick="addToBasket('1 Fase Power Lead', 2)">Add to Basket</button>
+        </div>
+
+    <main>
+        <!-- Title of the equipment -->
+        <h1>Schuko Power Drum</h1>
+    
+        <!-- Equipment details -->
+        <div class="equipment-detail">
+            <!-- Add space between the title and the next section -->
+            <br><br>
+    
+            <!-- Inventory section -->
+            <h2>Inventory</h2>
+            <p>2 Available</p>
+            
+            <!-- Description -->
+            <br><br>
+            <p>
+                This 25-meter power lead drum provides a reliable power solution for a range of industrial and home applications. Featuring four Schuko outputs, it delivers safe and effective energy distribution for multiple devices at once. The drum's durable design ensures both flexibility and long-lasting use, making it ideal for construction sites, events, or workshop environments.
+            </p>
+
+            <p>
+                The heavy-duty cable is neatly coiled for easy transportation and deployment, with a robust drum housing that minimizes cable tangling. Equipped with a thermal cut-off switch, it provides protection against overheating, giving you peace of mind when operating in demanding conditions. The Schuko connector makes it compatible with a wide variety of European appliances.
+            </p>
+
+            <p>
+                With its ergonomic handle and stable base, the lead drum is both easy to maneuver and secure when placed, allowing for convenient use without the risk of tipping over.
+            </p>
+
+            <br><br>
+
+            <h2>Specifications</h2>
+            <ul>
+                <li><strong>Model:</strong> 25m Power Lead Drum with Schuko Connector</li>
+                <li><strong>Cable Length:</strong> 25 meters</li>
+                <li><strong>Number of Outputs:</strong> 4 Schuko sockets</li>
+                <li><strong>Connector Type:</strong> Schuko (CEE 7/7)</li>
+                <li><strong>Maximum Load (Unwound):</strong> 3500W (230V/16A)</li>
+                <li><strong>Maximum Load (Wound):</strong> 1100W (230V/4.8A)</li>
+                <li><strong>Thermal Cut-Off Protection:</strong> No</li>
+                <li><strong>Housing Material:</strong> Durable Polypropylene</li>
+                <li><strong>Handle Type:</strong> Ergonomic for easy carry</li>
+                <li><strong>Weight:</strong> 3 kg</li>
+            </ul>
+        </div>
+
+        <img src="../images/drum.jpg" alt="cat" />
+    </div>
+</main>
+    <nav>
+        <a href="../power.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+</body>
+</html>

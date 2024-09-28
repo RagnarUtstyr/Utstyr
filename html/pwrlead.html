@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schuko Drum</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                
+                <!-- Dropdown for Camera -->
+                <li class="dropdown">
+                    <a href="../equipment.html" class="dropbtn">Equipment</a>
+                    <ul class="dropdown-content">
+						<li><a href="../camera.html">Camera</a></li>
+                        <li><a href="../camacc.html">Camera Accesories</a></li>
+                        <li><a href="../optikk.html">Optikk</a></li>
+                        <li><a href="../monitor.html">Monitor</a></li>
+                        <li><a href="../fokus.html">Fokus</a></li>
+						<li><a href="../video.html">Wireless</a></li>
+						<li><a href="../batteri.html">Battery</a></li>
+						<li><a href="../lys.html">Light</a></li>
+						<li><a href="../grip.html">Grip</a></li>
+						<li><a href="../lyd.html">Sound</a></li>
+						<li><a href="../filter.html">Filter</a></li>
+						<li><a href="../tralle.html">Carts</a></li>
+                        <li><a href="../power.html">Power and EL</a></li>
+                    </ul>
+                </li>
+                
+                <!-- Dropdown for Contact -->
+                <li class="dropdown">
+                    <a href="../Contact.html" class="dropbtn">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../About.html">About</a></li>
+                        <li><a href="../Contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+	<div class="rtn-back-button-container">
+		<a href="../power.html" class="rtn-back-button">Go Back</a>
+	</div>
+
+    <div> 
+        <button class="rtn-add-to-basket" onclick="addToBasket('1 Fase Power Lead', 2)">Add to Basket</button>
+        </div>
+
+    <main>
+        <!-- Title of the equipment -->
+        <h1>Schuko Power Drum</h1>
+    
+        <!-- Equipment details -->
+        <div class="equipment-detail">
+            <!-- Add space between the title and the next section -->
+            <br><br>
+    
+            <!-- Inventory section -->
+            <h2>Inventory</h2>
+            <p>5 Available</p>
+            
+            <!-- Description -->
+            <br><br>
+            <p>
+                The Schuko Power Lead is a versatile power cable suitable for a wide range of household and professional equipment. Designed with a high-quality Schuko connector, this power lead is compatible with numerous European appliances, making it a practical choice for workshops, events, or daily home use.
+            </p>
+
+            <p>
+                With its flexible yet robust design, the power lead provides a reliable connection, ensuring safety and efficiency during use. The cable is insulated for maximum durability and offers consistent performance even in demanding environments.
+            </p>
+
+            <p>
+                The Schuko Power Lead is available in multiple lengths, making it adaptable for both short-distance connections and larger setups where more reach is required. Its user-friendly design includes molded plugs for a secure connection every time.
+            </p>
+
+            <br><br>
+
+            <h2>Specifications</h2>
+            <ul>
+                <li><strong>Model:</strong> Schuko Power Lead</li>
+                <li><strong>Connector Type:</strong> Schuko (CEE 7/7)</li>
+                <li><strong>Maximum Load:</strong> 16A / 230V (3680W)</li>
+                <li><strong>Insulation Type:</strong> PVC Insulated</li>
+                <li><strong>Cable Type:</strong> H05VV-F 3G1.5</li>
+                <li><strong>Certification:</strong> CE certified for safety compliance</li>
+                <li><strong>Color:</strong> Black</li>
+                <li><strong>Weight:</strong> Varies by length (0.5 kg to 1.5 kg)</li>
+            </ul>
+        </div>
+
+        <img src="../images/pwrlead.jpg" alt="cat" />
+    </div>
+</main>
+    <nav>
+        <a href="../power.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+</body>
+</html>
