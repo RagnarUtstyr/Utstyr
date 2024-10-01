@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragnar Bøe Utstyr</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+    
+	<div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+	
+    <!-- Dropdown menu on the right -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="camera.html">Camera</a></li>
+                    <li><a href="camacc.html">Camera Accesories</a></li>
+                    <li><a href="optikk.html">Optikk</a></li>
+                    <li><a href="monitor.html">Monitor</a></li>
+                    <li><a href="fokus.html">Focus</a></li>
+        <li><a href="video.html">Wireless</a></li>
+        <li><a href="batteri.html">Battery</a></li>
+        <li><a href="lys.html">Lights</a></li>
+        <li><a href="grip.html">Grip</a></li>
+        <li><a href="lyd.html">Sound</a></li>
+        <li><a href="filter.html">Filter</a></li>
+        <li><a href="tralle.html">Carts</a></li>
+        <li><a href="power.html">Power and EL</a></li>
+                </ul>
+            </li>
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="equipment-detail">
+        <h1>Velkommen til Ragnar Bøe Utstyrsleie</h1>
+		<br><br>
+        <p><strong>Ragnar Bøe er en filmarbeider basert i Bergen, Norge, med erfaring fra både store og små produksjoner. Han driver også en utstyrsleie, beleilig plassert like utenfor Bergen sentrum, og tilbyr en rekke utstyr for lokale filmprosjekter. Med en praktisk tilnærming og fokus på å støtte det lokale filmmiljøet, bidrar Ragnars tjenester til å sikre at produksjoner har verktøyene de trenger for å kjøre problemfritt.</p>
+        </strong>
+        </div>
+
+<!-- Slideshow Section -->
+<div class="slideshow-container">
+
+    <div class="carousel">
+        <div class="slide">
+            <img src="slide/1.jpg" alt="Slide 1">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/2.jpg" alt="Slide 2">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/3.jpg" alt="Slide 3">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/4.jpg" alt="Slide 4">
+        </div>
+		  
+        <div class="slide">
+            <img src="slide/5.jpg" alt="Slide 5">
+        </div>
+          
+        <div class="slide">
+             <img src="slide/6.jpg" alt="Slide 6">
+         </div>
+
+         <div class="slide">
+            <img src="slide/7.jpg" alt="Slide 7">
+        </div>
+
+	<div class="slide">
+            <img src="slide/8.jpg" alt="Slide 8">
+        </div>
+
+	<div class="slide">
+            <img src="slide/9.jpg" alt="Slide 9">
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+
+    <!-- Dot indicators -->
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+	<span class="dot" onclick="currentSlide(6)"></span>
+	<span class="dot" onclick="currentSlide(7)"></span>
+	<span class="dot" onclick="currentSlide(8)"></span>
+	<span class="dot" onclick="currentSlide(9)"></span>
+	    
+    </div>
+
+
+</main>
+<footer>
+    <p>© 2024 Ragnar Bøe Utstyrsleie</p>
+</footer>
+<script src="main.js"></script>
+<script src="basket.js"></script>
+</body>
+</html>
