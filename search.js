@@ -43,6 +43,7 @@ const items = [
 { name: "E27 25W Matt" , keywords: "25w e27 e2725wmatt e27 25w matt matt" , url: "html/e27-25w-matt.html" },
 { name: "Godox QR-P90 Softbox" , keywords: "softbox qr-p90 godox qr-p90 softbox godoxqr-p90softbox godox" , url: "html/godox-qr-p90-softbox.html" },
 { name: "Godox CS-65D Lantern" , keywords: "godoxcs-65dlantern lentern godox cs-65d lantern lantarn godox lantern cs-65d" , url: "html/65lant.html" },
+{ name: "Godox CS-85D Lantern" , keywords: "godoxcs-85dlantern lentern godox cs-85d lantern lantarn godox lantern cs-85d" , url: "html/85lant.html" },
 { name: "Aputure F10 Fresnel" , keywords: "fresnel aputura f10 aputure f10 fresnel frasnal aputure eputure aputuref10fresnel" , url: "html/aputure-f10-fresnel.html" },
 { name: "Flagkit Pro 60x90 cm" , keywords: "pro flagkit flagkit pro 60x90 cm flegkit cm flagkitpro60x90cm 60x90" , url: "html/flagkit-pro-60x90.html" },
 { name: "6x6 Frame" , keywords: "6x6 frame freme frama 6x6frame 6x6 frame" , url: "html/6x6-frame.html" },
