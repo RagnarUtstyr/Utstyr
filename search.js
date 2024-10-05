@@ -147,145 +147,92 @@ const items = [
        // Add more items here...
     ];
     
-    document.addEventListener("DOMContentLoaded", function () {
-        const globalSearchField = document.getElementById("global-search-field");
-        const searchField = document.getElementById("search-field");
-    
-        // Attach dropdown search functionality for other pages
-        if (globalSearchField) {
-            globalSearchField.addEventListener("keyup", showDropdownResults);
-        }
-    
-        // Attach dynamic search functionality for alleq.html
-        if (searchField) {
-            searchField.addEventListener("keyup", filterItems);
+document.addEventListener("DOMContentLoaded", function () {
+    const globalSearchField = document.getElementById("global-search-field");
+    const searchField = document.getElementById("search-field");
+    const dropdown = document.getElementById("dropdown-results");
+
+    // Attach dropdown search functionality for other pages
+    if (globalSearchField) {
+        globalSearchField.addEventListener("keyup", showDropdownResults);
+        // Show dropdown when the field is focused again
+        globalSearchField.addEventListener("focus", showDropdownResults);
+    }
+
+    // Attach dynamic search functionality for alleq.html
+    if (searchField) {
+        searchField.addEventListener("keyup", filterItems);
+        searchField.addEventListener("focus", function () {
+            dropdown.style.display = 'block'; // Re-show the dropdown on focus
+        });
+    }
+
+    // Hide dropdown if clicking outside of it or search field
+    document.addEventListener("click", function (event) {
+        if (dropdown && !dropdown.contains(event.target) && !globalSearchField.contains(event.target)) {
+            dropdown.style.display = 'none';
         }
     });
-    
-    // Function to filter items on the alleq.html page
-    function filterItems() {
-        const searchValue = document.getElementById("search-field").value.toLowerCase().trim();
-        const searchWords = searchValue.split(/\s+/); // Split by whitespace
-    
-        // Get all equipment cards
-        let equipmentCards = document.querySelectorAll(".content-grid .nav-card");
-    
-        // Loop through all cards and hide those that don't match all search words
-        equipmentCards.forEach(function (card) {
-            let itemName = card.querySelector("h2").textContent.toLowerCase();
-            let keywords = card.getAttribute("data-keywords");
-            keywords = keywords ? keywords.toLowerCase() : ""; // Default to empty string if null
-    
-            // Combine the item name and keywords for the search
-            let searchableText = itemName + " " + keywords;
-    
-            // Check if every word in the search matches part of the combined text
-            let matches = searchWords.every(function (word) {
-                return searchableText.includes(word);
-            });
-    
-            if (matches) {
-                card.style.display = "flex"; // Show matching items (using 'flex' to match existing styling)
-            } else {
-                card.style.display = "none"; // Hide non-matching items
-            }
-        });
+
+    // Ensure the basket icon count is updated when the page loads
+    updateBasketIcon();
+});
+
+// Function to show dropdown results for other pages
+function showDropdownResults() {
+    const searchValue = document.getElementById("global-search-field").value.toLowerCase().trim();
+    const dropdown = document.getElementById("dropdown-results");
+
+    // Clear previous results
+    dropdown.innerHTML = '';
+    dropdown.style.display = 'none';
+
+    if (searchValue === '') {
+        return;
     }
-    
-    // Function to show dropdown results for other pages
-    function showDropdownResults() {
-        const searchValue = document.getElementById("global-search-field").value.toLowerCase().trim();
-        const dropdown = document.getElementById("dropdown-results");
-    
-        // Clear previous results
-        dropdown.innerHTML = '';
-        dropdown.style.display = 'none';
-    
-        if (searchValue === '') {
-            return;
-        }
-    
-        // Filter items based on the search value
-        const matchedItems = items.filter(item => {
-            const searchableText = (item.name + " " + item.keywords).toLowerCase();
-            return searchValue.split(/\s+/).every(word => searchableText.includes(word));
-        });
-    
-        // Display the matched items in the dropdown
-        matchedItems.forEach(item => {
-            const resultDiv = document.createElement('div');
-            resultDiv.className = 'dropdown-item';
-    
-            const itemNameSpan = document.createElement('span');
-            itemNameSpan.textContent = item.name;
-    
-            const addToBasketButton = document.createElement('button');
-            addToBasketButton.className = 'basket-button';
-            addToBasketButton.textContent = 'Add to Basket';
-            addToBasketButton.addEventListener('click', function (event) {
-                event.stopPropagation(); // Prevent the redirect if the button itself is clicked
-                addToBasket(item.name, 10); // Pass item name and maxQuantity (set to 10 for this example)
-            });
-    
-            resultDiv.appendChild(itemNameSpan);
-            resultDiv.appendChild(addToBasketButton);
-    
-            resultDiv.onclick = function (event) {
-                if (event.target.tagName.toLowerCase() !== 'button') {
-                    window.location.href = item.url;
-                }
-            };
-    
-            dropdown.appendChild(resultDiv);
-        });
-    
-        if (matchedItems.length > 0) {
-            dropdown.style.display = 'block';
-        }
-    }
-    
-    // Function to handle adding items to the basket
-    function addToBasket(itemName, maxQuantity) {
-        console.log(`Adding ${itemName} to basket with maxQuantity ${maxQuantity}`);
-        let basket = JSON.parse(localStorage.getItem('basket') || '{}');
-    
-        // Initialize item in the basket if it doesn't exist
-        if (!basket[itemName]) {
-            basket[itemName] = 1;  // Start with 1 item
-        } else {
-            if (basket[itemName] < maxQuantity) {
-                basket[itemName]++;
-            } else {
-                return;
-            }
-        }
-    
-        // Save updated basket to LocalStorage
-        localStorage.setItem('basket', JSON.stringify(basket));
-        updateBasketIcon(); // Update basket icon with item count
-        
-    }
-    
-    // Update the basket icon with the total item count using LocalStorage
-    function updateBasketIcon() {
-        let basket = JSON.parse(localStorage.getItem('basket') || '{}');
-        let totalItems = 0;
-    
-        // Calculate the total number of items in the basket
-        for (let item in basket) {
-            if (basket.hasOwnProperty(item)) {
-                totalItems += basket[item];
-            }
-        }
-    
-        // Update the basket icon with the total item count
-        let basketIconCount = document.getElementById('basket-icon-count');
-        if (basketIconCount) {
-            basketIconCount.textContent = totalItems;
-        }
-    }
-    
-    document.addEventListener('DOMContentLoaded', function () {
-        // Ensure the basket icon count is updated when the page loads
-        updateBasketIcon();
+
+    // Filter items based on the search value
+    const matchedItems = items.filter(item => {
+        const searchableText = (item.name + " " + item.keywords).toLowerCase();
+        return searchValue.split(/\s+/).every(word => searchableText.includes(word));
     });
+
+    // Display the matched items in the dropdown
+    matchedItems.forEach(item => {
+        const resultDiv = document.createElement('div');
+        resultDiv.className = 'dropdown-item';
+
+        const itemNameSpan = document.createElement('span');
+        itemNameSpan.textContent = item.name;
+
+        const addToBasketButton = document.createElement('button');
+        addToBasketButton.className = 'basket-button';
+
+        // Add image to the button instead of text
+        const basketImage = document.createElement('img');
+        basketImage.src = 'images/basket-icon.png';
+        basketImage.alt = 'Add to Basket';
+        basketImage.className = 'basket-icon'; // Adding a class to control the size via CSS
+        addToBasketButton.appendChild(basketImage);
+
+        addToBasketButton.addEventListener('click', function (event) {
+            event.stopPropagation(); // Prevent the redirect if the button itself is clicked
+            addToBasket(item.name, 10); // Pass item name and maxQuantity (set to 10 for this example)
+        });
+
+        resultDiv.appendChild(itemNameSpan);
+        resultDiv.appendChild(addToBasketButton);
+
+        resultDiv.onclick = function (event) {
+            if (event.target.tagName.toLowerCase() !== 'button') {
+                window.location.href = item.url;
+            }
+        };
+
+        dropdown.appendChild(resultDiv);
+    });
+
+    if (matchedItems.length > 0) {
+        dropdown.style.display = 'block';
+    }
+}

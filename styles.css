@@ -772,14 +772,39 @@ input, textarea {
 
 
 .basket-button {
-    background-color: #ffcc00;
+    background-color: #ffcc00; 
     border: none;
-    padding: 5px 10px;
     cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 3px; 
+    width: 20px;
+    height: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box; 
 }
 
+/* Change button color on hover */
 .basket-button:hover {
     background-color: #e6b800;
+    transform: scale(1.1);
+}
+
+/* Style for the basket icon inside the button */
+.basket-button img.basket-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Optionally add a focus effect */
+.basket-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.5); 
 }
