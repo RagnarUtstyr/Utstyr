@@ -9,7 +9,6 @@ function addToBasket(itemName, maxQuantity) {
         if (basket[itemName] < maxQuantity) {
             basket[itemName]++;
         } else {
-            alert(`You cannot add more than ${maxQuantity} of ${itemName}.`);
             return;
         }
     }
