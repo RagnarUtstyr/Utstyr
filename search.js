@@ -147,6 +147,13 @@ const items = [
        // Add more items here...
     ];
     
+// Function to get the correct URL path based on the current location
+function getCorrectUrl(url) {
+    const currentPath = window.location.pathname;
+    let base = currentPath.includes('html/') ? '../' : ''; // Adjust based on whether we are already in a subfolder
+    return base + url;
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const globalSearchField = document.getElementById("global-search-field");
     const searchField = document.getElementById("search-field");
@@ -155,7 +162,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Attach dropdown search functionality for other pages
     if (globalSearchField) {
         globalSearchField.addEventListener("keyup", showDropdownResults);
-        // Show dropdown when the field is focused again
         globalSearchField.addEventListener("focus", showDropdownResults);
     }
 
@@ -163,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (searchField) {
         searchField.addEventListener("keyup", filterItems);
         searchField.addEventListener("focus", function () {
-            dropdown.style.display = 'block'; // Re-show the dropdown on focus
+            dropdown.style.display = 'block';
         });
     }
 
@@ -223,9 +229,10 @@ function showDropdownResults() {
         resultDiv.appendChild(itemNameSpan);
         resultDiv.appendChild(addToBasketButton);
 
+        // Adjust the URL using the getCorrectUrl function
         resultDiv.onclick = function (event) {
             if (event.target.tagName.toLowerCase() !== 'button') {
-                window.location.href = item.url;
+                window.location.href = getCorrectUrl(item.url);
             }
         };
 
