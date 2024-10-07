@@ -1,28 +1,28 @@
 // Item list - assuming this comes from alleq.html or hardcoded here
 const items = [
-    { name: "RED Epic Dragon 6K" , keywords: "red epic dragon 6k cinema camera high resolution" , url: "html/red-epic-dragon.html" },
-    { name: "Canon 5D MK2" , keywords: "canon5dmk2 canon 5d mk2 mk2 canon 5d cenon" , url: "html/Canon-5D-MK2.html" },
-    { name: "Sachtler FSB 10" , keywords: "sachtler fsb 10 fsb sechtler sachtlar sachtlerfsb10 10 sachtler" , url: "html/fsb10.html" },
-    { name: "100mm High hat" , keywords: "100mm high hat 100mm high hat 100mmhighhat" , url: "html/100mmhh.html" },
+    { name: "RED Epic Dragon 6K" , keywords: "kamera red epic dragon 6k cinema camera high resolution" , url: "html/red-epic-dragon.html" },
+    { name: "Canon 5D MK2" , keywords: "kamera canon5dmk2 canon 5d mk2 mk2 canon 5d cenon" , url: "html/Canon-5D-MK2.html" },
+    { name: "Sachtler FSB 10" , keywords: "sachtler tripod stativ kamera fsb 10 fsb sechtler sachtlar sachtlerfsb10 10 sachtler" , url: "html/fsb10.html" },
+    { name: "100mm High hat" , keywords: "100mm tripod high hat 100mm high hat 100mmhighhat" , url: "html/100mmhh.html" },
     { name: "Easyrig MinMax" , keywords: "minmax aasyrig easyrigminmax easyrig minmax minmex easyrig eesyrig" , url: "html/minmax.html" },
-    { name: "Tilta MB T-12" , keywords: "tilta mb t-12 t-12 tilte tiltambt-12 tilta mb" , url: "html/mbt12.html" },
-    { name: "100mm Danadolly" , keywords: "100mm danadolly denedolly 100mm danadolly 100mmdanadolly" , url: "html/100mm-danadolly.html" },
-    { name: "150mm Danadolly" , keywords: "150mm danadolly denedolly 150mmdanadolly 150mm danadolly" , url: "html/150mm-danadolly.html" },
-    { name: "Mitchell mnt. Danadolly" , keywords: "mnt. mitchellmnt.danadolly danadolly mitchell mnt. danadolly mitchall denedolly mitchell" , url: "html/mitchell-danadolly.html" },
-    { name: "DZOfilm Catta ACE 35-80" , keywords: "cette dzofilmcattaace35-80 35-80 dzofilm catta ace 35-80 ace dzofilm catta cette dzofilmcattaace35-80 35-80 dzofilm catta ace 35-80 ace dzofilm catta" , url: "html/Catta-ACE-35.html" },
-    { name: "DZOfilm Catta ACE 70-135" , keywords: "dzofilm catta ace 70-135 cette dzofilmcattaace70-135 70-135 ace dzofilm catta dzofilm catta ace 70-135 cette dzofilmcattaace70-135 70-135 ace dzofilm catta" , url: "html/Catta-ACE-70.html" },
-    { name: "Canon EF 24-70mm F/2.8" , keywords: "canon ef 24-70mm canonef24-70mm canon ef cenon 24-70mm canon ef 24-70mm canonef24-70mm canon ef cenon 24-70mm" , url: "html/usm.html" },
-    { name: "Atomos Ninja V 5" , keywords: "ninja atomosninjav5 5 atomos ninja v 5 atomos v ninje etomos ninja atomosninjav5 5 atomos ninja v 5 atomos v ninje etomos" , url: "html/Atomos.html" },
-    { name: "SmallHD 702 Ultra bright" , keywords: "smellhd 702 ultre smallhd bright smallhd 702 ultra bright smallhd702ultrabright ultra smellhd 702 ultre smallhd bright smallhd 702 ultra bright smallhd702ultrabright ultra" , url: "html/702UB.html" },
-    { name: "SmallHD 702 Ultra Dir Monitor" , keywords: "smallhd702ultrabrightdirectorsmonitor smallhd 702 ultra bright directors monitor smellhd 702 ultre smallhd monitor diractors bright directors ultra smallhd702ultrabrightdirectorsmonitor smallhd 702 ultra bright directors monitor smellhd 702 ultre smallhd monitor diractors bright directors ultra" , url: "html/702DIR.html" },
-    { name: "SmallHD 703 Ultra" , keywords: "703 smellhd smallhd703ultrabright ultre smallhd bright ultra smallhd 703 ultra bright 703 smellhd smallhd703ultrabright ultre smallhd bright ultra smallhd 703 ultra bright" , url: "html/703.html" },
-    { name: "SmallHD 1703 P3X" , keywords: "smallhd1703p3x p3x smallhd 1703 p3x smellhd smallhd 1703 smallhd1703p3x p3x smallhd 1703 p3x smellhd smallhd 1703" , url: "html/1703.html" },
-    { name: "Lilliput BM280-4KS – 28 4K" , keywords: "lilliput 28 lilliput28 lilliput 28 lilliput 28 lilliput28 lilliput 28" , url: "html/Lili28.html" },
-    { name: "Teradek Bolt 500" , keywords: "500 bolt wiralass wireless teradek bolt 500 wireless teredek taradak teradekbolt500wireless teradek 500 bolt wiralass wireless teradek bolt 500 wireless teredek taradak teradekbolt500wireless teradek" , url: "html/teradek-bolt-500.html" },
-    { name: "Accsoon Cineeye" , keywords: "cineeye eccsoon wiralass wireless accsoon cineeye wireless accsooncineeyewireless cinaaya accsoon cineeye eccsoon wiralass wireless accsoon cineeye wireless accsooncineeyewireless cinaaya accsoon" , url: "html/accsoon-cineeye.html" },
-    { name: "Accsoon Cineeye 2s" , keywords: "cineeye accsoon cineeye 2s wireless eccsoon wiralass accsooncineeye2swireless wireless 2s cinaaya accsoon cineeye accsoon cineeye 2s wireless eccsoon wiralass accsooncineeye2swireless wireless 2s cinaaya accsoon" , url: "html/accsoon-cineeye-2s.html" },
-    { name: "Tilta Nucleus-m FIZ" , keywords: "nucleus-m nuclaus-m tilte tilta tiltanucleus-m tilta nucleus-m nucleus-m nuclaus-m tilte tilta tiltanucleus-m tilta nucleus-m follow focus followfocus fiz" , url: "html/tilta-nucleus-m.html" },
-    { name: "Arri FF-4" , keywords: "ff-4 arri arri ff-4 arriff-4 follow focus followfocus" , url: "html/arri-ff-4.html" },
+    { name: "Tilta MB T-12" , keywords: "tilta matteboks mb t-12 t-12 tilte tiltambt-12 tilta mb" , url: "html/mbt12.html" },
+    { name: "100mm Danadolly" , keywords: "100mm slider danadolly denedolly 100mm danadolly 100mmdanadolly" , url: "html/100mm-danadolly.html" },
+    { name: "150mm Danadolly" , keywords: "150mm slider danadolly denedolly 150mmdanadolly 150mm danadolly" , url: "html/150mm-danadolly.html" },
+    { name: "Mitchell mnt. Danadolly" , keywords: "mnt. slider mitchellmnt.danadolly danadolly mitchell mnt. danadolly mitchall denedolly mitchell" , url: "html/mitchell-danadolly.html" },
+    { name: "DZOfilm Catta ACE 35-80" , keywords: "cette linse dzofilmcattaace35-80 35-80 dzofilm catta ace 35-80 ace dzofilm catta cette dzofilmcattaace35-80 35-80 dzofilm catta ace 35-80 ace dzofilm catta" , url: "html/Catta-ACE-35.html" },
+    { name: "DZOfilm Catta ACE 70-135" , keywords: "dzofilm linse catta ace 70-135 cette dzofilmcattaace70-135 70-135 ace dzofilm catta dzofilm catta ace 70-135 cette dzofilmcattaace70-135 70-135 ace dzofilm catta" , url: "html/Catta-ACE-70.html" },
+    { name: "Canon EF 24-70mm F/2.8" , keywords: "canon ef 24-70mm linse canonef24-70mm canon ef cenon 24-70mm canon ef 24-70mm canonef24-70mm canon ef cenon 24-70mm" , url: "html/usm.html" },
+    { name: "Atomos Ninja V 5" , keywords: "ninja atomosninjav5 monitor 5 atomos ninja v 5 atomos v ninje etomos ninja atomosninjav5 5 atomos ninja v 5 atomos v ninje etomos" , url: "html/Atomos.html" },
+    { name: "SmallHD 702 Ultra bright" , keywords: "smellhd 702 ultre monitor smallhd bright smallhd 702 ultra bright smallhd702ultrabright ultra smellhd 702 ultre smallhd bright smallhd 702 ultra bright smallhd702ultrabright ultra" , url: "html/702UB.html" },
+    { name: "SmallHD 702 Ultra Dir Monitor" , keywords: "smallhd702ultrabrightdirectorsmonitor monitor smallhd 702 ultra bright directors monitor smellhd 702 ultre smallhd monitor diractors bright directors ultra smallhd702ultrabrightdirectorsmonitor smallhd 702 ultra bright directors monitor smellhd 702 ultre smallhd monitor diractors bright directors ultra" , url: "html/702DIR.html" },
+    { name: "SmallHD 703 Ultra" , keywords: "703 smellhd smallhd703ultrabright ultre smallhd bright monitor ultra smallhd 703 ultra bright 703 smellhd smallhd703ultrabright ultre smallhd bright ultra smallhd 703 ultra bright" , url: "html/703.html" },
+    { name: "SmallHD 1703 P3X" , keywords: "smallhd1703p3x p3x smallhd 1703 p3x smellhd smallhd 1703 monitor smallhd1703p3x p3x smallhd 1703 p3x smellhd smallhd 1703" , url: "html/1703.html" },
+    { name: "Lilliput BM280-4KS – 28 4K" , keywords: "lilliput 28 lilliput28 lilliput 28 lilliput 28 monitor lilliput28 lilliput 28" , url: "html/Lili28.html" },
+    { name: "Teradek Bolt 500" , keywords: "500 bolt wiralass wireless teradek bolt 500 wireless teredek trådløs taradak teradekbolt500wireless teradek 500 bolt wiralass wireless teradek bolt 500 wireless teredek taradak teradekbolt500wireless teradek" , url: "html/teradek-bolt-500.html" },
+    { name: "Accsoon Cineeye" , keywords: "cineeye eccsoon wiralass wireless accsoon cineeye wireless trådløs accsooncineeyewireless cinaaya accsoon cineeye eccsoon wiralass wireless accsoon cineeye wireless accsooncineeyewireless cinaaya accsoon" , url: "html/accsoon-cineeye.html" },
+    { name: "Accsoon Cineeye 2s" , keywords: "cineeye accsoon cineeye 2s wireless eccsoon wiralass trådløs accsooncineeye2swireless wireless 2s cinaaya accsoon cineeye accsoon cineeye 2s wireless eccsoon wiralass accsooncineeye2swireless wireless 2s cinaaya accsoon" , url: "html/accsoon-cineeye-2s.html" },
+    { name: "Tilta Nucleus-m FIZ" , keywords: "nucleus-m nuclaus-m tilte tilta tiltanucleus-m følge tilta fokus nucleus-m nucleus-m nuclaus-m tilte tilta tiltanucleus-m tilta nucleus-m follow focus followfocus fiz" , url: "html/tilta-nucleus-m.html" },
+    { name: "Arri FF-4" , keywords: "ff-4 arri arri ff-4 arriff-4 follow focus følge fokus followfocus" , url: "html/arri-ff-4.html" },
     { name: "IDX iMicro98 V-mount battery" , keywords: "v-mount battary battery bettery batteri imicro98 idx idx vmount imicro98 v-mount battery idximicro98v-mountbattery" , url: "html/idx-imicro98.html" },
     { name: "IDX Duo C198 V-mount battery" , keywords: "c198 idxduoc198v-mountbattery idx duo c198 batteri v-mount vmount battery v-mount battary duo battery bettery idx" , url: "html/idx-duo-c198.html" },
     { name: "IDX DUO 300 V-mount battery" , keywords: "300 v-mount idxduo300v-mountbattery batteri battary duo battery vmount bettery idx duo 300 v-mount battery idx" , url: "html/idx-duo-300.html" },
@@ -166,11 +166,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Attach dynamic search functionality for alleq.html
-    if (searchField) {
+    if (window.location.pathname.includes('alleq.html') && searchField) {
         searchField.addEventListener("keyup", filterItems);
-        searchField.addEventListener("focus", function () {
-            dropdown.style.display = 'block';
-        });
     }
 
     // Hide dropdown if clicking outside of it or search field
@@ -183,6 +180,37 @@ document.addEventListener("DOMContentLoaded", function () {
     // Ensure the basket icon count is updated when the page loads
     updateBasketIcon();
 });
+
+// Function to filter items specifically for alleq.html
+function filterItems() {
+    // Get the search input value and split it into individual words
+    let searchValue = document.getElementById("search-field").value.toLowerCase().trim();
+    let searchWords = searchValue.split(/\s+/); // Split by whitespace
+
+    // Get all equipment cards
+    let equipmentCards = document.querySelectorAll(".content-grid .nav-card");
+
+    // Loop through all cards and hide those that don't match all search words
+    equipmentCards.forEach(function (card) {
+        let itemName = card.querySelector("h2").textContent.toLowerCase();
+        let keywords = card.getAttribute("data-keywords");
+        keywords = keywords ? keywords.toLowerCase() : ""; // Default to empty string if null
+
+        // Combine the item name and keywords for the search
+        let searchableText = itemName + " " + keywords;
+
+        // Check if every word in the search matches part of the combined text
+        let matches = searchWords.every(function (word) {
+            return searchableText.includes(word);
+        });
+
+        if (matches) {
+            card.style.display = "flex"; // Show matching items (using 'flex' to match existing styling)
+        } else {
+            card.style.display = "none"; // Hide non-matching items
+        }
+    });
+}
 
 // Function to show dropdown results for other pages
 function showDropdownResults() {
