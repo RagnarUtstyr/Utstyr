@@ -46,7 +46,7 @@ const items = [
     { name: "Godox CS-85D Lantern" , keywords: "godoxcs-85dlantern lentern godox cs-85d lantern lantarn godox lantern cs-85d" , url: "html/85lant.html" },
     { name: "Aputure F10 Fresnel" , keywords: "fresnel aputura f10 aputure f10 fresnel frasnal aputure eputure aputuref10fresnel" , url: "html/aputure-f10-fresnel.html" },
     { name: "Flagkit Pro 60x90 cm" , keywords: "pro flagkit flagkit pro 60x90 cm flegkit cm flagkitpro60x90cm 60x90" , url: "html/flagkit-pro-60x90.html" },
-    { name: "Floppy Flag 4x8" , keywords: "floppy flopy flag floppyflag flagg folpy flpy 4x8 4x4" url: "html/floppy.html"},
+    { name: "Floppy Flag 4x8" , keywords: "floppy flopy flag floppyflag flagg folpy flpy 4x8 4x4" , url: "html/floppy.html"},
     { name: "6x6 Frame" , keywords: "6x6 frame freme frama 6x6frame 6x6 frame" , url: "html/6x6-frame.html" },
     { name: "6x6 Silk" , keywords: "6x6 silk 6x6 6x6silk silk" , url: "html/6x6-silk.html" },
     { name: "6x6 Grid" , keywords: "6x6grid 6x6 6x6 grid grid" , url: "html/6x6-grid.html" },
