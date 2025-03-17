@@ -148,6 +148,7 @@ const items = [
     { name: "TA 3 Female -> TRS" , keywords: "ta3female->trs ta -> femele female 3 ta 3 female -> trs famala trs" , url: "html/ta3_trs.html" },
     { name: "GoPro Hero 6" , keywords: "Kamera camera gopro goprohero heor hero6 hero7 black goprohero6 action actioncamera" , url: "html/gopro.html" },
     { name: "Samsung Gear 360" , keywords: "360 Kamera Camera samsung" , url: "html/Gear360.html" },
+    { name: "Sekonic L-858D Lightmeter" , keywords: "Light Meter lightmeter sekonic l858 l858d seconic sekonik" , url: "html/lightmeter.html" },
        // Add more items here...
     ];
     
