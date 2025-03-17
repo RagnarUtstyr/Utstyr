@@ -147,7 +147,7 @@ const items = [
     { name: "TA 3 Female -> XLR Male" , keywords: "ta 3 female -> xlr male male ta -> femele female 3 famala xlr ta3female->xlrmale" , url: "html/ta3_xlr_m.html" },
     { name: "TA 3 Female -> TRS" , keywords: "ta3female->trs ta -> femele female 3 ta 3 female -> trs famala trs" , url: "html/ta3_trs.html" },
     { name: "GoPro Hero 6" , keywords: "Kamera camera gopro goprohero heor hero6 hero7 black goprohero6 action actioncamera" , url: "html/gopro.html" },
-    { name: "Samsung Gear 360" , keywords: "360 Kamera Camera samsung" , url: "html/gear360.html" },
+    { name: "Samsung Gear 360" , keywords: "360 Kamera Camera samsung" , url: "html/Gear360.html" },
        // Add more items here...
     ];
     
