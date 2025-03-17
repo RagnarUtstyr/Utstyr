@@ -89,7 +89,7 @@ const items = [
     { name: "Røde Mic Go" , keywords: "røde mic røde mic go rødemicgo go" , url: "html/rode-mic-go.html" },
     { name: "Orca-34 Sound Bag" , keywords: "orca or-34 soundbag orca or-34 soundbag soundbeg orcaor-34soundbag orca or-34 soundbag orca or-34 soundbag soundbeg orcaor-34soundbag" , url: "html/orca-34.html" },
     { name: "K-tek KSHRN3 Harness" , keywords: "k-tek harness harnes sound strap bagstrap kshrn3 ktek ktec ktech sele støtte lydsele belte" , url: "html/harness.html" },
-    { name: "Deity TC-1" , keywords: "daity deitytc-1 deity tc-1 deity tc-1" , url: "html/tc.html" },
+    { name: "Deity TC-1" , keywords: "daity deitytc-1 timecode tc time code deity tc-1 deity tc-1" , url: "html/tc.html" },
     { name: "Beyerdynamic DT 770 Pro" , keywords: "dt pro beyerdynamic dt 770 pro bayardynamic beyerdynamicdt770pro 770 beyerdynemic beyerdynamic" , url: "html/dt770.html" },
     { name: "NiSi 1/8 Allure Mist Black" , keywords: "bleck 4x5,65 cinafiltar cinefilter ellure nisicinefilter4x5,651/8alluremistblack nisi cinefilter 4x5,65 1/8 allure mist black nisi black 1/8 mist allure allura" , url: "html/nisi-cinefilter-1-8-allure-mist-black.html" },
     { name: "NiSi 1/4 Allure Mist Black" , keywords: "1/4 bleck mist 4x5,65 cinafiltar nisi cinefilter 4x5,65 1/4 allure mist black cinefilter black nisi ellure nisicinefilter4x5,651/4alluremistblack allure allura" , url: "html/nisi-cinefilter-1-4-allure-mist-black.html" },
