@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoPro Hero 6</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+        </div>
+        
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">Home</a></li>
+                
+                <!-- Dropdown for Camera -->
+                <li class="dropdown">
+                    <a href="../equipment.html" class="dropbtn">Equipment</a>
+                    <ul class="dropdown-content">
+						<li><a href="../camera.html">Camera</a></li>
+                        <li><a href="../camacc.html">Camera Accesories</a></li>
+                        <li><a href="../optikk.html">Optikk</a></li>
+                        <li><a href="../monitor.html">Monitor</a></li>
+                        <li><a href="../fokus.html">Fokus</a></li>
+						<li><a href="../video.html">Wireless</a></li>
+						<li><a href="../batteri.html">Battery</a></li>
+						<li><a href="../lys.html">Light</a></li>
+						<li><a href="../grip.html">Grip</a></li>
+						<li><a href="../lyd.html">Sound</a></li>
+						<li><a href="../filter.html">Filter</a></li>
+						<li><a href="../tralle.html">Carts</a></li>
+                        <li><a href="../power.html">Power and EL</a></li>
+                        <li><a href="../cables.html">Cables</a></li>
+                    </ul>
+                </li>
+                
+                <!-- Dropdown for Contact -->
+                <li class="dropdown">
+                    <a href="../Contact.html" class="dropbtn">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../About.html">About</a></li>
+                        <li><a href="../Contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+	<div class="rtn-back-button-container">
+		<a href="../camera.html" class="rtn-back-button">Go Back</a>
+    </div>
+
+    <div> 
+        <button class="rtn-add-to-basket" onclick="addToBasket('GoPro Hero 6', 1)">Add to Basket</button>
+        </div>
+
+        <main>
+            <!-- Title of the equipment -->
+            <h1>GoPro Hero 6</h1>
+        
+            <!-- Equipment details -->
+            <div class="equipment-detail">
+                <!-- Add space between the title and the next section -->
+                <br><br>
+                
+                <!-- Inventory section -->
+                <h2>Inventory</h2>
+                <p>1 Available</p>
+                
+                <!-- Add space before description -->
+                <br><br>
+        
+                <!-- Description -->
+                <p>
+                    The GoPro Hero 6 is a compact and rugged action camera designed for capturing stunning videos and photos in extreme environments. 
+                    Equipped with an advanced GP1 processor, the Hero 6 offers improved image quality and better low-light performance.
+                    It supports 4K video recording at up to 60fps and slow-motion 1080p video at 240fps, making it perfect for action-packed adventures.
+                </p>
+                
+                <p>
+                    The Hero 6 features advanced stabilization technology, ensuring smooth footage even in dynamic conditions. 
+                    With its waterproof design up to 10 meters (33 feet) without a housing, it is ideal for underwater and outdoor sports activities. 
+                    The camera also supports voice control, allowing hands-free operation with simple voice commands.
+                </p>
+        
+                <p>
+                    A 2-inch touchscreen display provides easy navigation and quick adjustments to settings. 
+                    The camera includes Wi-Fi and Bluetooth connectivity, enabling seamless media transfer and remote control via the GoPro app. 
+                    With HEVC (High-Efficiency Video Coding) support, users can save space while maintaining high-quality footage.
+                </p>
+        
+                <br><br>
+                
+                <h2>Specifications</h2>
+        
+                <ul>
+                    <li><strong>Model:</strong> GoPro Hero 6 Black</li>
+                    <li><strong>Processor:</strong> GP1 custom processor</li>
+                    <li><strong>Video:</strong> 4K at 60fps, 1080p at 240fps</li>
+                    <li><strong>Photo:</strong> 12 MP</li>
+                    <li><strong>Stabilization:</strong> Advanced electronic image stabilization</li>
+                    <li><strong>Waterproof:</strong> Up to 10m (33ft) without housing</li>
+                    <li><strong>Display:</strong> 2-inch touchscreen</li>
+                    <li><strong>Connectivity:</strong> Wi-Fi, Bluetooth</li>
+                    <li><strong>Battery Life:</strong> Up to 1.5 hours of continuous recording</li>
+                    <li><strong>Weight:</strong> 117g</li>
+                </ul>
+        
+                <br><br>
+        
+                <h2>Key Features</h2>
+        
+                <ul>
+                    <li>4K video recording at 60fps for high-quality action footage</li>
+                    <li>12 MP photos with HDR and RAW support</li>
+                    <li>Advanced image stabilization for smooth footage</li>
+                    <li>Waterproof design up to 10m (33ft) without additional housing</li>
+                    <li>2-inch touchscreen display for easy navigation</li>
+                    <li>Voice control for hands-free operation</li>
+                    <li>Wi-Fi and Bluetooth connectivity for easy media transfer</li>
+                    <li>Slow-motion 1080p video at 240fps for dramatic action shots</li>
+                </ul>
+            
+                <br><br>
+                <img src="../images/gopro.jpg" alt="GoPro Hero 6" />
+            </div>
+        </main>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+	<script src="../search.js"></script>
+</body>
+</html>
