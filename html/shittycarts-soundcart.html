@@ -5,190 +5,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shittycarts Soundcart</title>
     <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    
+    <!-- Your main CSS files -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../styles.css">
+    
+    <!-- Poppins font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Slider-specific styles -->
+    <style>
+      /* Center the slider and image */
+      .image-slider {
+          margin: 20px auto;   /* Center container */
+          max-width: 600px;    /* Optional max width for the image */
+          text-align: center;  /* Center the image inside */
+      }
+
+      /* Container for the Next/Prev buttons */
+      .image-slider-controls {
+          display: flex;
+          justify-content: center;
+          gap: 20px;       /* Space between buttons */
+          margin-top: 10px;
+      }
+
+      /* Button styling to match your site’s design */
+      .slider-nav-button {
+          background-color: #2C3E50; /* Dark background (same as rtn-add-to-basket) */
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 20px;
+          font-family: 'Poppins', sans-serif;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      /* Hover effect */
+      .slider-nav-button:hover {
+          background-color: #FFCC00; /* Accent color */
+          color: #333;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      }
+    </style>
 </head>
 <body>
-    <header>
-        <!-- Logo on the left -->
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
-            </a>
-        </div>
-
-        <div id="search-bar-container">
-            <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
-            <div id="dropdown-results" class="dropdown-results"></div>
-        </div>
-
-        <div class="basket-icon-container">
-            <a href="../basket.html">
-                <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
-                <span id="basket-icon-count">0</span> <!-- Item count -->
-            </a>
-        </div>
-
-        <nav>
-            <ul class="navbar">
-                <li><a href="../index.html">Home</a></li>
-
-                <!-- Dropdown for Camera -->
-                <li class="dropdown">
-                    <a href="../equipment.html" class="dropbtn">Equipment</a>
-                    <ul class="dropdown-content">
-                        <li><a href="../camera.html">Camera</a></li>
-                        <li><a href="../camacc.html">Camera Accesories</a></li>
-                        <li><a href="../optikk.html">Optikk</a></li>
-                        <li><a href="../monitor.html">Monitor</a></li>
-                        <li><a href="../fokus.html">Fokus</a></li>
-                        <li><a href="../video.html">Wireless</a></li>
-                        <li><a href="../batteri.html">Battery</a></li>
-                        <li><a href="../lys.html">Light</a></li>
-                        <li><a href="../grip.html">Grip</a></li>
-                        <li><a href="../lyd.html">Sound</a></li>
-                        <li><a href="../filter.html">Filter</a></li>
-                        <li><a href="../tralle.html">Carts</a></li>
-                        <li><a href="../power.html">Power and EL</a></li>
-                        <li><a href="../cables.html">Cables</a></li>
-                    </ul>
-                </li>
-
-                <!-- Dropdown for Contact -->
-                <li class="dropdown">
-                    <a href="../Contact.html" class="dropbtn">Contact</a>
-                    <ul class="dropdown-content">
-                        <li><a href="../About.html">About</a></li>
-                        <li><a href="../Contact.html">Contact</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="rtn-back-button-container">
-        <a href="../tralle.html" class="rtn-back-button">Go Back</a>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
     </div>
 
-    <div> 
-        <button class="rtn-add-to-basket" onclick="addToBasket('ShittyCarts Soundcart', 1)">Add to Basket</button>
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
     </div>
 
-    <main>
-        <h1></h1>
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
 
-        <div class="equipment-detail">
-            <p>
-                Soundcart handmade by Ragnar Bøe. 
-            </p>
-            <br><br>
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accesories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-            <!-- Description -->
-            <p>
-                The cart is made with a top and middle shelf for storing a sound bag, along with a foldout table on the right-hand side for extra work surface and a bottom shelf for larger boxes. 
-                Designed with mobility and efficiency in mind, it provides ample storage and convenient access to essential audio gear.
-            </p>
+<div class="rtn-back-button-container">
+    <a href="../tralle.html" class="rtn-back-button">Go Back</a>
+</div>
 
-            <p>
-                It also features 19" rack mounting equipped with 2x 6.3" jack outputs and 6x XLR inputs, allowing quick connections for microphones and other audio devices. 
-                A rackmounted drawer and an additional rackmounted shelf offer secure, easily accessible storage for smaller accessories.
-            </p>
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('ShittyCarts Soundcart', 1)">Add to Basket</button>
+</div>
 
-            <p>
-                Two cheeseplates offer mounting points for monitors or tablets, and there is a boom holder as well as a telescopic stand for antennas, accompanied by two 5m BNC cables. 
-                The cart also includes a V-mount battery plate that powers integrated lights on the middle shelf and inside the rack drawer, each with its own separate switch. 
-                Additionally, there are 3x USB 5V outputs for charging tablets or phones.
-            </p>
+<main>
+    <h1></h1>
 
-            <br><br>
+    <div class="equipment-detail">
+        <p>
+            Soundcart handmade by Ragnar Bøe. 
+        </p>
+        <br><br>
 
-            <h2>Specifications</h2>
-            <ul>
-                <li><strong>Shelves:</strong> Top and middle shelf for sound bag; bottom shelf for larger boxes</li>
-                <li><strong>Foldout Table:</strong> Right-hand side extension for extra workspace</li>
-                <li><strong>Rack Mounting:</strong> 19" rack setup with quick connections</li>
-                <li><strong>Connectivity:</strong> 2x 6.3" jack outputs and 6x XLR inputs</li>
-                <li><strong>Storage Solutions:</strong> Rackmounted drawer and additional shelf</li>
-                <li><strong>Mounting Options:</strong> Two cheeseplates for monitors or tablets</li>
-                <li><strong>Boom & Antennas:</strong> Boom holder and telescopic stand with 2x 5m BNC cables</li>
-                <li><strong>Power:</strong> V-mount battery plate with separate light switches for shelf and drawer</li>
-                <li><strong>USB Outputs:</strong> 3x USB 5V ports for device charging</li>
-            </ul>
+        <!-- Description -->
+        <p>
+            The cart is made with a top and middle shelf for storing a sound bag, along with a foldout table on the right-hand side for extra work surface and a bottom shelf for larger boxes. 
+            Designed with mobility and efficiency in mind, it provides ample storage and convenient access to essential audio gear.
+        </p>
 
-            <br><br>
-            <h2>Key Features</h2>
-            <ul>
-                <li>Top, middle, and bottom shelves to accommodate various audio gear and larger boxes</li>
-                <li>Foldout side table for added workspace on location</li>
-                <li>19" rack mounting with multiple input/output options for quick microphone connections</li>
-                <li>Rackmounted drawer and extra shelf for organized accessory storage</li>
-                <li>Two cheeseplates for versatile monitor or tablet mounting</li>
-                <li>Boom holder and telescopic antenna stand for extended audio capabilities</li>
-                <li>Built-in V-mount battery plate powering dedicated lights on shelves and in the drawer</li>
-                <li>Three USB outputs (5V) for convenient mobile device charging</li>
-            </ul>
+        <p>
+            It also features 19" rack mounting equipped with 2x 6.3" jack outputs and 6x XLR inputs, allowing quick connections for microphones and other audio devices. 
+            A rackmounted drawer and an additional rackmounted shelf offer secure, easily accessible storage for smaller accessories.
+        </p>
 
-            <!-- Image Slider Markup -->
-            <div class="image-slider">
-                <img id="imageSlider" src="../images/shittycarts-soundcart.png" alt="ShittyCarts Soundcart" />
-            </div>
-            <div>
-                <button id="prevButton">Previous</button>
-                <button id="nextButton">Next</button>
-            </div>
+        <p>
+            Two cheeseplates offer mounting points for monitors or tablets, and there is a boom holder as well as a telescopic stand for antennas, accompanied by two 5m BNC cables. 
+            The cart also includes a V-mount battery plate that powers integrated lights on the middle shelf and inside the rack drawer, each with its own separate switch. 
+            Additionally, there are 3x USB 5V outputs for charging tablets or phones.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Shelves:</strong> Top and middle shelf for sound bag; bottom shelf for larger boxes</li>
+            <li><strong>Foldout Table:</strong> Right-hand side extension for extra workspace</li>
+            <li><strong>Rack Mounting:</strong> 19" rack setup with quick connections</li>
+            <li><strong>Connectivity:</strong> 2x 6.3" jack outputs and 6x XLR inputs</li>
+            <li><strong>Storage Solutions:</strong> Rackmounted drawer and additional shelf</li>
+            <li><strong>Mounting Options:</strong> Two cheeseplates for monitors or tablets</li>
+            <li><strong>Boom & Antennas:</strong> Boom holder and telescopic stand with 2x 5m BNC cables</li>
+            <li><strong>Power:</strong> V-mount battery plate with separate light switches for shelf and drawer</li>
+            <li><strong>USB Outputs:</strong> 3x USB 5V ports for device charging</li>
+        </ul>
+
+        <br><br>
+        <h2>Key Features</h2>
+        <ul>
+            <li>Top, middle, and bottom shelves to accommodate various audio gear and larger boxes</li>
+            <li>Foldout side table for added workspace on location</li>
+            <li>19" rack mounting with multiple input/output options for quick microphone connections</li>
+            <li>Rackmounted drawer and extra shelf for organized accessory storage</li>
+            <li>Two cheeseplates for versatile monitor or tablet mounting</li>
+            <li>Boom holder and telescopic antenna stand for extended audio capabilities</li>
+            <li>Built-in V-mount battery plate powering dedicated lights on shelves and in the drawer</li>
+            <li>Three USB outputs (5V) for convenient mobile device charging</li>
+        </ul>
+
+        <!-- Image Slider Markup -->
+        <div class="image-slider">
+            <img id="imageSlider" src="../images/shittycarts-soundcart.png" alt="ShittyCarts Soundcart" />
         </div>
+        
+        <!-- Centered container for the Next/Prev buttons -->
+        <div class="image-slider-controls">
+            <button id="prevButton" class="slider-nav-button">Previous</button>
+            <button id="nextButton" class="slider-nav-button">Next</button>
+        </div>
+    </div>
 
-        <nav>
-            <a href="../tralle.html">Back to Camera Equipment</a>
-        </nav>
-    </main>
+    <nav>
+        <a href="../tralle.html">Back to Camera Equipment</a>
+    </nav>
+</main>
 
-    <footer>
-        <p>© 2024 Equipment Rental</p>
-    </footer>
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
 
-    <!-- Your existing scripts -->
-    <script src="../main.js"></script>
-    <script src="../basket.js"></script>
-    <script src="../search.js"></script>
+<!-- Existing scripts -->
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
 
-    <!-- Slider Script -->
-    <script>
-        // Put the file paths or URLs of your images in this array:
-        const images = [
-            "../images/shittycarts-soundcart.png",
-            "../images/shittycarts-soundcart2.png",
-            "../images/shittycarts-soundcart3.png",
-            "../images/shittycarts-soundcart4.png",
-            "../images/shittycarts-soundcart5.png",
-            "../images/shittycarts-soundcart6.png",
-            // Add more images as needed
-        ];
+<!-- Slider Script -->
+<script>
+    // Put the file paths or URLs of your images in this array:
+    const images = [
+        "../images/shittycarts-soundcart.png",
+        "../images/shittycarts-soundcart2.png",
+        "../images/shittycarts-soundcart3.png",
+        "../images/shittycarts-soundcart4.png",
+        "../images/shittycarts-soundcart5.png",
+        "../images/shittycarts-soundcart6.png",
+        // Add more images as needed
+    ];
 
-        let currentIndex = 0; // Start with the first image
+    let currentIndex = 0; // Start with the first image
 
-        // Grab references to the DOM elements
-        const imageElement = document.getElementById("imageSlider");
-        const prevButton   = document.getElementById("prevButton");
-        const nextButton   = document.getElementById("nextButton");
+    // Grab references to the DOM elements
+    const imageElement = document.getElementById("imageSlider");
+    const prevButton   = document.getElementById("prevButton");
+    const nextButton   = document.getElementById("nextButton");
 
-        // Function to update the <img> based on currentIndex
-        function updateImage() {
-            imageElement.src = images[currentIndex];
-        }
+    // Function to update the <img> based on currentIndex
+    function updateImage() {
+        imageElement.src = images[currentIndex];
+    }
 
-        // Move to the previous image
-        prevButton.addEventListener("click", () => {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            updateImage();
-        });
+    // Move to the previous image
+    prevButton.addEventListener("click", () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        updateImage();
+    });
 
-        // Move to the next image
-        nextButton.addEventListener("click", () => {
-            currentIndex = (currentIndex + 1) % images.length;
-            updateImage();
-        });
-    </script>
+    // Move to the next image
+    nextButton.addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateImage();
+    });
+</script>
 </body>
 </html>
