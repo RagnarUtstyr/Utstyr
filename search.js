@@ -153,6 +153,7 @@ const items = [
     { name: "Samsung Gear 360" , keywords: "360 Kamera Camera samsung" , url: "html/Gear360.html" },
     { name: "Sekonic L-858D Lightmeter" , keywords: "Light Meter lightmeter sekonic l858 l858d seconic lys lysmåler sekonik" , url: "html/lightmeter.html" },
     { name: "Directors Headset" , keywords: "Headset headphones director listen lytting hodetelefoner" , url: "html/dirhead.html" },
+    { name: "Vocas Leather Hand Grip Kit" , keywords: "handle grip håndtak hand handgrip vocas rosette rosett" , url: "html/vocashand.html" },
        // Add more items here...
     ];
     
