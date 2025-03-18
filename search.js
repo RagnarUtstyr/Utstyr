@@ -154,6 +154,7 @@ const items = [
     { name: "Sekonic L-858D Lightmeter" , keywords: "Light Meter lightmeter sekonic l858 l858d seconic lys lysmåler sekonik" , url: "html/lightmeter.html" },
     { name: "Directors Headset" , keywords: "Headset headphones director listen lytting hodetelefoner" , url: "html/dirhead.html" },
     { name: "Vocas Leather Hand Grip Kit" , keywords: "handle grip håndtak hand handgrip vocas rosette rosett" , url: "html/vocashand.html" },
+    { name: "V-Mount Sharkfin Plate" , keywords: "vmount v-mount shark fin sharkfinplate hotswap " , url: "html/sharkfin.html" },
        // Add more items here...
     ];
     
