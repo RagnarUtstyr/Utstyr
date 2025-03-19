@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinefoil</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../lys.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Update item name ('Cinefoil') and the quantity in addToBasket as needed -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Cinefoil', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Cinefoil</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Roll Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            Cinefoil is a flexible, heat-resistant, matte black aluminum foil designed to shape, block, or mask off unwanted light. 
+            Its non-reflective surface effectively absorbs light, making it easy to control spill and prevent glare on set. 
+            Quick to cut and mold, Cinefoil is a favorite among gaffers and cinematographers for making custom barn doors, 
+            flags, or gobos in a pinch.
+        </p>
+
+        <p>
+            Whether you're blacking out a window edge, wrapping a light to reduce flare, or shaping a beam for precise lighting 
+            effects, Cinefoil provides a portable, cost-effective solution. It’s especially handy for on-location shoots 
+            where speed and adaptability are critical, and packs neatly into most gear bags.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Type:</strong> Matte black aluminum foil</li>
+            <li><strong>Width:</strong> Approx. 12 inches (30 cm)</li>
+            <li><strong>Length:</strong> Approx. 50 feet (15 m) per roll</li>
+            <li><strong>Temperature Resistance:</strong> Heat-resistant for use near hot lights</li>
+            <li><strong>Weight:</strong> ~1.5 kg per roll</li>
+            <li><strong>Usage:</strong> Light masking, shaping, and spill control</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Scope of Delivery</h2>
+        <ul>
+            <li>1x Roll of Cinefoil</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Matte black surface minimizes reflections</li>
+            <li>Highly flexible and easy to shape or cut</li>
+            <li>Heat-resistant for use on or near hot fixtures</li>
+            <li>Lightweight and portable</li>
+            <li>Ideal for blocking light leaks, creating flags, or crafting quick DIY modifiers</li>
+        </ul>
+
+        <!-- Update image source/filename as appropriate -->
+        <img src="../images/cinefoil.jpg" alt="Cinefoil Roll">
+    </div>
+
+    <nav>
+        <a href="../lys.html">Back to Lighting Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

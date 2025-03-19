@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Wire</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span>
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../grip.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+    <button class="rtn-add-to-basket" onclick="addToBasket('Safety Wire', 1)">
+        Add to Basket
+    </button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Safety Wire</h1>
+
+    <div class="equipment-detail">
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This Safety Wire is an essential piece of grip equipment, designed to prevent 
+            accidental drops of cameras, lighting fixtures, or other gear on set. The 
+            robust steel cable ensures reliable protection in case of mount failures, 
+            adding a vital layer of security during fast-paced shoots or overhead rigging.
+        </p>
+        <p>
+            Equipped with secure carabiner clips at both ends, the wire attaches easily 
+            to rigging points, light stands, or camera cages. Its lightweight, flexible 
+            design makes it simple to pack and deploy, whether you’re on location or in 
+            a studio setting.
+        </p>
+        <p>
+            Protecting crew, talent, and equipment is paramount in professional film or 
+            TV productions—and this Safety Wire helps you do just that, ensuring peace 
+            of mind on set.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Material:</strong> Steel wire with protective coating</li>
+            <li><strong>Length:</strong> 60 cm (23.6&quot;)</li>
+            <li><strong>Diameter:</strong> 2.5 mm (approx. 0.1&quot;)</li>
+            <li><strong>End Fittings:</strong> Dual locking carabiners</li>
+            <li><strong>Load Capacity:</strong> Up to 20 kg (44 lbs)</li>
+            <li><strong>Weight:</strong> Approx. 60 g (0.13 lbs)</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Prevents accidental drops and damage to equipment</li>
+            <li>Durable steel construction for reliable on-set use</li>
+            <li>Lightweight and easy to store in grip or camera bags</li>
+            <li>Locking carabiners enable quick, secure attachment</li>
+            <li>Suitable for rigging cameras, lights, or other gear overhead</li>
+        </ul>
+
+        <img src="../images/safetywire.jpg" alt="Safety Wire for Cameras and Lighting" />
+    </div>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>

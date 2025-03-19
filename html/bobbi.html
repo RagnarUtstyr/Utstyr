@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobbi Net</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../lys.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Make sure to update 'Bobbi Net' in the addToBasket function name/value as you see fit -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Bobbi Net', 2)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Bobbi Net</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>2 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Bobbi Net is a versatile lighting modifier commonly used by cinematographers and photographers to reduce or shape 
+            the intensity of a light source. Constructed from a durable mesh material, it softens and subtly cuts down light, 
+            helping control hotspots and manage contrast. It can be easily attached to barn doors, frames, or other light-control 
+            rigs on set.
+        </p>
+
+        <p>
+            Ideal for both studio and on-location shoots, the Bobbi Net offers a quick way to fine-tune lighting setups without 
+            having to move or swap out larger accessories. By using various degrees (from full to half net), you can precisely 
+            reduce light output to achieve the desired effect. Lightweight and compact, it travels easily and is a staple 
+            in most grip departments.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Type:</strong> Single Bobbi Net (Medium Density)</li>
+            <li><strong>Material:</strong> Durable nylon mesh</li>
+            <li><strong>Size:</strong> Approx. 18" x 24" (varies by model)</li>
+            <li><strong>Light Reduction:</strong> Approximately 1 stop</li>
+            <li><strong>Compatibility:</strong> Common barn door frames and net holders</li>
+            <li><strong>Weight:</strong> ~100 g</li>
+            <li><strong>Usage:</strong> Ideal for subtle light control and highlight softening</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Scope of Delivery</h2>
+        <ul>
+            <li>1x Bobbi Net (Medium Density)</li>
+            <li>1x Protective sleeve or pouch</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Reduces or shapes light without overly softening it</li>
+            <li>Durable nylon mesh construction</li>
+            <li>Quick and easy attachment to standard fixtures</li>
+            <li>Lightweight and compact, ideal for travel</li>
+            <li>Provides precise control over highlights and contrast</li>
+        </ul>
+
+        <!-- Update image source/filename as appropriate -->
+        <img src="../images/bobbi.jpg" alt="Bobbi Net">
+    </div>
+
+    <nav>
+        <a href="../lys.html">Back to Lighting Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

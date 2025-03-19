@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavalier Belt</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Camera -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../lyd.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('Lavalier Belt', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Lavalier Belt</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <h2>Inventory</h2>
+        <p>5 Available</p>
+
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This Lavalier Belt is a discreet, comfortable solution for securely wearing wireless microphone transmitters or small audio recorders. Made from lightweight and breathable fabric, it can be worn under or over clothing to keep cables and transmitters neatly stowed away.
+        </p>
+        <p>
+            Designed with adjustable Velcro fasteners, the belt is simple to fit on anyone. It features a specialized, stretchable pouch that accommodates most standard transmitters while preventing slipping or shifting during use. Ideal for interviews, stage performances, film shoots, or other scenarios where discreet microphone placement is essential.
+        </p>
+        <p>
+            Keep your audio gear secure, stable, and out of sight while maintaining comfort and mobility — all in one convenient accessory.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Material:</strong> Stretchable neoprene blend</li>
+            <li><strong>Closure:</strong> Adjustable Velcro fasteners</li>
+            <li><strong>Pouch Size:</strong> Fits most standard lavalier mic transmitters</li>
+            <li><strong>Belt Length:</strong> One-size-fits-most (60cm - 110cm adjustable)</li>
+            <li><strong>Weight:</strong> 0.1 kg (0.22 lbs)</li>
+            <li><strong>Color:</strong> Black</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Comfortable, lightweight belt for lavalier transmitters</li>
+            <li>Durable, breathable neoprene construction</li>
+            <li>Adjustable Velcro closures for a secure fit</li>
+            <li>Discreet and low-profile design for film, stage, or broadcast</li>
+            <li>Universal pouch size accommodates various transmitters</li>
+        </ul>
+
+        <img src="../images/lavbelt.jpg" alt="Lavalier Belt" />
+    </div>
+
+    <nav>
+        <a href="../lyd.html">Back to Sound Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

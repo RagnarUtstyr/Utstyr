@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lens Support for 15mm Rods</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span>
+        </a>
+    </div>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Camera -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Back button to Camera Accessories (adjust link as needed) -->
+<div class="rtn-back-button-container">
+    <a href="../camacc.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<!-- Add to Basket Button -->
+<div>
+    <button class="rtn-add-to-basket" onclick="addToBasket('Lens Support for 15mm Rods', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Lens Support for 15mm Rods</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This adjustable lens support is designed for 15mm rod-based camera rigs, providing 
+            extra stability and preventing lens droop or strain. Ideal for longer or heavier lenses, 
+            it helps maintain precise alignment for both manual and motorized focus systems, 
+            ensuring sharper imagery and reducing stress on your camera mount.
+        </p>
+
+        <p>
+            Constructed from durable aluminum alloy, the lens support features an adjustable 
+            center column with a cushioned cradle, accommodating a wide range of lens diameters. 
+            Once fastened to the dual 15mm rod system, it locks tightly into place to keep your 
+            lens stable during movements, panning, or tilt shots.
+        </p>
+
+        <p>
+            Whether you’re shooting on location or in the studio, this lens support minimizes 
+            the risk of lens mount damage and delivers added confidence for your setup.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Model:</strong> 15mm Rod Lens Support</li>
+            <li><strong>Rod System:</strong> Standard 15mm spacing</li>
+            <li><strong>Material:</strong> Aluminum alloy</li>
+            <li><strong>Height Adjustment:</strong> Up to 35 mm from rod center</li>
+            <li><strong>Weight:</strong> Approx. 150 g (0.33 lbs)</li>
+            <li><strong>Compatibility:</strong> Fits most lens diameters up to 114 mm</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Prevents lens sag and maintains perfect alignment</li>
+            <li>Quickly clamps onto standard 15mm rod systems</li>
+            <li>Cushioned cradle protects lens surfaces</li>
+            <li>Height-adjustable design to match various lens sizes</li>
+            <li>Sturdy aluminum construction for long-term reliability</li>
+        </ul>
+
+        <img src="../images/support15.jpg" alt="Lens Support for 15mm Rods" />
+    </div>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>

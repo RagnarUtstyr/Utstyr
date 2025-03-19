@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>DC to 2-pin LEMO Cable</title>
+    <link rel='icon' type='image/png' sizes='64x64' href='../images/favicon-64x64.png'>
+    <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='../styles.css'>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <div class='logo'>
+        <a href='../index.html'>
+            <img src='../images/logo.png' alt='Ragnar Bøe Utstyrsleie Logo'>
+        </a>
+    </div>
+
+    <div id='search-bar-container'>
+        <input type='text' id='global-search-field' placeholder='Search' autocomplete='off'>
+        <div id='dropdown-results' class='dropdown-results'></div>
+    </div>
+
+    <div class='basket-icon-container'>
+        <a href='../basket.html'>
+            <img src='../images/basket-icon.png' alt='Basket' class='basket-icon'/>
+            <span id='basket-icon-count'>0</span>
+        </a>
+    </div>
+
+    <nav>
+        <ul class='navbar'>
+            <li><a href='../index.html'>Home</a></li>
+            <li class='dropdown'>
+                <a href='../equipment.html' class='dropbtn'>Equipment</a>
+                <ul class='dropdown-content'>
+                    <li><a href='../camera.html'>Camera</a></li>
+                    <li><a href='../camacc.html'>Camera Accessories</a></li>
+                    <li><a href='../optikk.html'>Optikk</a></li>
+                    <li><a href='../monitor.html'>Monitor</a></li>
+                    <li><a href='../fokus.html'>Fokus</a></li>
+                    <li><a href='../video.html'>Wireless</a></li>
+                    <li><a href='../batteri.html'>Battery</a></li>
+                    <li><a href='../lys.html'>Light</a></li>
+                    <li><a href='../grip.html'>Grip</a></li>
+                    <li><a href='../lyd.html'>Sound</a></li>
+                    <li><a href='../filter.html'>Filter</a></li>
+                    <li><a href='../tralle.html'>Carts</a></li>
+                    <li><a href='../power.html'>Power and EL</a></li>
+                    <li><a href='../cables.html'>Cables</a></li>
+                </ul>
+            </li>
+            <li class='dropdown'>
+                <a href='../Contact.html' class='dropbtn'>Contact</a>
+                <ul class='dropdown-content'>
+                    <li><a href='../About.html'>About</a></li>
+                    <li><a href='../Contact.html'>Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Back button -->
+<div class='rtn-back-button-container'>
+    <a href='../cables.html' class='rtn-back-button'>Go Back</a>
+</div>
+
+<!-- Add to basket button -->
+<div>
+    <button class='rtn-add-to-basket' onclick="addToBasket('DC to 2-pin LEMO Cable', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Product Title -->
+    <h1>DC to 2-pin LEMO Cable</h1>
+
+    <div class='equipment-detail'>
+        <!-- Description -->
+        <p>
+            This DC to 2-pin LEMO cable provides a reliable connection for powering 
+            various professional cameras and accessories. The DC barrel connector on one end 
+            securely fits most common DC outputs, while the 2-pin LEMO connector on the other end 
+            ensures a stable link to compatible devices such as ARRI and other high-end camera systems.
+        </p>
+        <p>
+            Constructed with high-quality materials and sturdy strain relief, this cable 
+            is designed to withstand the rigors of on-location shoots and daily studio use. 
+            Its flexible design makes routing around rigs, tripods, or shoulder mounts easy and 
+            tangle-free. Whether you're working on a film set or a broadcast production, 
+            this cable helps deliver consistent power to your gear.
+        </p>
+
+        <!-- Placeholder image (update if you have an actual image) -->
+        <img src='../images/dc-lemo.jpg' alt='DC to 2-pin LEMO Cable' />
+    </div>
+
+    <!-- Secondary navigation link -->
+    <nav>
+        <a href='../cables.html'>Back to Cables</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src='../main.js'></script>
+<script src='../basket.js'></script>
+<script src='../search.js'></script>
+</body>
+</html>

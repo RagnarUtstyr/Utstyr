@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhiyun Smooth X</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Camera -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../camacc.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+    <button class="rtn-add-to-basket" onclick="addToBasket('Zhiyun Smooth X', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Zhiyun Smooth X</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Zhiyun Smooth X is a compact, foldable smartphone gimbal designed for quick, on-the-go filming. 
+            Thanks to its innovative 2-axis stabilizing system, you can capture smooth, steady footage whether 
+            you’re vlogging, traveling, or recording casual family moments.
+        </p>
+
+        <p>
+            Its telescoping aluminum arm extends to help you achieve creative angles and perfect selfies, 
+            while intuitive onboard controls let you switch between portrait and landscape modes instantly.
+            With a lightweight build and user-friendly design, the Zhiyun Smooth X is perfect for 
+            upgrading your smartphone videography and photography game.
+        </p>
+
+        <p>
+            The free ZY Cami app offers intelligent tracking features, cinematic video templates, and 
+            easy editing tools — giving you everything you need to create polished, professional-looking 
+            content straight from your phone.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Model:</strong> Zhiyun Smooth X</li>
+            <li><strong>Compatibility:</strong> Most iOS/Android smartphones up to 235g (approx. 0.52 lbs)</li>
+            <li><strong>Stabilization:</strong> 2-axis gimbal (pan & roll)</li>
+            <li><strong>Telescoping Arm Extension:</strong> Up to 260 mm (10.2 inches)</li>
+            <li><strong>Battery Life:</strong> Up to 5.5 hours</li>
+            <li><strong>App Integration:</strong> ZY Cami for gestures, tracking, and video editing</li>
+            <li><strong>Weight:</strong> Approx. 246 g (0.54 lbs)</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Foldable and lightweight design for easy portability</li>
+            <li>2-axis stabilization ensures smooth footage on the go</li>
+            <li>Telescoping arm for extended reach and creative angles</li>
+            <li>Switch between portrait and landscape instantly</li>
+            <li>ZY Cami app offers smart tracking and editing tools</li>
+            <li>Long-lasting battery for extended shooting sessions</li>
+        </ul>
+
+        <img src="../images/cellgimbal.jpg" alt="Zhiyun Smooth X" />
+    </div>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>

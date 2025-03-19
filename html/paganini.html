@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paganini</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span>
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../grip.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+    <!-- The product is called “Paganini,” though it refers to a Half Basso Block Set for film grip use. -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Paganini', 1)">
+        Add to Basket
+    </button>
+</div>
+
+<main>
+    <!-- Title uses “Paganini,” but content is about a Half Basso Block Set for grip. -->
+    <h1>Paganini</h1>
+
+    <div class="equipment-detail">
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Set Available</p>
+
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The “Paganini” set is our Half Basso Block offering, designed for grip departments 
+            working on film, TV, or commercial sets. These wooden blocks are ideal for leveling 
+            and stabilizing dollies, track, or other heavy equipment on uneven terrain.
+        </p>
+        <p>
+            Made from durable, seasoned wood, each half block maintains consistent density and 
+            grain, ensuring reliable support and minimal splitting. Whether you’re building up 
+            a dolly platform, stabilizing stands, or adjusting camera angles on location, 
+            these blocks help you set up safely and efficiently.
+        </p>
+        <p>
+            The half-block design reduces excess weight and footprint, making them easy to 
+            carry and stack. From smooth studio floors to challenging outdoor surfaces, 
+            “Paganini” blocks provide a versatile and dependable foundation for your rigging 
+            and support needs.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Product Name:</strong> “Paganini” Half Basso Block Set</li>
+            <li><strong>Material:</strong> Seasoned hardwood (maple or equivalent)</li>
+            <li><strong>Block Dimensions:</strong> Approx. 30 x 15 x 10 cm each (12&quot; x 6&quot; x 4&quot;)</li>
+            <li><strong>Usage:</strong> Leveling dollies, track, stands, and grip setups</li>
+            <li><strong>Design:</strong> Half-block for lighter weight and easy stacking</li>
+            <li><strong>Number of Pieces:</strong> 2 half-blocks per set</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Sturdy, seasoned wood ideal for supporting heavy loads</li>
+            <li>Half-block design reduces bulk while remaining stable</li>
+            <li>Essential for leveling camera dollies or track on uneven surfaces</li>
+            <li>Compatible with standard grip practices for film and TV productions</li>
+            <li>Convenient size for quick stacking, transport, and repositioning</li>
+        </ul>
+
+        <img src="../images/paganini.jpg" alt="Paganini - Half Basso Block Set for Grip" />
+    </div>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a> <!-- Adjust if needed -->
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>
