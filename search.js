@@ -182,6 +182,8 @@ const items = [
     { name: "15mm Lens Support" , keywords: "15mm lens support follow focus rods suppor lense supprot mispell", url: "html/support15.html" },
     { name: "19mm Lens Support" , keywords: "19mm lens support follow focus rods suppor lense supprot mispell", url: "html/support19.html" },
     { name: "Paganini Set" , keywords: "paganini set pangini paanini metal bracket mounting rig rigg mispell", url: "html/paganini.html" },
+    { name: "Articulating Arm" , keywords: "articulating noga smallrig cameraarm kameraarm monitorarm monitor kamera", url: "html/articulating.html" },
+    { name: "Dji Mavic mini" , keywords: "dji mavic drone", url: "html/djimini.html" },
        // Add more items here...
     ];
     

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generic Articulating Arm</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../grip.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Change item name and quantity as needed -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Articulating Arm', 2)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Generic Articulating Arm</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>2 Available</p>
+        
+        <br><br>
+        
+        <!-- Description -->
+        <p>
+            These Articulating Arms are versatile and sturdy mount solutions for cameras, monitors, lights, or other accessories. 
+            They offer precision adjustability for professional shoots. 
+            Its robust metal construction and secure locking mechanisms ensure stability, even under demanding conditions.
+        </p>
+        
+        <p>
+            Ideal for film and photography use, the arm features multiple joints that allow for a wide range of angles, 
+            enabling you to position your camera or accessory exactly where you need it. 
+            With a 1/4"-20 screw on one or both ends, it is compatible with most standard mounting options, 
+            and the center locking knob makes it quick and easy to tighten or loosen the joints simultaneously.
+        </p>
+
+        <p>
+            Whether you're attaching a monitor for easy viewing or rigging a small LED light, 
+            this articulating arm is a must-have accessory for any camera operator or content creator looking for flexibility and reliability.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Model:</strong> Articulating Arm</li>
+            <li><strong>Material:</strong> Aluminum alloy</li>
+            <li><strong>Mount Threads:</strong> 1/4"-20 screws on each end</li>
+            <li><strong>Maximum Length:</strong> 7–11 inches (varies by model)</li>
+            <li><strong>Locking Mechanism:</strong> Single-knob tightening for all joints</li>
+            <li><strong>Weight Capacity:</strong> Supports up to 2–4 kg (depending on model)</li>
+            <li><strong>Weight:</strong> Approximately 0.3–0.5 kg</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Fully articulating arm for versatile mounting</li>
+            <li>Aluminum alloy construction for lightweight durability</li>
+            <li>Compatible with standard 1/4"-20 mounts</li>
+            <li>Single-knob lock to secure multiple joints simultaneously</li>
+            <li>Ideal for on-camera monitors, small LED lights, or microphones</li>
+            <li>Perfect for professional film and photography setups</li>
+        </ul>
+        
+        <!-- Update image reference accordingly -->
+        <img src="../images/Noga.jpg" alt="Articulating Arm" />
+    </div>
+
+    <nav>
+        <a href="../grip.html">Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>
