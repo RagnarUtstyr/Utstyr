@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWIT PC-U130S</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Camera -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accesories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../batteri.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Update the product name & number available as needed -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('SWIT PC-U130S Charger', 6)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>SWIT PC-U130S Single Channel Charger</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>6 Available</p>
+        
+        <br><br>
+        
+        <!-- Description -->
+        <p>
+            The SWIT PC-U130S is a compact, single-channel V-mount charger designed for efficient and rapid battery charging. 
+            With its universal AC input (100–240 V) and lightweight design, this charger is ideal for both on-location shoots and studio use.
+        </p>
+        
+        <p>
+            Designed specifically for lithium-ion batteries, the PC-U130S delivers 16.8V/3.5A output, allowing you to quickly recharge 
+            V-mount batteries used by cinema cameras, broadcast camcorders, and other professional equipment. 
+            It features LED indicators for charging status, and its sturdy build ensures durability for everyday use in demanding environments.
+        </p>
+        
+        <p>
+            Whether you’re shooting documentaries, commercial projects, or studio broadcasts, the SWIT PC-U130S offers the reliability 
+            and portability professionals need to keep their gear powered throughout the day.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Model:</strong> SWIT PC-U130S</li>
+            <li><strong>Type:</strong> Single-channel lithium-ion battery charger</li>
+            <li><strong>Battery Mount:</strong> V-Mount</li>
+            <li><strong>Input:</strong> AC 100–240 V, 50/60 Hz</li>
+            <li><strong>Output:</strong> DC 16.8 V, 3.5 A</li>
+            <li><strong>Charging Time:</strong> ~4 hours for a 130 Wh battery</li>
+            <li><strong>Indicator:</strong> LED charge status</li>
+            <li><strong>Weight:</strong> Approx. 0.9 kg</li>
+            <li><strong>Dimensions:</strong> 16.0 x 9.0 x 5.8 cm</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Single-channel V-mount charger for professional lithium-ion batteries</li>
+            <li>Lightweight and compact form factor for travel and on-set use</li>
+            <li>LED indicators for easy monitoring of charging progress</li>
+            <li>Rapid 16.8 V / 3.5 A output for shorter charging times</li>
+            <li>Universal AC input (100–240 V) for worldwide operation</li>
+            <li>Robust build quality to withstand daily production demands</li>
+        </ul>
+        
+        <!-- Update the image reference and alt text as appropriate -->
+        <img src="../images/switpc.jpg" alt="SWIT PC-U130S Charger" />
+    </div>
+
+    <nav>
+        <a href="../batteri.html">Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>

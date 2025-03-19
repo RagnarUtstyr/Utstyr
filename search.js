@@ -184,6 +184,7 @@ const items = [
     { name: "Paganini Set" , keywords: "paganini set pangini paanini metal bracket mounting rig rigg mispell", url: "html/paganini.html" },
     { name: "Articulating Arm" , keywords: "articulating noga smallrig cameraarm kameraarm monitorarm monitor kamera", url: "html/articulating.html" },
     { name: "Dji Mavic mini" , keywords: "dji mavic drone", url: "html/djimini.html" },
+    { name: "SWIT PC-U130S" , keywords: "swit vmount v-mount v-lock vlock charger lader mount ", url: "html/switpc.html" },
        // Add more items here...
     ];
     
