@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rode VideoMic</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accesories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../lyd.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+    <button class="rtn-add-to-basket" onclick="addToBasket('Rode VideoMic', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Rode VideoMic Camera-Mount Shotgun Microphone</h1>
+    
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+        
+        <!-- Description -->
+        <p>
+            The Rode VideoMic is a popular on-camera shotgun microphone specifically designed for DSLR and mirrorless setups, 
+            offering improved audio capture for interviews, vlogs, and general video production. Its highly directional 
+            supercardioid pickup pattern focuses on audio in front of the camera, minimizing surrounding noise and ambience.
+        </p>
+        
+        <p>
+            An integrated shock mount isolates the microphone from vibrations and handling noise, delivering clearer and more 
+            professional sound. The microphone is powered by a standard 9V battery, providing an extended runtime for long shoots. 
+            It features a 3.5 mm TRS output jack for easy connection to your camera’s audio input.
+        </p>
+        
+        <p>
+            Lightweight and durable, the Rode VideoMic can be quickly mounted on your camera’s shoe mount or a boom pole, making 
+            it a versatile and essential tool for content creators, documentary filmmakers, and event videographers alike.
+        </p>
+        
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Model:</strong> Rode VideoMic</li>
+            <li><strong>Type:</strong> On-camera shotgun microphone</li>
+            <li><strong>Polar Pattern:</strong> Supercardioid</li>
+            <li><strong>Frequency Range:</strong> 40 Hz – 20 kHz</li>
+            <li><strong>Sensitivity:</strong> -38 dB ± 2 dB (1 V/Pa @ 1 kHz)</li>
+            <li><strong>Output Connection:</strong> 3.5 mm TRS mini-jack</li>
+            <li><strong>Power Source:</strong> 9V battery (up to 100 hours)</li>
+            <li><strong>Weight:</strong> ~176 g (6.2 oz)</li>
+            <li><strong>Dimensions:</strong> 25.0 x 6.5 x 10.0 cm (9.8 x 2.6 x 3.9 inches)</li>
+        </ul>
+        
+        <br><br>
+        
+        <h2>Key Features</h2>
+        <ul>
+            <li>Supercardioid pickup pattern for focused audio capture</li>
+            <li>Integrated shock mount to reduce handling noise</li>
+            <li>Powered by a single 9V battery for extended operation</li>
+            <li>Lightweight, durable design ideal for run-and-gun filming</li>
+            <li>3.5 mm TRS output for direct camera connection</li>
+            <li>Easy camera shoe or boom pole mounting</li>
+        </ul>
+        
+        <!-- Update the image reference and alt text as appropriate -->
+        <img src="../images/vidmic.jpg" alt="Rode VideoMic" />
+    </div>
+
+    <nav>
+        <a href="../lyd.html">Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+</body>
+</html>

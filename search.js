@@ -185,6 +185,7 @@ const items = [
     { name: "Articulating Arm" , keywords: "articulating noga smallrig cameraarm kameraarm monitorarm monitor kamera", url: "html/articulating.html" },
     { name: "Dji Mavic mini" , keywords: "dji mavic drone", url: "html/djimini.html" },
     { name: "SWIT PC-U130S" , keywords: "swit vmount v-mount v-lock vlock charger lader mount ", url: "html/switpc.html" },
+    { name: "Rode VideoMic" , keywords: "Rode VideoMic Camera-Mount Shotgun Microphone mic aux video", url: "html/vidmic.html" },
        // Add more items here...
     ];
     
