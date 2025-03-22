@@ -186,6 +186,7 @@ const items = [
     { name: "Dji Mavic mini" , keywords: "dji mavic drone", url: "html/djimini.html" },
     { name: "SWIT PC-U130S" , keywords: "swit vmount v-mount v-lock vlock charger lader mount ", url: "html/switpc.html" },
     { name: "Rode VideoMic" , keywords: "Rode VideoMic Camera-Mount Shotgun Microphone mic aux video", url: "html/vidmic.html" },
+    { name: "Rapidadapter 1/4-20" , keywords: "Rapidadapter 1/4-20 babypin thread receptical teradek mount reciever", url: "html/rapid.html" },
        // Add more items here...
     ];
     
