@@ -198,6 +198,7 @@ const items = [
     { name: "HDMI to SDI Converter", keywords: "hdmi sdi converter blackmagic design converter box camera feed production", url: "html/hdmisdi.html" },
     { name: "USB-A to USB-C Adapter", keywords: "usb-a usb-c adapter cable connection pc mac usb type-a c", url: "html/a2c.html" },
     { name: "USB-C to USB-A Adapter", keywords: "usb-c usb-a adapter cable connection pc mac usb type-c a", url: "html/c2a.html" },
+    { name: "USB-C to 4x USB-A Adapter", keywords: "usb-c 4x usb-a adapter hub multi-port cable connection pc mac usb type-c", url: "html/c24a.html" },
        // Add more items here...
     ];
     

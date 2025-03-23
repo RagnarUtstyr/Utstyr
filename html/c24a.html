@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USB-C to 4x USB-A Adapter</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Adjust the item name in the addToBasket function as appropriate -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('USB-C to 4x USB-A Adapter', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>USB-C to 4x USB-A Adapter (Hub)</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This USB-C to 4x USB-A Adapter (Hub) adds four high-speed USB-A ports to any USB-C–enabled device. It’s perfect for connecting multiple external drives, peripherals, or other USB-A devices to modern laptops or other USB-C–only gear.
+        </p>
+        <p>
+            Compact and easy to transport, the hub is bus-powered for minimal cable clutter. It supports fast data transfers – ideal for on-location file management or workstation setups where you need expanded I/O without sacrificing portability.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Input Connector:</strong> USB-C (male)</li>
+            <li><strong>Output Ports:</strong> 4x USB-A (female), typically USB 3.0 or higher</li>
+            <li><strong>Data Transfer Speed:</strong> Up to 5 Gbps (USB 3.0), model-dependent</li>
+            <li><strong>Power:</strong> Bus-powered via USB-C host (may require external power for certain high-draw devices)</li>
+            <li><strong>Dimensions:</strong> Approx. X cm x Y cm x Z cm</li>
+            <li><strong>Weight:</strong> Approximately X g/lbs</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Expands a single USB-C port into four USB-A ports</li>
+            <li>High-speed data transfers for quick file management</li>
+            <li>Compact and lightweight design for on-the-go use</li>
+            <li>Bus-powered for minimal cabling, though external power may be supported for high-current devices</li>
+            <li>Compatible with a wide range of operating systems and devices</li>
+        </ul>
+
+        <!-- Update the image src as needed -->
+        <img src="../images/usbc-4x-usba-hub.jpg" alt="USB-C to 4x USB-A Adapter (Hub)" />
+    </div>
+
+    <!-- Adjust link to whichever page suits your site structure best -->
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>
