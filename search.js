@@ -196,6 +196,8 @@ const items = [
     { name: "Lexar Multi Card Reader", keywords: "lexar multi card reader memory sd micro cfast usb data ", url: "html/multi.html" },
     { name: "SDI to HDMI Converter", keywords: "sdi hdmi converter blackmagic design converter box camera feed production", url: "html/sdihdmi.html" },
     { name: "HDMI to SDI Converter", keywords: "hdmi sdi converter blackmagic design converter box camera feed production", url: "html/hdmisdi.html" },
+    { name: "USB-A to USB-C Adapter", keywords: "usb-a usb-c adapter cable connection pc mac usb type-a c", url: "html/a2c.html" },
+    { name: "USB-C to USB-A Adapter", keywords: "usb-c usb-a adapter cable connection pc mac usb type-c a", url: "html/c2a.html" },
        // Add more items here...
     ];
     
