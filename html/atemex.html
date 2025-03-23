@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackmagic ATEM Mini Extreme</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Update the item name to your preferred display text -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('ATEM Mini Extreme', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Blackmagic ATEM Mini Extreme</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Blackmagic ATEM Mini Extreme is a powerful live production switcher designed to support more complex, multi-camera streaming setups. Equipped with eight HDMI inputs, multiple outputs, dedicated streaming hardware, and an expanded control panel, this switcher is ideal for large productions, live events, conferences, and studio broadcasts.
+        </p>
+        <p>
+            With advanced features like two separate HDMI outputs, two USB outputs, two independent media players, and up to 16-window multiview, the ATEM Mini Extreme offers unparalleled flexibility for professional streaming and live mixing. It supports various transitions, DVE effects, graphics overlays, and provides intuitive control through both physical buttons and ATEM Software Control.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Video Inputs:</strong> 8x HDMI (up to 1080p60)</li>
+            <li><strong>Video Outputs:</strong> 2x HDMI (Program/Multiview), 2x USB (Webcam Out), Ethernet for direct streaming</li>
+            <li><strong>Audio Inputs:</strong> 2x 3.5mm stereo mini jack, embedded HDMI audio from each input</li>
+            <li><strong>Streaming Engine:</strong> Hardware H.264 encoder for direct streaming via Ethernet</li>
+            <li><strong>Multiview:</strong> Up to 16-window multiview monitoring of all sources, status, and audio levels</li>
+            <li><strong>Other Features:</strong> 2 media players, picture-in-picture, keyers, transitions, and more</li>
+            <li><strong>Power:</strong> External 12V DC power supply</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>8 HDMI Inputs:</strong> Easily switch between multiple cameras, computers, or other HDMI sources.</li>
+            <li><strong>Dual USB Outputs:</strong> Simultaneously output to two different USB webcam feeds for various platforms or backup setups.</li>
+            <li><strong>Independent HDMI Outputs:</strong> Assign dedicated program, multiview, or clean feed outputs to two different monitors or recorders.</li>
+            <li><strong>Expanded Multiview:</strong> Monitor up to 16 windows on a single screen, including sources, preview, program, audio meters, and streaming status.</li>
+            <li><strong>Onboard Control Panel:</strong> Large set of physical buttons for quick access to transitions, effects, audio controls, and camera inputs.</li>
+            <li><strong>Full ATEM Software Control:</strong> Unlock advanced features, set up macros, load graphics, and manage media pools via Ethernet or USB.</li>
+            <li><strong>Seamless Live Streaming:</strong> Stream directly to popular platforms like YouTube, Facebook, or Twitch via built-in hardware encoder.</li>
+        </ul>
+
+        <!-- Update the image src/path as needed -->
+        <img src="../images/atemex.jpg" alt="Blackmagic ATEM Mini Extreme" />
+    </div>
+
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

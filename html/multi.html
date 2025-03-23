@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexar Multi-Card Reader</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Update the item name to your preferred display text -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Lexar Multi-Card Reader', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Lexar Multi-Card Reader</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Lexar Multi-Card Reader is a versatile and high-speed solution for anyone working with various memory cards. Supporting multiple formats like SD, microSD, CompactFlash, and more, this reader simplifies your workflow by eliminating the need for several single-format readers.
+        </p>
+        <p>
+            Whether you’re a photographer juggling multiple camera systems or a filmmaker offloading footage from multiple card types, the Lexar Multi-Card Reader ensures rapid file transfers over a USB 3.0 or 3.1 interface. Its compact design makes it easy to transport between set, studio, or office, while sturdy construction ensures durability.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Card Compatibility:</strong> SD, SDHC, SDXC (UHS-I/II), microSD, microSDHC, microSDXC, CompactFlash, and more (check exact model specs)</li>
+            <li><strong>Interface:</strong> USB 3.0 or 3.1 (Type-A or Type-C cable options based on model)</li>
+            <li><strong>Max Transfer Speeds:</strong> Up to 500+ MB/s (card-dependent)</li>
+            <li><strong>Power Source:</strong> Bus-powered via USB</li>
+            <li><strong>Dimensions:</strong> Approx. X cm x X cm x X cm</li>
+            <li><strong>Weight:</strong> Approx. X g/lbs</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Multiple Card Support:</strong> Handle various formats without juggling multiple readers.</li>
+            <li><strong>High-Speed Transfers:</strong> Quickly offload large files or 4K footage for efficient workflows.</li>
+            <li><strong>Portable Design:</strong> Lightweight and compact for easy transport between shoots and editing bays.</li>
+            <li><strong>Plug-and-Play:</strong> No additional drivers needed; works seamlessly across different operating systems.</li>
+            <li><strong>Durable Build:</strong> Reliable for professional use, travel, and harsh on-set environments.</li>
+        </ul>
+
+        <!-- Update the image src/path as needed -->
+        <img src="../images/multi.jpg" alt="Lexar Multi-Card Reader" />
+    </div>
+
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

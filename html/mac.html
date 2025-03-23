@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16&quot; MacBook Pro (M1)</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Adjust the item name in the addToBasket function as appropriate -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Macbook Pro M1', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>16&quot; MacBook Pro M1</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This 16-inch MacBook Pro with Apple&#39;s M1 architecture is a powerhouse for professional tasks. Equipped with the Studio version of DaVinci Resolve for advanced color grading and editing, plus Silverstack Offload Manager for secure and efficient media backups, it provides an all-in-one solution for on-set data management, post-production, and creative work.
+        </p>
+        <p>
+            Enjoy the seamless performance of the M1 chip, a high-resolution Retina display, robust battery life, and a suite of ports to connect your external devices. Whether you&#39;re editing 4K footage, color grading a feature film, or simply needing a reliable machine for data wrangling, this MacBook Pro delivers unmatched power and efficiency in a portable form factor.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Model:</strong> 16-inch MacBook Pro (M1)</li>
+            <li><strong>Display:</strong> 16-inch Retina Display</li>
+            <li><strong>Processor:</strong> Apple M1 chip (8-core CPU, integrated GPU)</li>
+            <li><strong>Memory:</strong> 16 GB Unified Memory (configurable)</li>
+            <li><strong>Storage:</strong> 512 GB SSD (configurable)</li>
+            <li><strong>Software:</strong> DaVinci Resolve Studio, Silverstack Offload Manager</li>
+            <li><strong>Battery Life:</strong> Up to 21 hours (depending on usage)</li>
+            <li><strong>Weight:</strong> Approximately 2.1 kg (4.8 lbs)</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Powered by Apple&#39;s M1 chip for top-tier performance</li>
+            <li>16-inch high-resolution Retina display</li>
+            <li>Pre-installed with DaVinci Resolve Studio for professional video editing</li>
+            <li>Silverstack Offload Manager for reliable media backup and verification</li>
+            <li>Long battery life for all-day work on set or on the move</li>
+            <li>Robust build quality for professional environments</li>
+        </ul>
+
+        <!-- Update the image src as needed -->
+        <img src="../images/mac.jpg" alt="16-inch MacBook Pro (M1)" />
+    </div>
+
+    <!-- Adjust link to whichever page suits your site structure best -->
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

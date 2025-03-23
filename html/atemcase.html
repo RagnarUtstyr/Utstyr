@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackmagic ATEM Mini Pro Case</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Update the item name to your preferred display text -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('Atem Mini Case', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Blackmagic ATEM Mini Pro Case</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This Blackmagic ATEM Mini Pro Case is a rugged Pelicase build that brings portable live production to any location. A 7″ monitor is mounted inside the lid for clear and immediate viewing of program output or multiview, and all essential connectors (HDMI, LAN, USB, audio) are built into the exterior for quick and easy setup. 
+        </p>
+        <p>
+            Ideal for compact broadcast setups, on-location streaming events, or mobile productions, this case protects your ATEM Mini Pro while offering a self-contained solution. The result is minimal fuss in rigging, efficient cable management, and rapid deployment so you can focus on delivering a professional live production.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Case:</strong> Pelicase design for durability and weather resistance</li>
+            <li><strong>Integrated Switcher:</strong> Blackmagic ATEM Mini Pro</li>
+            <li><strong>Built-in Monitor:</strong> 7″ display (supports up to 1080p)</li>
+            <li><strong>Mounted Connectors:</strong> HDMI inputs/outputs, USB, Ethernet, Audio I/O – all easily accessible on the exterior</li>
+            <li><strong>Power Input:</strong> Single AC connection to power the entire unit</li>
+            <li><strong>Weight:</strong> Approximately X kg / X lbs (depending on final build)</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>All-in-One Design:</strong> The ATEM Mini Pro, 7″ monitor, and connectors are enclosed in a Pelicase for ultimate portability and protection.</li>
+            <li><strong>Quick Setup:</strong> Mounting points and external connectors let you plug in your cameras, audio, and network in seconds.</li>
+            <li><strong>Integrated 7″ Monitor:</strong> View your program feed, multiview, or preview source directly within the lid.</li>
+            <li><strong>Durable Pelicase:</strong> Weather-resistant construction to endure travel, outdoor events, and rigorous production environments.</li>
+            <li><strong>Streamlined Cable Management:</strong> No more rummaging inside the case – all essential ports are clearly labeled and accessible outside.</li>
+            <li><strong>Professional Live Production:</strong> Leverage the ATEM Mini Pro’s hardware encoder for streaming, transitions, lower thirds, and more.</li>
+        </ul>
+
+        <!-- Update the image src/path as needed -->
+        <img src="../images/atemcase.jpg" alt="Blackmagic ATEM Mini Pro Case" />
+    </div>
+
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>

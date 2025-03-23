@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIT Case Computer</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <!-- Update the item name to your preferred display text -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('DIT Case Computer', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>High-End Editing Workstation (Intel i9‑9900K + RTX 2070)</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This custom-built PC is engineered for professional post-production tasks, live grading, and on-set data management. Featuring an Intel Core i9‑9900K processor, NVIDIA RTX 2070 GPU, and 64 GB of RAM, it can easily handle 4K video editing, color grading, VFX work, and more.
+        </p>
+        <p>
+            Pre-installed with DaVinci Resolve Studio, Hedge Offload, Foolcat, and Checkpoint, this workstation gives you everything you need for a reliable, efficient, and secure media workflow. The addition of DeckLink Mini Recorder 4K and DeckLink Mini Monitor 4K cards allows real-time capture and monitoring of 4K footage, making it ideal for live grading and high-resolution video pipelines.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>CPU:</strong> Intel Core i9‑9900K</li>
+            <li><strong>GPU:</strong> NVIDIA GeForce RTX 2070</li>
+            <li><strong>RAM:</strong> 64 GB DDR4</li>
+            <li><strong>Storage:</strong> 1 TB NVMe SSD (additional HDD options available)</li>
+            <li><strong>Add-On Cards:</strong> DeckLink Mini Recorder 4K, DeckLink Mini Monitor 4K</li>
+            <li><strong>Software:</strong> 
+                <ul>
+                    <li>DaVinci Resolve Studio</li>
+                    <li>Hedge Offload</li>
+                    <li>Foolcat</li>
+                    <li>Checkpoint</li>
+                </ul>
+            </li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>DaVinci Resolve Studio:</strong> Industry-leading color grading, editing, VFX, and audio post-production suite.</li>
+            <li><strong>Hedge Offload:</strong> Fast, secure file transfer and backup software, ideal for on-set media management.</li>
+            <li><strong>Foolcat:</strong> Camera report and overview generator, simplifying shot organization and metadata management.</li>
+            <li><strong>Checkpoint:</strong> Reliable data verification to ensure every transfer is accurate and complete.</li>
+            <li><strong>DeckLink Mini Recorder 4K:</strong> Real-time 4K video capture card for ingesting footage directly into your workflow.</li>
+            <li><strong>DeckLink Mini Monitor 4K:</strong> High-quality 4K output for live preview, grading, or broadcast monitoring.</li>
+            <li>Robust performance for editing 4K and higher resolutions with ease.</li>
+            <li>Built to handle demanding production environments and large data sets.</li>
+        </ul>
+
+        <!-- Update the image src/path as needed -->
+        <img src="../images/dit.jpg" alt="DIT Case Computer" />
+    </div>
+
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>
