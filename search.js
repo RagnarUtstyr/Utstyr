@@ -194,6 +194,8 @@ const items = [
     { name: "Atem Mini Extreme", keywords: "atem mini extreme blackmagic design switcher pro mixer streaming ", url: "html/atemex.html" },
     { name: "Lexar C-Fast Card Reader", keywords: "lexar cfast card reader c-fast memory media usb data ", url: "html/cfast.html" },
     { name: "Lexar Multi Card Reader", keywords: "lexar multi card reader memory sd micro cfast usb data ", url: "html/multi.html" },
+    { name: "SDI to HDMI Converter", keywords: "sdi hdmi converter blackmagic design converter box camera feed production", url: "html/sdihdmi.html" },
+    { name: "HDMI to SDI Converter", keywords: "hdmi sdi converter blackmagic design converter box camera feed production", url: "html/hdmisdi.html" },
        // Add more items here...
     ];
     
