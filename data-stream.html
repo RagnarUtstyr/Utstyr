@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batteries</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+     <!-- Logo on the left -->
+     <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+    
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+        </div>
+    
+<div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            
+            <!-- Dropdown for Camera -->
+            <li class="dropdown">
+                <a href="equipment.html" class="dropbtn">Equipment</a>
+                    <ul class="dropdown-content">
+                    	<li><a href="camera.html">Camera</a></li>
+                        <li><a href="camacc.html">Camera Accesories</a></li>
+                        <li><a href="optikk.html">Optikk</a></li>
+                        <li><a href="monitor.html">Monitor</a></li>
+                        <li><a href="fokus.html">Focus</a></li>
+			            <li><a href="video.html">Wireless</a></li>
+			            <li><a href="batteri.html">Battery</a></li>
+			            <li><a href="lys.html">Lights</a></li>
+			            <li><a href="grip.html">Grip</a></li>
+			            <li><a href="lyd.html">Sound</a></li>
+			            <li><a href="filter.html">Filter</a></li>
+			            <li><a href="tralle.html">Carts</a></li>
+                        <li><a href="power.html">Power and EL</a></li>
+                        <li><a href="cables.html">Cables</a></li>
+                        <li><a href="data-stream.html">Data/Stream</a></li>
+                        <li><a href="alleq.html" >All Search</a></li>
+                    </ul>
+            </li>
+            
+            <li class="dropdown">
+                <a href="Contact.html" class="dropbtn">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="equipment.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<main>
+    <h1>Data/Stream</h1>
+
+    <!-- Data/Stream Grid -->
+    <div class="content-grid">
+    
+    <!-- Macbook Pro M1 -->
+    <div class="nav-card">
+        <a href="html/mac.html">
+            <img src="images-small/mac.jpg" alt="Macbook Pro M1" />
+            <h2>Macbook Pro M1</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Macbook Pro M1', 1)">Add to Basket</button>
+    </div>
+
+    <!-- DIT Case Computer -->
+    <div class="nav-card">
+        <a href="html/dit.html">
+            <img src="images-small/dit" alt="DIT Case Computer" />
+            <h2>DIT Case Computer</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('DIT Case Computer', 1)">Add to Basket</button>
+    </div>
+
+    <!-- Atem Mini Pro -->
+    <div class="nav-card">
+        <a href="html/atempro.html">
+            <img src="images-small/atempro.jpg" alt="Atem Mini Pro" />
+            <h2>Atem Mini Pro</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Atem Mini Pro', 1)">Add to Basket</button>
+    </div>
+
+    <!-- Atem Mini Case -->
+    <div class="nav-card">
+        <a href="html/atemcase.html">
+            <img src="images-small/atemcase.jpg" alt="Atem Mini Case" />
+            <h2>Atem Mini Case</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Atem Mini Case', 1)">Add to Basket</button>
+    </div>    
+
+    <!-- Atem Mini Extreme -->
+    <div class="nav-card">
+        <a href="html/atemex.html">
+            <img src="images-small/atemex.jpg" alt="Atem Mini Extreme" />
+            <h2>Atem Mini Extreme</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Atem Mini Extreme', 1)">Add to Basket</button>
+    </div>    
+
+    <!-- Lexar C-Fast Card Reader -->
+    <div class="nav-card">
+        <a href="html/cfast.html">
+            <img src="images-small/cfast.jpg" alt="Lexar C-Fast Card Reader" />
+            <h2>Lexar C-Fast Card Reader</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Lexar C-Fast Card Reader', 1)">Add to Basket</button>
+    </div>       
+
+    <!-- Lexar Multi Card Reader -->
+    <div class="nav-card">
+        <a href="html/multi.html">
+            <img src="images-small/multi.jpg" alt="Lexar Multi Card Reader" />
+            <h2>Lexar Multi Card Reader</h2>
+        </a>
+		<button class="rtn-add-to-basket" onclick="addToBasket('Lexar Multi Card Reader', 1)">Add to Basket</button>
+    </div>
+
+</div>
+
+
+</main>
+
+<footer>
+    <p>© 2024 Ragnar Bøe Utstyrsleie</p>
+</footer>
+
+<script src="main.js"></script>
+<script src="basket.js"></script>
+<script src="search.js"></script>
+</body>
+</html>
