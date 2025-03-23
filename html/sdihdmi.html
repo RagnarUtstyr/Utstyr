@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDI to HDMI Converter</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+    
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            
+            <!-- Dropdown for Equipment -->
+            <li class="dropdown">
+                <a href="../equipment.html" class="dropbtn">Equipment</a>
+                <ul class="dropdown-content">
+                    <li><a href="../camera.html">Camera</a></li>
+                    <li><a href="../camacc.html">Camera Accessories</a></li>
+                    <li><a href="../optikk.html">Optikk</a></li>
+                    <li><a href="../monitor.html">Monitor</a></li>
+                    <li><a href="../fokus.html">Fokus</a></li>
+                    <li><a href="../video.html">Wireless</a></li>
+                    <li><a href="../batteri.html">Battery</a></li>
+                    <li><a href="../lys.html">Light</a></li>
+                    <li><a href="../grip.html">Grip</a></li>
+                    <li><a href="../lyd.html">Sound</a></li>
+                    <li><a href="../filter.html">Filter</a></li>
+                    <li><a href="../tralle.html">Carts</a></li>
+                    <li><a href="../power.html">Power and EL</a></li>
+                    <li><a href="../data-stream.html">Data/Stream</a></li>
+                    <li><a href="../cables.html">Cables</a></li>
+                </ul>
+            </li>
+            
+            <!-- Dropdown for Contact -->
+            <li class="dropdown">
+                <a href="../Contact.html" class="dropbtn">Contact</a>
+                <ul class="dropdown-content">
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <!-- Adjust this link to whichever category page is relevant -->
+    <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+    <!-- Update the item name to your preferred display text -->
+    <button class="rtn-add-to-basket" onclick="addToBasket('SDI to HDMI Converter', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>SDI to HDMI Converter</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <br><br>
+        
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            This SDI to HDMI Converter is designed to seamlessly convert professional SDI signals into HDMI for monitors, projectors, or other consumer-level displays. It supports common broadcast resolutions and provides reliable signal integrity for live productions, studio environments, or on-location shoots.
+        </p>
+        <p>
+            With a robust, compact build, this converter is easy to deploy and integrates quickly into existing workflows. Whether you need to monitor a broadcast feed, bridge professional and consumer equipment, or simply extend your display setup, this device ensures stable, high-quality video output.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Input:</strong> 1x SDI (supports up to 3G-SDI or higher, depending on model)</li>
+            <li><strong>Output:</strong> 1x HDMI (resolutions up to 1080p60 or above)</li>
+            <li><strong>Audio:</strong> Embedded SDI audio pass-through to HDMI output</li>
+            <li><strong>Power Source:</strong> External power supply (included)</li>
+            <li><strong>Dimensions:</strong> Approx. X cm x X cm x X cm</li>
+            <li><strong>Weight:</strong> Approx. X g/lbs</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Professional to Consumer:</strong> Effortlessly convert SDI feeds to HDMI for broader display compatibility.</li>
+            <li><strong>High-Quality Output:</strong> Maintains signal integrity for crisp video and clean audio pass-through.</li>
+            <li><strong>Compact & Durable:</strong> Sturdy design for reliable use on set, in the studio, or on the road.</li>
+            <li><strong>Easy Setup:</strong> Simple plug-and-play configuration with no additional software required.</li>
+            <li><strong>Versatile Use Cases:</strong> Ideal for monitoring broadcast feeds, connecting pro cameras to consumer screens, and more.</li>
+        </ul>
+
+        <!-- Update the image src/path as needed -->
+        <img src="../images/sdihdmi.jpg" alt="SDI to HDMI Converter" />
+    </div>
+
+    <nav>
+        <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+</body>
+</html>
