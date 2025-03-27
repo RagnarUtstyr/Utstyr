@@ -6,6 +6,7 @@ const items = [
     { name: "100mm High hat" , keywords: "100mm tripod high hat 100mm high hat 100mmhighhat" , url: "html/100mmhh.html" },
     { name: "Easyrig MinMax" , keywords: "minmax aasyrig easyrigminmax easyrig minmax minmex easyrig eesyrig" , url: "html/minmax.html" },
     { name: "Tilta MB T-12" , keywords: "tilta matteboks mb t-12 t-12 tilte tiltambt-12 tilta mb" , url: "html/mbt12.html" },
+    { name: "Shoot35 CINEbox 4x4 Matte Box" , keywords: "s35 shoot35 matteboks mb 4x4 4 x 4 cinebox cine box mb" , url: "html/cinebox.html" },
     { name: "100mm Danadolly" , keywords: "100mm slider danadolly denedolly 100mm danadolly 100mmdanadolly" , url: "html/100mm-danadolly.html" },
     { name: "150mm Danadolly" , keywords: "150mm slider danadolly denedolly 150mmdanadolly 150mm danadolly" , url: "html/150mm-danadolly.html" },
     { name: "Mitchell mnt. Danadolly" , keywords: "mnt. slider mitchellmnt.danadolly danadolly mitchell mnt. danadolly mitchall denedolly mitchell" , url: "html/mitchell-danadolly.html" },
