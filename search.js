@@ -25,6 +25,7 @@ const items = [
     { name: "Tilta Nucleus-m FIZ" , keywords: "nucleus-m nuclaus-m tilte tilta tiltanucleus-m følge tilta fokus nucleus-m nucleus-m nuclaus-m tilte tilta tiltanucleus-m tilta nucleus-m follow focus followfocus fiz" , url: "html/tilta-nucleus-m.html" },
     { name: "Tilta Nucleus Nano" , keywords: "nucleus-n nuclaus-n tilte tilta tiltanucleus-n mano namo nano mamo følge tilta fokus nucleus-m nucleus-n nuclaus-n tilte tilta tiltanucleus-n tilta nucleus-n follow focus followfocus fiz" , url: "html/nano.html" },
     { name: "Arri FF-4" , keywords: "ff-4 arri arri ff-4 arriff-4 follow focus følge fokus followfocus" , url: "html/arri-ff-4.html" },
+    { name: "Shoot35 Cinefocus Pro Follow Focus" , keywords: "cinefocus shoot cine focus 15mm 19mm swingaway swing away follow focus følge fokus followfocus" , url: "html/cinefocus.html" },
     { name: "IDX iMicro98 V-mount battery" , keywords: "v-mount battary battery bettery batteri imicro98 idx idx vmount imicro98 v-mount battery idximicro98v-mountbattery" , url: "html/idx-imicro98.html" },
     { name: "IDX Duo C198 V-mount battery" , keywords: "c198 idxduoc198v-mountbattery idx duo c198 batteri v-mount vmount battery v-mount battary duo battery bettery idx" , url: "html/idx-duo-c198.html" },
     { name: "IDX DUO 300 V-mount battery" , keywords: "300 v-mount idxduo300v-mountbattery batteri battary duo battery vmount bettery idx duo 300 v-mount battery idx" , url: "html/idx-duo-300.html" },
