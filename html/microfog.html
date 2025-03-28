@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroFogger 3 Lite</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+    <div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span>
+        </a>
+    </div>
+
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../fx.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('Micro Fogger', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <h1>MicroFogger 3 Lite</h1>
+
+    <div class="equipment-detail">
+        <br><br>
+
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+
+        <br><br>
+
+        <p>
+            The MicroFogger 3 Lite by Vosentech is a compact, handheld fog machine capable of producing dense fog bursts in a matter of seconds. 
+            Designed for portability and ease of use, it’s perfect for small-scale practical effects, tabletop shoots, product videos, or on-location fog needs.
+        </p>
+
+        <p>
+            The device operates with a simple button press and uses replaceable e-liquid cartridges for clean, controlled fog output. 
+            Its rechargeable internal battery provides several hours of use on a full charge, depending on intensity and frequency of activation.
+        </p>
+
+        <p>
+            The MicroFogger 3 Lite is a lighter, simplified version of its big brother, yet it still delivers impressive results with minimal setup. 
+            Perfect for DPs, SFX artists, and content creators needing mobility and speed.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> MicroFogger 3 Lite</li>
+            <li><strong>Control:</strong> Manual button activation</li>
+            <li><strong>Power:</strong> Internal rechargeable battery (USB-C charging)</li>
+            <li><strong>Fluid:</strong> Standard glycerin-based e-liquid</li>
+            <li><strong>Fog Output:</strong> Short controlled bursts (ideal for close-up use)</li>
+            <li><strong>Weight:</strong> Approx. 200g</li>
+            <li><strong>Battery Life:</strong> Varies with usage, typically 1–2 hours</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Ultra-portable handheld fog machine</li>
+            <li>Perfect for small-scale effects and tabletop setups</li>
+            <li>Manual button for direct fog control</li>
+            <li>USB-C rechargeable battery</li>
+            <li>Uses replaceable e-liquid cartridges</li>
+            <li>Low-profile, discreet, and quick to deploy</li>
+            <li>Lightweight and easy to carry</li>
+        </ul>
+
+        <img src="../images/microfog.jpg" alt="MicroFogger 3 Lite" />
+    </div>
+
+    <nav>
+        <a href="../fx.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>
