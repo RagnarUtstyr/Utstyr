@@ -121,6 +121,7 @@ const items = [
     { name: "3 pin Fisher >- 7 pin LEMO R/S 6K" , keywords: "fisher 3pinfisher->7pinlemor/s pin 3 pin fisher -> 7 pin lemo r/s -> 3 7 fishar lemo r/s fisher 3pinfisher->7pinlemor/s pin 3 pin fisher -> 7 pin lemo r/s -> 3 7 fishar lemo r/s" , url: "html/fishrs.html" },
     { name: "4 pin LEMO -> 7 pin LEMO R/S" , keywords: "pin 4pinlemo<-7pinlemor/s 4 pin lemo <- 7 pin lemo r/s 4 7 <- lemo r/s pin 4pinlemo<-7pinlemor/s 4 pin lemo <- 7 pin lemo r/s 4 7 <- lemo r/s" , url: "html/4pinrs.html" },
     { name: "7 pin LEMO -> 7 pin LEMO R/S" , keywords: "pin -> 7 7pinlemo->7pinlemor/s 7 pin lemo -> 7 pin lemo r/s lemo r/s" , url: "html/7pinrs.html" },
+    { name: "5 pin Lemo to 4 pin Lemo TC" , keywords: "pin 5 -> tc 5pinlemo->4pin REDtc RED nano nanolickit tc 5 pin lemo -> trs tc lemo trs" , url: "html/5pin4pin.html" },
     { name: "5 pin LEMO -> TRS TC" , keywords: "pin 5 -> tc 5pinlemo->trstc 5 pin lemo -> trs tc lemo trs" , url: "html/5pintrs.html" },
     { name: "TRS -> 5 pin LEMO TC" , keywords: "pin 5 trs->5pinlemotc -> tc trs lemo trs -> 5 pin lemo tc" , url: "html/trs5pin.html" },
     { name: "TRS -> BNC TC" , keywords: "trs->bnctc trs -> bnc tc -> bnc tc trs" , url: "html/trsbnc.html" },
