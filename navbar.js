@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     <li><a href='${prefix}power.html'>Power and EL</a></li>
                     <li><a href='${prefix}data-stream.html'>Data/Stream</a></li>
                     <li><a href='${prefix}cables.html'>Cables</a></li>
-                    <li><a href='${prefix}fx.html'>FX</a></li>
                     <li><a href='${prefix}alleq.html'>All Search</a></li>
                 </ul>
             </li>
