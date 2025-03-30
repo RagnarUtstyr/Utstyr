@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schuko to PowerCON</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="../index.html">
+      <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+    </a>
+  </div>
+
+  <div id="search-bar-container">
+    <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+    <div id="dropdown-results" class="dropdown-results"></div>
+  </div>
+
+  <div class="basket-icon-container">
+    <a href="../basket.html">
+      <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+      <span id="basket-icon-count">0</span>
+    </a>
+  </div>
+
+  <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+  <a href="../power.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+  <button class="rtn-add-to-basket" onclick="addToBasket('Schuko -> PowerCON', 1)">Add to Basket</button>
+</div>
+
+<main>
+  <h1>Schuko to PowerCON Cable</h1>
+
+  <div class="equipment-detail">
+    <br><br>
+
+    <h2>Inventory</h2>
+    <p>4 Available</p>
+
+    <br><br>
+
+    <p>
+      This Schuko to PowerCON adapter cable allows for seamless connection between standard European Schuko outlets and devices requiring a PowerCON input. It’s perfect for powering professional audio, video, or lighting equipment in studio, event, or touring environments.
+    </p>
+
+    <p>
+      Constructed with high-grade connectors and flexible rubber-insulated cable, this lead ensures reliable power delivery and secure locking with the PowerCON blue connector. Ideal for use with LED fixtures, hazers, switchers, and other stage equipment.
+    </p>
+
+    <p>
+      Its compact and durable build makes it ideal for rental setups where quick deployment and rugged reliability are key. Color-coded plugs ensure easy identification during setup and breakdown.
+    </p>
+
+    <br><br>
+
+    <h2>Specifications</h2>
+    <ul>
+      <li><strong>Connector A:</strong> Schuko (CEE 7/7) Male</li>
+      <li><strong>Connector B:</strong> PowerCON Blue (Neutrik NAC3FCA)</li>
+      <li><strong>Voltage Rating:</strong> 250V AC</li>
+      <li><strong>Current Rating:</strong> 16A max</li>
+      <li><strong>Cable Type:</strong> H07RN-F 3G1.5mm² rubber cable</li>
+      <li><strong>Length:</strong> 1.5 m</li>
+      <li><strong>Insulation:</strong> Weather-resistant flexible rubber</li>
+      <li><strong>Color:</strong> Black with blue PowerCON plug</li>
+    </ul>
+
+    <br><br>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Connects standard Schuko outlet to PowerCON-equipped devices</li>
+      <li>Heavy-duty cable with professional locking connector</li>
+      <li>Ideal for stage, studio, and AV equipment</li>
+      <li>Safe and secure connection with high power rating</li>
+      <li>Rugged and portable design for repeated use</li>
+    </ul>
+
+    <img src="../images/powercon.jpg" alt="Schuko to PowerCON Cable" />
+  </div>
+
+  <nav>
+    <a href="../power.html">Back to Power Equipment</a>
+  </nav>
+</main>
+
+<footer>
+  <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+<script src="../navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wind Up Stand</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="../index.html">
+      <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+    </a>
+  </div>
+
+  <div id="search-bar-container">
+    <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+    <div id="dropdown-results" class="dropdown-results"></div>
+  </div>
+
+  <div class="basket-icon-container">
+    <a href="../basket.html">
+      <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+      <span id="basket-icon-count">0</span>
+    </a>
+  </div>
+
+  <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+  <a href="../grip.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+  <button class="rtn-add-to-basket" onclick="addToBasket('Wind Up Stand', 1)">Add to Basket</button>
+</div>
+
+<main>
+  <h1>Wind Up Stand</h1>
+
+  <div class="equipment-detail">
+    <br><br>
+
+    <h2>Inventory</h2>
+    <p>1 Available</p>
+
+    <br><br>
+
+    <p>
+      The Wind Up Stand is a heavy-duty lighting stand designed to safely lift and support large fixtures, frames, or accessories. 
+      It features a geared crank handle that allows users to raise equipment smoothly and precisely, even when working alone or with heavy setups.
+    </p>
+
+    <p>
+      This stand is ideal for studio or location shoots that require elevation of high-output lights such as HMI, LED panels, or diffusion frames. 
+      Equipped with braked wheels and a wide footprint for stability, it’s built to handle the demands of professional grip and lighting departments.
+    </p>
+
+    <p>
+      The riser sections are reinforced and chrome-plated for durability, while the wind-up mechanism includes an auto-locking system for safety.
+    </p>
+
+    <br><br>
+
+    <h2>Specifications</h2>
+    <ul>
+      <li><strong>Type:</strong> Crank-operated Wind Up Light Stand</li>
+      <li><strong>Material:</strong> Steel and aluminum construction</li>
+      <li><strong>Maximum Height:</strong> Approx. 3.7 m (12.1 ft)</li>
+      <li><strong>Minimum Height:</strong> Approx. 1.5 m (4.9 ft)</li>
+      <li><strong>Load Capacity:</strong> Up to 30 kg (66 lbs)</li>
+      <li><strong>Mount:</strong> Combo head (Junior 1-1/8" + Baby 5/8")</li>
+      <li><strong>Wheels:</strong> Locking casters included</li>
+      <li><strong>Weight:</strong> Approx. 17 kg (37.5 lbs)</li>
+    </ul>
+
+    <br><br>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Geared crank handle for safe, controlled elevation</li>
+      <li>Heavy-duty support for large lights and frames</li>
+      <li>Wheeled base with locking brakes for mobility and security</li>
+      <li>Compatible with both Junior and Baby pin receivers</li>
+      <li>Wide footprint and solid construction for maximum stability</li>
+    </ul>
+
+    <img src="../images/wind.jpg" alt="Wind Up Lighting Stand" />
+  </div>
+
+  <nav>
+    <a href="../grip.html">Back to Camera Equipment</a>
+  </nav>
+</main>
+
+<footer>
+  <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+<script src="../navbar.js"></script>
+</body>
+</html>

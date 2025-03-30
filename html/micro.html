@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaVinci Resolve Micro Panel</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="../index.html">
+      <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+    </a>
+  </div>
+
+  <div id="search-bar-container">
+    <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+    <div id="dropdown-results" class="dropdown-results"></div>
+  </div>
+
+  <div class="basket-icon-container">
+    <a href="../basket.html">
+      <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+      <span id="basket-icon-count">0</span>
+    </a>
+  </div>
+
+  <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+  <a href="../data-stream.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div>
+  <button class="rtn-add-to-basket" onclick="addToBasket('Resolve Micro Panel', 1)">Add to Basket</button>
+</div>
+
+<main>
+  <h1>DaVinci Resolve Micro Panel</h1>
+
+  <div class="equipment-detail">
+    <br><br>
+
+    <h2>Inventory</h2>
+    <p>1 Available</p>
+
+    <br><br>
+
+    <p>
+      The DaVinci Resolve Micro Panel is a professional-grade hardware control surface designed to dramatically speed up color correction workflows in DaVinci Resolve. It provides tactile control over primary color grading tools, allowing editors and colorists to make faster and more precise adjustments compared to mouse and keyboard alone.
+    </p>
+    
+    <p>
+      Built from aircraft-grade aluminum, the panel features three high-resolution weighted trackballs and 12 precision-machined control knobs for real-time access to Lift, Gamma, Gain, Contrast, Saturation, and more. It also includes dedicated buttons for playback, switching views, node navigation, and timeline control.
+    </p>
+
+    <p>
+      Compact and USB-C powered, the Micro Panel is ideal for on-set dailies, mobile grading suites, or small post-production studios seeking hands-on efficiency in color grading.
+    </p>
+
+    <br><br>
+
+    <h2>Specifications</h2>
+    <ul>
+      <li><strong>Model:</strong> DaVinci Resolve Micro Panel</li>
+      <li><strong>Connection:</strong> USB-C (Powered & Data)</li>
+      <li><strong>Trackballs:</strong> 3x high-resolution weighted trackballs</li>
+      <li><strong>Control Knobs:</strong> 12x primary correction knobs</li>
+      <li><strong>Function Buttons:</strong> Playback, stills, node management, viewer controls</li>
+      <li><strong>Material:</strong> Aircraft-grade aluminum</li>
+      <li><strong>Dimensions:</strong> 37.3 x 14.7 x 4.5 cm</li>
+      <li><strong>Weight:</strong> Approx. 1.2 kg</li>
+    </ul>
+
+    <br><br>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Precision control for DaVinci Resolve’s color grading tools</li>
+      <li>Compact, durable design for studio or on-set use</li>
+      <li>USB-C powered – no external power supply required</li>
+      <li>3 trackballs and 12 knobs for primary corrections</li>
+      <li>Streamlines workflow and speeds up grading sessions</li>
+      <li>Compatible with DaVinci Resolve Studio and Free</li>
+    </ul>
+
+    <img src="../images/micro.jpg" alt="DaVinci Resolve Micro Panel" />
+  </div>
+
+  <nav>
+    <a href="../data-stream.html">Back to Data/Stream Equipment</a>
+  </nav>
+</main>
+
+<footer>
+  <p>© 2024 Equipment Rental</p>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../basket.js"></script>
+<script src="../search.js"></script>
+<script src="../navbar.js"></script>
+</body>
+</html>

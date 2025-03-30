@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>BNC → SMA Adapter</title>
+    <link rel='icon' type='image/png' sizes='64x64' href='../images/favicon-64x64.png'>
+    <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='../styles.css'>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <div class='logo'>
+        <a href='../index.html'>
+            <img src='../images/logo.png' alt='Ragnar Bøe Utstyrsleie Logo'>
+        </a>
+    </div>
+
+    <div id='search-bar-container'>
+        <input type='text' id='global-search-field' placeholder='Search' autocomplete='off'>
+        <div id='dropdown-results' class='dropdown-results'></div>
+    </div>
+
+    <div class='basket-icon-container'>
+        <a href='../basket.html'>
+            <img src='../images/basket-icon.png' alt='Basket' class='basket-icon'/>
+            <span id='basket-icon-count'>0</span>
+        </a>
+    </div>
+
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class='rtn-back-button-container'>
+    <a href='../cables.html' class='rtn-back-button'>Go Back</a>
+</div>
+
+<div>
+    <button class='rtn-add-to-basket' onclick="addToBasket('BNC -> SMA', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <h1>BNC → SMA Adapter</h1>
+
+    <div class='equipment-detail'>
+        <br><br>
+        <p>
+            The BNC to SMA Adapter allows you to connect BNC-terminated coaxial cables to SMA connectors, typically found on RF gear, antennas, wireless transmitters, and timecode sync devices.
+        </p>
+
+        <p>
+            This adapter is particularly useful in camera or sound workflows where SDI video lines or timecode outputs need to interface with compact wireless or RF devices using SMA connections. 
+            It's built for signal clarity and long-term durability in field use.
+        </p>
+
+        <p>
+            Compatible with 75Ω and 50Ω systems, this adapter is a staple in RF, video assist, and wireless antenna routing kits.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Type:</strong> BNC (female) to SMA (male)</li>
+            <li><strong>Impedance:</strong> 50Ω (SMA) / compatible with 75Ω (BNC)</li>
+            <li><strong>Application:</strong> RF, timecode, wireless video, antennas</li>
+            <li><strong>Material:</strong> Nickel-plated body with gold-plated center pin</li>
+            <li><strong>Connector Style:</strong> Straight</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Adapts BNC to SMA interface for wireless and RF applications</li>
+            <li>Used in timecode, antenna distribution, and camera RF workflows</li>
+            <li>Secure threaded SMA connection prevents accidental disconnects</li>
+            <li>Compact and durable design for field or studio use</li>
+            <li>Essential adapter for RF kits and sync systems</li>
+        </ul>
+
+        <img src='../images/bncsma.jpg' alt='BNC to SMA Adapter' />
+    </div>
+
+    <nav>
+        <a href='../cables.html'>Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+<script src='../main.js'></script>
+<script src='../basket.js'></script>
+<script src='../search.js'></script>
+<script src='../navbar.js'></script>
+</body>
+</html>

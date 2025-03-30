@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>BNC Splitter (T-Adapter)</title>
+    <link rel='icon' type='image/png' sizes='64x64' href='../images/favicon-64x64.png'>
+    <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='../styles.css'>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <div class='logo'>
+        <a href='../index.html'>
+            <img src='../images/logo.png' alt='Ragnar Bøe Utstyrsleie Logo'>
+        </a>
+    </div>
+
+    <div id='search-bar-container'>
+        <input type='text' id='global-search-field' placeholder='Search' autocomplete='off'>
+        <div id='dropdown-results' class='dropdown-results'></div>
+    </div>
+
+    <div class='basket-icon-container'>
+        <a href='../basket.html'>
+            <img src='../images/basket-icon.png' alt='Basket' class='basket-icon'/>
+            <span id='basket-icon-count'>0</span>
+        </a>
+    </div>
+
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class='rtn-back-button-container'>
+    <a href='../cables.html' class='rtn-back-button'>Go Back</a>
+</div>
+
+<div>
+    <button class='rtn-add-to-basket' onclick="addToBasket('BNC Splitter', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <h1>BNC Splitter (T-Adapter)</h1>
+
+    <div class='equipment-detail'>
+        <br><br>
+        <p>
+            The BNC Splitter, also known as a BNC T-Adapter, is a passive splitter that allows you to connect two BNC devices to a single BNC source. 
+            It's commonly used for timecode distribution, monitoring SDI signals, or duplicating a sync signal to multiple devices on set.
+        </p>
+
+        <p>
+            Designed with one male BNC connector and two female BNC outputs, this adapter maintains signal integrity while offering a convenient and compact form factor. 
+            It’s essential in broadcast, camera, or sound department kits.
+        </p>
+
+        <p>
+            While passive splitters reduce signal strength slightly, they’re highly effective when used with buffered outputs or short cable runs.
+        </p>
+
+        <br><br>
+
+        <h2>Specifications</h2>
+        <ul>
+            <li><strong>Type:</strong> BNC T-Adapter (1 Male to 2 Female)</li>
+            <li><strong>Impedance:</strong> 75 Ohm</li>
+            <li><strong>Use Case:</strong> Timecode, SDI, sync signal duplication</li>
+            <li><strong>Connector Material:</strong> Nickel-plated brass</li>
+            <li><strong>Compatibility:</strong> Supports SD, HD, 3G-SDI signals</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Splits a BNC signal to two destinations</li>
+            <li>Compact and rugged T-adapter design</li>
+            <li>Works for SDI video, timecode, sync, and RF</li>
+            <li>Standard 75 Ohm broadcast signal compatibility</li>
+            <li>Essential for multi-device signal distribution</li>
+        </ul>
+
+        <img src='../images/bncspilit.jpg' alt='BNC T-Splitter Adapter' />
+    </div>
+
+    <nav>
+        <a href='../cables.html'>Back to Camera Equipment</a>
+    </nav>
+</main>
+
+<footer>
+    <p>© 2024 Equipment Rental</p>
+</footer>
+<script src='../main.js'></script>
+<script src='../basket.js'></script>
+<script src='../search.js'></script>
+<script src='../navbar.js'></script>
+</body>
+</html>
