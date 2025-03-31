@@ -237,6 +237,9 @@ const items = [
     { name: "Shure Beta 58A" , keywords: "shure beta 58a beta 58 mic shure beta mic beta58a microphone shure vocal mic beta58 dynamic mic beta 58a stage mic shure 58a shure bta 58", url: "html/beta58.html" },
     { name: "Smallrig 15mm baseplate" , keywords: "smallrig 15mm baseplate smallrig baseplate 15mm rail mount smallrig camera baseplate baseplate for rods smallrig rail support 15mm rod plate smallrig quick release plate small rig baseplate", url: "html/base.html" },
     { name: "15mm Rod Clamp" , keywords: "15mm rod clamp rod holder 15mm clamp 15mm rail clamp smallrig rod clamp 15mm tube clamp rod mount 15mm pipe clamp rod connector rod locking clamp", url: "html/rodclamp.html" },
+    { name: "Vocas Rosette Spacer" , keywords: "vocas rosette spacer vocas roset spacer rosette riser arri rosette adapter vocas rosette adaptor voacas rosett spacer shape rosette spacer smallrig rosette spacer", url: "html/space.html" },
+    { name: "Vocas Rosette Extender" , keywords: "vocas rosette extender vocas roset extender rosette extension arm vocas rosette extension voacas rosett extender arri rosette extension shape rosette extender smallrig rosette extender", url: "html/extend.html" },
+    
     // Add more items here...
     ];
     

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocas Rosette Spacer</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+        </div>
+        
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../camacc.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('Vocas Rosette Spacer', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Vocas Rosette Spacer</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>5 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Vocas Rosette Spacer is an essential accessory for adjusting and customizing rosette-based systems. This high-quality spacer enables greater flexibility and compatibility between different camera and rig components. Designed for professional filmmakers and camera operators, the Vocas Rosette Spacer is an indispensable tool for rig setups that require precise control over mounting and configuration.
+        </p>
+
+        <p>
+            Constructed from durable, high-grade materials, the Vocas Rosette Spacer offers secure and stable connections for all compatible rosette accessories. Whether you’re creating custom rigs or making adjustments to an existing setup, this spacer ensures reliable and smooth performance.
+        </p>
+
+        <p>
+            The Vocas Rosette Spacer is designed to work seamlessly with Vocas accessories as well as other brands using rosette-based connections. Its lightweight design and easy-to-install feature make it ideal for field and studio use.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> Vocas Rosette Spacer</li>
+            <li><strong>Material:</strong> High-grade aluminum</li>
+            <li><strong>Compatibility:</strong> Compatible with standard rosette-based systems</li>
+            <li><strong>Weight:</strong> 0.1 kg (0.22 lbs)</li>
+            <li><strong>Dimensions:</strong> 50mm x 30mm x 10mm</li>
+            <li><strong>Color:</strong> Black</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Made of durable, high-grade aluminum for long-lasting use</li>
+            <li>Compatible with standard rosette-based systems</li>
+            <li>Helps adjust and customize camera rig setups</li>
+            <li>Lightweight and easy to install</li>
+            <li>Provides secure and stable connections for camera accessories</li>
+        </ul>
+        <img src="../images/space.jpg" alt="Vocas Rosette Spacer" />
+    </div>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>

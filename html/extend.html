@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocas Rosette Extender</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+        </div>
+        
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../camacc.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('Vocas Rosette Extender', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Vocas Rosette Extender</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>7 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Vocas Rosette Extender is a versatile and essential accessory for extending rosette-based systems in professional camera rigs. This extender allows users to adjust the position of rosette-mounted accessories, providing additional flexibility and customization. Ideal for camera operators who require precise and customizable rig setups, the Vocas Rosette Extender enables smoother adjustments for achieving optimal comfort and balance.
+        </p>
+
+        <p>
+            Made from high-grade aluminum, the Vocas Rosette Extender offers robust durability while maintaining a lightweight design. It is compatible with standard rosette systems and works seamlessly with a variety of camera and rig accessories, making it a must-have tool for filmmakers and camera operators seeking versatile rig setups.
+        </p>
+
+        <p>
+            Whether you're adjusting the position of a matte box, follow focus, or other rosette-mounted equipment, this extender helps you achieve the perfect setup. Its simple and secure installation makes it easy to implement in any environment.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> Vocas Rosette Extender</li>
+            <li><strong>Material:</strong> High-grade aluminum</li>
+            <li><strong>Compatibility:</strong> Standard rosette-based systems</li>
+            <li><strong>Weight:</strong> 0.15 kg (0.33 lbs)</li>
+            <li><strong>Dimensions:</strong> 70mm x 30mm x 15mm</li>
+            <li><strong>Color:</strong> Black</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Made from durable, high-grade aluminum</li>
+            <li>Compatible with standard rosette-based systems</li>
+            <li>Helps extend rosette connections for optimal rig positioning</li>
+            <li>Lightweight and easy to install</li>
+            <li>Perfect for enhancing comfort and balance in custom rigs</li>
+        </ul>
+        <img src="../images/vocas-rosette-extender.jpg" alt="Vocas Rosette Extender" />
+    </div>
+
+    <nav>
+        <a href="../camera.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+    <script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>
