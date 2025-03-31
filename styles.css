@@ -85,7 +85,7 @@ header {
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: 200px;
+    min-width: 180px;
     z-index: 1;
     list-style: none;
     padding: 0;
