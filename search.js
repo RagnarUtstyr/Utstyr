@@ -239,7 +239,11 @@ const items = [
     { name: "15mm Rod Clamp" , keywords: "15mm rod clamp rod holder 15mm clamp 15mm rail clamp smallrig rod clamp 15mm tube clamp rod mount 15mm pipe clamp rod connector rod locking clamp", url: "html/rodclamp.html" },
     { name: "Vocas Rosette Spacer" , keywords: "vocas rosette spacer vocas roset spacer rosette riser arri rosette adapter vocas rosette adaptor voacas rosett spacer shape rosette spacer smallrig rosette spacer", url: "html/space.html" },
     { name: "Vocas Rosette Extender" , keywords: "vocas rosette extender vocas roset extender rosette extension arm vocas rosette extension voacas rosett extender arri rosette extension shape rosette extender smallrig rosette extender", url: "html/extend.html" },
-    
+    { name: "Monitor Mount For Arri WCU-4" , keywords: "monitor mount arri wcu4 arri wcu-4 monitor bracket screen holder monitor holder arri wcu accessory mount wcu-4 handle mount smallrig style mount tilta style mount arri wcu monitor support arr wcu mount arr wcu-4 bracket", url: "html/arrimount.html" },
+    { name: "Cheeseplate For Arri WCU-4" , keywords: "cheeseplate arri wcu4 arri wcu-4 plate accessory plate mounting plate wcu4 cheese plate wcu-4 cheeseplate arri wcu4 bracket arr wcu-4 cheese plate tiltastyle cheese plate smallrig style cheese plate arr wcu4 mounting bracket", url: "html/arricheese.html" }, 
+    { name: "Nucleus-M Marking Disk" , keywords: "nucleus m marking disk nucleus-m marking disc tilta nucleus m marking ring follow focus marking disk focus disc nucleus focus ring nucleus m focus disk nucleus m marking ring tilta nucleus disc", url: "html/mark.html" }, 
+    { name: "4x4 Polarizer Filter" , keywords: "4x4 polarizer filter 4x4 cpl circular polarizer 4x4 polar filter 4in polarizer 4 inch polariser pol filter 4x4 glare reduction filter 4 x 4 c-pl filter 4x4 linear polarizer", url: "html/4x4pol.html" }, 
+    { name: "4x4 Fog Filter" , keywords: "4x4 fog filter 4 inch fog filter diffusion filter 4x4 mist filter 4x4 soft filter fog effect filter 4 x 4 fog filter tiffen style fog filter haze filter 4x4 low contrast filter", url: "html/4x4fog.html" },
     // Add more items here...
     ];
     
