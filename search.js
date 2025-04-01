@@ -246,6 +246,10 @@ const items = [
     { name: "4x4 Fog Filter" , keywords: "4x4 fog filter 4 inch fog filter diffusion filter 4x4 mist filter 4x4 soft filter fog effect filter 4 x 4 fog filter tiffen style fog filter haze filter 4x4 low contrast filter", url: "html/4x4fog.html" },
     { name: "Euro Boss to 150mm Bowl Mount" , keywords: "euro boss to 150mm bowl mount euro mount to 150mm adapter euro plate to 150 mm bowl adapter ronford baker euro boss adapter euro cradle to 150mm bowl sachtler euro boss euro quick release 150mm half-ball adapter tripod bowl adapter for euro mount arri euro boss", url: "html/eurobowl.html" },
     { name: "Euro Mount" , keywords: "euro mount euro plate euro quick release ronford baker euro mount sachtler euro plate arri euro base mount euro cradle tripod euro mount camera euro mount euro boss base mount euro style mount", url: "html/euro.html" },
+    { name: "77mm Variable ND Filter" , keywords: "77mm variable ND filter 77mm ND fader 77 mm variable neutral density adjustable ND filter 77mm ND2-ND400 filter 77mm vari-ND 77 mm ND filter lens filter ND 77mm variable ND lens filter vnd filter 77", url: "html/jjc.html" },
+    { name: "77mm Black Mist 1/4 Filter" , keywords: "77mm black mist 1/4 filter 77mm black pro-mist 1/4 black diffusion filter 77mm black mist quarter 77mm black soft filter black pro mist quarter filter black haze filter 77mm black diffusion 1/4 filter", url: "html/bm14.html" },
+    { name: "77mm Soft 1 Filter" , keywords: "77mm soft 1 filter 77mm soft effect filter 77 mm diffusion filter 77 soft focus filter soft focus 1 filter 77mm black soft filter tiffen style soft filter 1 pro-mist style filter softening filter 77mm", url: "html/soft1.html" },
+    { name: "77mm Soft 2 Filter" , keywords: "77mm soft 2 filter 77mm soft effect filter 77 mm diffusion filter 77 soft focus filter soft focus 2 filter 77mm black soft filter tiffen style soft filter 2 pro-mist style filter softening filter 77mm", url: "html/soft2.html" },
     // Add more items here...
     ];
     
