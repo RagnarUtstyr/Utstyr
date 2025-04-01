@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4x4 Fog Filter</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../filter.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('4x4 Fog Filter', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>4x4 Fog Filter</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>2 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The 4x4 Fog Filter is a specialized filter designed to create a soft, diffused effect in your footage. It is used to add a sense of atmosphere, softness, or dreaminess to your shots, making it an essential tool for filmmakers working in genres that require a cinematic, ethereal look. This filter is ideal for creating haze, mist, or other atmospheric effects, providing a subtle touch to portraits, landscapes, and environmental shots.
+        </p>
+
+        <p>
+            Constructed from high-quality optical glass, the 4x4 Fog Filter is lightweight and durable, ensuring long-lasting performance without compromising on image quality. It fits into standard 4x4" matte boxes, allowing for easy integration with a wide range of camera setups. Whether you're working on a feature film, commercial, or music video, this filter can help you achieve the desired look with ease.
+        </p>
+
+        <p>
+            The fog filter creates a mild diffusion effect that softens the overall image, enhancing contrasts and adding a touch of mist or haze without losing detail in the scene. It is a great tool for filmmakers looking to create mood and atmosphere in their shots, helping to elevate the overall visual aesthetic.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> 4x4 Fog Filter</li>
+            <li><strong>Filter Type:</strong> Diffusion (Fog)</li>
+            <li><strong>Size:</strong> 4x4 inches</li>
+            <li><strong>Material:</strong> High-quality optical glass</li>
+            <li><strong>Compatibility:</strong> Fits standard 4x4" matte boxes</li>
+            <li><strong>Weight:</strong> 0.2 kg (0.44 lbs)</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Creates a soft, diffused effect with a dreamy, atmospheric look</li>
+            <li>Ideal for portraits, landscapes, and scenes requiring a cinematic feel</li>
+            <li>Enhances mood and atmosphere with mild diffusion</li>
+            <li>Compatible with standard 4x4" matte boxes for easy integration into rigs</li>
+            <li>Constructed from high-quality optical glass for superior clarity</li>
+            <li>Lightweight and durable for long-lasting performance on set</li>
+        </ul>
+        <img src="../images/4x4fog.jpg" alt="4x4 Fog Filter" />
+    </div>
+
+    <nav>
+        <a href="../filter.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+	<script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>
