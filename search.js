@@ -244,6 +244,8 @@ const items = [
     { name: "Nucleus-M Marking Disk" , keywords: "nucleus m marking disk nucleus-m marking disc tilta nucleus m marking ring follow focus marking disk focus disc nucleus focus ring nucleus m focus disk nucleus m marking ring tilta nucleus disc", url: "html/mark.html" }, 
     { name: "4x4 Polarizer Filter" , keywords: "4x4 polarizer filter 4x4 cpl circular polarizer 4x4 polar filter 4in polarizer 4 inch polariser pol filter 4x4 glare reduction filter 4 x 4 c-pl filter 4x4 linear polarizer", url: "html/4x4pol.html" }, 
     { name: "4x4 Fog Filter" , keywords: "4x4 fog filter 4 inch fog filter diffusion filter 4x4 mist filter 4x4 soft filter fog effect filter 4 x 4 fog filter tiffen style fog filter haze filter 4x4 low contrast filter", url: "html/4x4fog.html" },
+    { name: "Euro Boss to 150mm Bowl Mount" , keywords: "euro boss to 150mm bowl mount euro mount to 150mm adapter euro plate to 150 mm bowl adapter ronford baker euro boss adapter euro cradle to 150mm bowl sachtler euro boss euro quick release 150mm half-ball adapter tripod bowl adapter for euro mount arri euro boss", url: "html/eurobowl.html" },
+    { name: "Euro Mount" , keywords: "euro mount euro plate euro quick release ronford baker euro mount sachtler euro plate arri euro base mount euro cradle tripod euro mount camera euro mount euro boss base mount euro style mount", url: "html/euro.html" },
     // Add more items here...
     ];
     

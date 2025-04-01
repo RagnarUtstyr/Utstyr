@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euro Mount</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../grip.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('Euro Mount', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Euro Mount</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>4 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Euro Mount is a high-quality camera mounting system designed for professionals in the film and television industry. It provides a secure and stable connection between your camera rig and the mounting surface, ensuring smooth, precise movements. The Euro Mount is ideal for supporting heavy-duty camera setups and is compatible with a variety of rigs, tripods, and other filming equipment.
+        </p>
+
+        <p>
+            Constructed from durable materials, the Euro Mount is built to withstand the demands of professional production environments. It is engineered for versatility and ease of use, providing filmmakers with a reliable solution for mounting cameras, accessories, and other gear in a wide range of setups.
+        </p>
+
+        <p>
+            With its robust design, the Euro Mount ensures a stable platform for achieving smooth, fluid camera movements during filming. Whether you're working on a static shot or tracking motion, the Euro Mount is a vital tool for ensuring the success of your production.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> Euro Mount</li>
+            <li><strong>Material:</strong> High-grade metal construction</li>
+            <li><strong>Compatibility:</strong> Fits standard rigs and tripods with Euro fittings</li>
+            <li><strong>Weight:</strong> 1.2 kg (2.65 lbs)</li>
+            <li><strong>Dimensions:</strong> 180mm x 120mm x 80mm</li>
+            <li><strong>Mount Type:</strong> Euro mount (compatible with standard camera rigs)</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Durable, high-quality construction for long-lasting use</li>
+            <li>Compatible with standard Euro fittings for flexible rigging options</li>
+            <li>Supports heavy camera rigs and accessories securely</li>
+            <li>Ideal for both studio and location shoots</li>
+            <li>Compact and lightweight design for easy transport and setup</li>
+            <li>Ensures smooth, precise camera movements for professional results</li>
+        </ul>
+        <img src="../images/euro.jpg" alt="Euro Mount" />
+    </div>
+
+    <nav>
+        <a href="../grip.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+	<script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>
