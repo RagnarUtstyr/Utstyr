@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12x12 Frame</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../lys.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('12x12 Frame', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>12x12 Frame</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>2 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The 12x12 Frame is a large and durable frame designed for use in demanding photography and film production environments. This frame is perfect for holding large fabrics, flags, or diffusion materials, and is ideal for controlling light in outdoor or studio shoots. With a sturdy construction, the 12x12 frame ensures reliability and stability, even under heavy usage.
+        </p>
+
+        <p>
+            Made from high-quality aluminum, the 12x12 Frame is both lightweight and robust, allowing for easy transport and setup on location. The frame is designed to fit a variety of fabrics and accessories, making it a versatile tool for controlling light, reducing harsh shadows, or creating the perfect diffused lighting for your production.
+        </p>
+
+        <p>
+            Its compact design when folded allows for efficient storage and portability. This frame is a must-have tool for filmmakers, photographers, and lighting technicians who need to manage light effectively and creatively.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Material:</strong> Aluminum</li>
+            <li><strong>Dimensions:</strong> 12ft x 12ft (3.66m x 3.66m)</li>
+            <li><strong>Weight:</strong> 6.8 kg (14.99 lbs)</li>
+            <li><strong>Compatible Fabrics:</strong> Designed to hold fabrics, flags, and diffusion materials</li>
+            <li><strong>Shape:</strong> Square frame</li>
+            <li><strong>Usage:</strong> Outdoor or studio shoots for light control and diffusion</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Large frame size (12x12 feet) for handling large fabrics and diffusion materials</li>
+            <li>Sturdy aluminum construction for strength and reliability</li>
+            <li>Lightweight and foldable design for easy transport and storage</li>
+            <li>Perfect for use in outdoor and studio environments</li>
+            <li>Versatile compatibility with various fabrics, flags, and diffusion materials</li>
+            <li>Ideal for controlling light, reducing shadows, and diffusing harsh light</li>
+        </ul>
+        <img src="../images/1212frame.jpg" alt="12x12 Frame" />
+    </div>
+
+    <nav>
+        <a href="../lys.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+	<script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>

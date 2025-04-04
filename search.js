@@ -250,6 +250,7 @@ const items = [
     { name: "77mm Black Mist 1/4 Filter" , keywords: "77mm black mist 1/4 filter 77mm black pro-mist 1/4 black diffusion filter 77mm black mist quarter 77mm black soft filter black pro mist quarter filter black haze filter 77mm black diffusion 1/4 filter", url: "html/bm14.html" },
     { name: "77mm Soft 1 Filter" , keywords: "77mm soft 1 filter 77mm soft effect filter 77 mm diffusion filter 77 soft focus filter soft focus 1 filter 77mm black soft filter tiffen style soft filter 1 pro-mist style filter softening filter 77mm", url: "html/soft1.html" },
     { name: "77mm Soft 2 Filter" , keywords: "77mm soft 2 filter 77mm soft effect filter 77 mm diffusion filter 77 soft focus filter soft focus 2 filter 77mm black soft filter tiffen style soft filter 2 pro-mist style filter softening filter 77mm", url: "html/soft2.html" },
+    { name: "12x12 Frame" , keywords: "12x12 frame overhead frame 12ft x 12ft frame butterfly frame 12x12 overhead 12x12 lighting frame 12 x 12 diffusion frame 12 x 12 scrim frame 12 x 12 grip frame 12x12 net frame", url: "htmal/1212frame.html" },
     // Add more items here...
     ];
     
