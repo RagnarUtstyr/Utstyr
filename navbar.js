@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <li><a href='${prefix}optikk.html'>Optikk</a></li>
                     <li><a href='${prefix}monitor.html'>Monitor</a></li>
                     <li><a href='${prefix}fokus.html'>Fokus</a></li>
-                    <li><a href='${prefix}video.html'>Wireless</a></li>
+                    <li><a href='${prefix}wireless.html'>Wireless</a></li>
                     <li><a href='${prefix}batteri.html'>Battery</a></li>
                     <li><a href='${prefix}lys.html'>Light</a></li>
                     <li><a href='${prefix}grip.html'>Grip</a></li>

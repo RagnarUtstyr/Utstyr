@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollyland Solidcom C1</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../wireless.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('Hollyland Solidcom C1', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>Hollyland Solidcom C1</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>4 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The Hollyland Solidcom C1 is a professional full-duplex wireless intercom system designed for high-quality communication in production environments. This system is ideal for film sets, live events, or any situation where clear, uninterrupted communication is critical. With its advanced technology, the Solidcom C1 offers crystal-clear audio, providing smooth communication between crew members without the need for cables or bulky devices.
+        </p>
+
+        <p>
+            The Solidcom C1 operates on a 1.9 GHz frequency, which ensures a stable and interference-free signal in crowded wireless environments. It supports up to 8 users on the same network, making it highly scalable for a variety of production sizes. The system offers both short and long-range communication, with a maximum range of up to 500 meters, ensuring reliable connectivity even across large sets.
+        </p>
+
+        <p>
+            Designed for ease of use, the Solidcom C1 features lightweight headsets with ergonomic designs, ensuring comfort during long hours of use. The system is also equipped with rechargeable batteries, making it a portable and cost-effective solution for production teams.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> Hollyland Solidcom C1</li>
+            <li><strong>Range:</strong> Up to 500 meters (1640 feet)</li>
+            <li><strong>Frequency:</strong> 1.9 GHz</li>
+            <li><strong>Channels:</strong> Supports up to 8 users on the same network</li>
+            <li><strong>Audio Quality:</strong> Full-duplex, crystal-clear communication</li>
+            <li><strong>Battery Life:</strong> Up to 10 hours of continuous operation</li>
+            <li><strong>Charging Method:</strong> Rechargeable batteries</li>
+            <li><strong>Headset Type:</strong> Lightweight, ergonomic headsets</li>
+            <li><strong>Compatibility:</strong> Compatible with other Solidcom systems</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Full-duplex wireless intercom for seamless communication</li>
+            <li>1.9 GHz frequency for stable, interference-free operation</li>
+            <li>Supports up to 8 users for scalable communication networks</li>
+            <li>500 meters range for long-distance communication on set</li>
+            <li>Lightweight and ergonomic headsets for comfortable, all-day wear</li>
+            <li>Rechargeable batteries for portable and cost-effective use</li>
+            <li>Crystal-clear audio quality for reliable communication in any production environment</li>
+        </ul>
+        <img src="../images/hollyland-solidcom-c1.jpg" alt="Hollyland Solidcom C1" />
+    </div>
+
+    <nav>
+        <a href="../wireless.html">Back to Camera Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+	<script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>
