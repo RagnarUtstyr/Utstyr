@@ -252,6 +252,7 @@ const items = [
     { name: "77mm Soft 2 Filter" , keywords: "77mm soft 2 filter 77mm soft effect filter 77 mm diffusion filter 77 soft focus filter soft focus 2 filter 77mm black soft filter tiffen style soft filter 2 pro-mist style filter softening filter 77mm", url: "html/soft2.html" },
     { name: "12x12 Frame" , keywords: "12x12 frame overhead frame 12ft x 12ft frame butterfly frame 12x12 overhead 12x12 lighting frame 12 x 12 diffusion frame 12 x 12 scrim frame 12 x 12 grip frame 12x12 net frame", url: "htmal/1212frame.html" },
     { name: "Hollyland Solidcom C1" , keywords: "hollyland solidcom c1 solidcom c1 intercom wireless headset hollyland intercom system c1 full duplex hollyland c1 talkback system solidcom c1 wireless comms hollyland c1 comm gear holly land c1 intercom", url:"html/hollyinter.html" },
+    { name: "SWIT Dual V-mount Charger" , keywords: "swit dual v mount charger v-lock battery charger v mount battery charger swit dual charger 2-channel charger v-mount swit sc-302 sc-304 sc-306 charger swit 2 channel v lock charger dual v-mount battery charger", url: "html/switdual.html" },
     // Add more items here...
     ];
     
