@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlow Delta 2 Max</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="../images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+    </div>
+        
+    <div class="basket-icon-container">
+        <a href="../basket.html">
+            <img src="../images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+    
+    <nav id="main-navbar"></nav>
+</header>
+
+<div class="rtn-back-button-container">
+    <a href="../power.html" class="rtn-back-button">Go Back</a>
+</div>
+
+<div> 
+    <button class="rtn-add-to-basket" onclick="addToBasket('EcoFlow Delta 2 Max', 1)">Add to Basket</button>
+</div>
+
+<main>
+    <!-- Title of the equipment -->
+    <h1>EcoFlow Delta 2 Max Portable Power Station</h1>
+
+    <!-- Equipment details -->
+    <div class="equipment-detail">
+        <!-- Add space between the title and the next section -->
+        <br><br>
+
+        <!-- Inventory section -->
+        <h2>Inventory</h2>
+        <p>1 Available</p>
+        
+        <!-- Add space before description -->
+        <br><br>
+
+        <!-- Description -->
+        <p>
+            The EcoFlow Delta 2 Max is a powerful and portable power station designed to keep your devices powered wherever you go. With a massive 2048Wh capacity and 2400W output (up to 4800W surge), the Delta 2 Max is capable of powering almost any device, from phones and laptops to larger appliances like refrigerators and power tools.
+        </p>
+
+        <p>
+            This power station features multiple output ports, including AC outlets, USB-A, USB-C, and car ports, providing versatile charging options for all your gear. Whether you’re camping, working remotely, or in need of backup power during an outage, the EcoFlow Delta 2 Max has you covered.
+        </p>
+
+        <p>
+            The Delta 2 Max also offers fast recharging capabilities, going from 0% to 80% in just 1 hour using EcoFlow's X-Stream technology, and can be recharged via AC, solar, or a car charger. Compact and portable, it’s the ideal power solution for both indoor and outdoor use.
+        </p>
+
+        <br><br>
+        
+        <h2>Specifications</h2>
+
+        <ul>
+            <li><strong>Model:</strong> EcoFlow Delta 2 Max</li>
+            <li><strong>Battery Capacity:</strong> 2048Wh</li>
+            <li><strong>AC Output:</strong> 2400W (Surge 4800W)</li>
+            <li><strong>Charging Time:</strong> 1 hour to 80% via AC (X-Stream technology)</li>
+            <li><strong>DC Outputs:</strong> 2x USB-A, 1x USB-C, 1x Car port</li>
+            <li><strong>AC Outputs:</strong> 2x 230V AC outlets</li>
+            <li><strong>Input:</strong> AC, Solar, Car Charging</li>
+            <li><strong>Weight:</strong> 22.2 kg (48.9 lbs)</li>
+            <li><strong>Dimensions:</strong> 42.8 x 27.5 x 31.0 cm (16.8 x 10.8 x 12.2 inches)</li>
+            <li><strong>Battery Type:</strong> LiFePO4 (Lithium Iron Phosphate)</li>
+            <li><strong>Cycle Life:</strong> 3000 cycles to 80% capacity</li>
+        </ul>
+
+        <br><br>
+
+        <h2>Key Features</h2>
+
+        <ul>
+            <li>Massive 2048Wh capacity, capable of powering most devices</li>
+            <li>2400W AC output with a 4800W surge for demanding devices</li>
+            <li>Fast recharging: 0% to 80% in just 1 hour</li>
+            <li>Multiple output options: AC outlets, USB-A, USB-C, and car ports</li>
+            <li>Compact and portable for easy transport</li>
+            <li>Durable LiFePO4 battery with 3000+ charge cycles</li>
+            <li>Ideal for outdoor activities, off-grid use, and emergency power</li>
+        </ul>
+        <img src="../images/ecoflow.jpg" alt="EcoFlow Delta 2 Max" />
+    </div>
+
+    <nav>
+        <a href="../power.html">Back to Power Equipment</a>
+    </nav>
+
+    <footer>
+        <p>© 2024 Equipment Rental</p>
+    </footer>
+    <script src="../main.js"></script>
+    <script src="../basket.js"></script>
+	<script src="../search.js"></script>
+    <script src="../navbar.js"></script>
+</body>
+</html>
