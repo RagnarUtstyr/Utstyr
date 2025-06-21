@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     min-height: 100vh;
+    size: 20px;
 }
 
 body::before {
