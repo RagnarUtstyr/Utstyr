@@ -255,6 +255,7 @@ const items = [
     { name: "SWIT Dual V-mount Charger" , keywords: "swit dual v mount charger v-lock battery charger v mount battery charger swit dual charger 2-channel charger v-mount swit sc-302 sc-304 sc-306 charger swit 2 channel v lock charger dual v-mount battery charger", url: "html/switdual.html" },
     { name: "Nisi Yellow Light Blocker 4x5.65" , keywords: "nisi yellow light blocker 4x5.65 nisi 4x5.65 yellow cut filter nisi yl blocker nisi yellow blocker nisi yellow reduction filter 4x5.65 yellow light 4565 4x565 filter nisi yl 4x5.65 nisi 4x5 yellow filter nisi cinema filter 4x5.65 yellow light block", url: "html/nisi-block.html" },
     { name: "EcoFlow Delta 2 Max" , keywords: "ecoflow delta 2 max portable power station delta2max battery generator ecoflow powerbank delta 2max solar generator eco flow delta2 max power station ecoflow max power supply ecoflow backup battery delta max 2", url:"html/ecoflow.html" },
+    { name: "Tilta Nucleus-m2" , keywords: "tilta nucleus-m2 nucleus m2 wireless follow focus nucleus m ii tilta follow focus m2 nucleus-m ii controller tilta nucleus motor system nucleus m2 lens control tilta wireless lens control", url: "html/tilta-nucleus-m2.html" },
     // Add more items here...
     ];
     
