@@ -257,10 +257,12 @@ const items = [
     { name: "EcoFlow Delta 2 Max" , keywords: "ecoflow delta 2 max portable power station delta2max battery generator ecoflow powerbank delta 2max solar generator eco flow delta2 max power station ecoflow max power supply ecoflow backup battery delta max 2", url:"html/ecoflow.html" },
     { name: "Tilta Nucleus-m2" , keywords: "tilta nucleus-m2 nucleus m2 wireless follow focus nucleus m ii tilta follow focus m2 nucleus-m ii controller tilta nucleus motor system nucleus m2 lens control tilta wireless lens control", url: "html/tilta-nucleus-m2.html" },
     { name: "DPA 4060 Omni Mic" , keywords: "dpa 4060 omni mic dpa 4060 lavalier dpa omnidirectional mic 4060 lapel mic dpa 4060 microphone dpa lav mic dpa mini mic dpa 4060 omni directional lav mic dpa 4060 lav d:screet 4060" , url: "http/dpa.html" },
-{ name: "Deity DQC1 Smart Battery Charger" , keywords: "deity dqc1 smart battery charger dqc-1 charger deity np battery charger dqc1 np-50 charger deity smart charger dqc1 deity charger for np smart battery dqc1 single slot charger", url: "html/dqc1" },
-{ name: "Deity DQC2 Smart Battery Charger" , keywords: "deity dqc2 smart battery charger dqc-2 charger dual np battery charger deity dqc2 dual charger np-50 charger dqc2 deity smart dual charger deity np battery charger 2-slot charger dqc2", url: "html/dqc2" },
+    { name: "Deity DQC1 Smart Battery Charger" , keywords: "deity dqc1 smart battery charger dqc-1 charger deity np battery charger dqc1 np-50 charger deity smart charger dqc1 deity charger for np smart battery dqc1 single slot charger", url: "html/dqc1" },
+    { name: "Deity DQC2 Smart Battery Charger" , keywords: "deity dqc2 smart battery charger dqc-2 charger dual np battery charger deity dqc2 dual charger np-50 charger dqc2 deity smart dual charger deity np battery charger 2-slot charger dqc2", url: "html/dqc2" },
+    { name: "Manfrotto Autopole 2m Extention Tube" , keywords: "Manfrotto Autopole 2 m extension tube Manfrotto autopole extension Manfrotto pole 2 m Autopole 2m tube Autopole 2 m ext tube Manfrotto camera support Autopole extension segment 2 m Manfrotto Autopole accessory Autopole extension pole 2 m" , url: "html/ext2m.html"},
+    { name: "Aputure Space Light" , keywords: "aputure space light lantern softbox aputure space lantern aputure space soft light aputure space light modifier space light for 120d space light for 300d aputure china ball aputure soft lantern", url: "http/spacel.html"},    
 
-    // Add more items here...
+// Add more items here...
     ];
     
 // Function to get the correct URL path based on the current location
