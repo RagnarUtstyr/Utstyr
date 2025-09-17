@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragnar Bøe Equipment</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64x64.png">
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!-- Logo on the left -->
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Ragnar Bøe Utstyrsleie Logo">
+        </a>
+    </div>
+    
+	<div id="search-bar-container">
+        <input type="text" id="global-search-field" placeholder="Search" autocomplete="off">
+        <div id="dropdown-results" class="dropdown-results"></div>
+        </div>
+        
+	<div class="basket-icon-container">
+        <a href="basket.html">
+            <img src="images/basket-icon.png" alt="Basket" class="basket-icon"/>
+            <span id="basket-icon-count">0</span> <!-- Item count -->
+        </a>
+    </div>
+	
+    <nav id="main-navbar"></nav>
+</header>
+
+<main>
+    <div class="equipment-detail">
+        <h1>Welcome to Ragnar Bøe Equipment Rental</h1></div>
+		<br><br>
+    </div>
+    <div class="index-info">
+        <p>Ragnar Bøe is a filmworker based in Bergen, Norway, with experience working on both large and small productions. He also runs an equipment rental service, conveniently located just outside the city center of Bergen, providing a range of gear for local film projects. With a practical approach and a focus on supporting the local film community, Ragnar’s services help ensure productions have the tools they need to run smoothly.</p>
+    </div>
+
+<!-- Slideshow Section -->
+<div class="slideshow-container">
+
+    <div class="carousel">
+        <div class="slide">
+            <img src="slide/12.png" alt="Slide 1">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/1.jpg" alt="Slide 2">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/2.jpg" alt="Slide 3">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/3.jpg" alt="Slide 4">
+        </div>
+        
+        <div class="slide">
+            <img src="slide/4.jpg" alt="Slide 5">
+        </div>
+		  
+        <div class="slide">
+            <img src="slide/5.jpg" alt="Slide 6">
+        </div>
+          
+        <div class="slide">
+             <img src="slide/6.jpg" alt="Slide 7">
+         </div>
+
+         <div class="slide">
+            <img src="slide/7.jpg" alt="Slide 8">
+        </div>
+
+	<div class="slide">
+            <img src="slide/8.jpg" alt="Slide 9">
+        </div>
+
+	<div class="slide">
+            <img src="slide/9.jpg" alt="Slide 10">
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+
+    <!-- Dot indicators -->
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+	<span class="dot" onclick="currentSlide(6)"></span>
+	<span class="dot" onclick="currentSlide(7)"></span>
+	<span class="dot" onclick="currentSlide(8)"></span>
+	<span class="dot" onclick="currentSlide(9)"></span>
+	    
+    </div>
+
+
+</main>
+<footer>
+    <p>© 2024 Ragnar Bøe Utstyrsleie</p>
+</footer>
+<script src="main.js"></script>
+<script src="basket.js"></script>
+<script src="search.js"></script>
+<script src="navbar.js"></script>
+</body>
+</html>
