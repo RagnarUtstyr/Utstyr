@@ -261,6 +261,7 @@ const items = [
     { name: "Deity DQC2 Smart Battery Charger" , keywords: "deity dqc2 smart battery charger dqc-2 charger dual np battery charger deity dqc2 dual charger np-50 charger dqc2 deity smart dual charger deity np battery charger 2-slot charger dqc2", url: "html/dqc2" },
     { name: "Manfrotto Autopole 2m Extention Tube" , keywords: "Manfrotto Autopole 2 m extension tube Manfrotto autopole extension Manfrotto pole 2 m Autopole 2m tube Autopole 2 m ext tube Manfrotto camera support Autopole extension segment 2 m Manfrotto Autopole accessory Autopole extension pole 2 m" , url: "html/ext2m.html"},
     { name: "Aputure Space Light" , keywords: "aputure space light lantern softbox aputure space lantern aputure space soft light aputure space light modifier space light for 120d space light for 300d aputure china ball aputure soft lantern", url: "http/spacel.html"},    
+    { name: "Deity DXTX Plug‑On Transmitter" , keywords: "deity dxtx decree dxtx plug‑on transmitter deity theos dxtx wireless xlr transmitter 32‑bit float record transmit dxtx uhf 550‑960mhz dual aa battery transmitter", url: "html/dxtx.html" },
 
 // Add more items here...
     ];
