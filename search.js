@@ -262,6 +262,8 @@ const items = [
     { name: "Manfrotto Autopole 2m Extention Tube" , keywords: "Manfrotto Autopole 2 m extension tube Manfrotto autopole extension Manfrotto pole 2 m Autopole 2m tube Autopole 2 m ext tube Manfrotto camera support Autopole extension segment 2 m Manfrotto Autopole accessory Autopole extension pole 2 m" , url: "html/ext2m.html"},
     { name: "Aputure Space Light" , keywords: "aputure space light lantern softbox aputure space lantern aputure space soft light aputure space light modifier space light for 120d space light for 300d aputure china ball aputure soft lantern", url: "http/spacel.html"},    
     { name: "Deity DXTX Plug‑On Transmitter" , keywords: "deity dxtx decree dxtx plug‑on transmitter deity theos dxtx wireless xlr transmitter 32‑bit float record transmit dxtx uhf 550‑960mhz dual aa battery transmitter", url: "html/dxtx.html" },
+    { name: "K&F PL-NEX Adapter" , keywords: "K&F PL-NEX adapter PL to NEX lens adapter K&F Concept PL to Sony NEX mount adapter PL-NEX mount adapter cine PL to E mount adapter PL to NEX conversion PL lens to NEX body", url: "html/pl.html" },
+    { name: "Metabones EF-E Adapter" , keywords: "Metabones EF-E adapter metabones ef to e mount adapter ef-e lens adapter metabones canon ef to sony e canon ef lens to sony e body ef to e mount conversion smart adapter metabones ef-e", url: "html/ef.html" },
 
 // Add more items here...
     ];
